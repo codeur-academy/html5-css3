@@ -1,0 +1,1371 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js codeur">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Initiation à HTML 5 et CSS 3</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="theme/custom.css">
+        
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "codeur";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('codeur')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                 <a href="/">
+                    <img width="100%" src="https://codeur-academy.com/Content/CodeurAcademy/images/logo-codeur-academy.png" alt="Codeur Academy">
+                </a>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="plan-formation.html"><strong aria-hidden="true">2.</strong> Plan de la formation</a></li><li class="chapter-item expanded affix "><li class="part-title">Introduction au développement Web</li><li class="chapter-item expanded "><a href="introduction-dev-web/introduction.html"><strong aria-hidden="true">3.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="introduction-dev-web/fonctionnement-internet.html"><strong aria-hidden="true">4.</strong> Fonctionnement de l'Internet</a></li><li class="chapter-item expanded "><a href="introduction-dev-web/fonctionnement-du-web.html"><strong aria-hidden="true">5.</strong> Fonctionnement du Web</a></li><li class="chapter-item expanded "><a href="introduction-dev-web/différence-entre-page-web-et-site-web.html"><strong aria-hidden="true">6.</strong> Différence entre page web et site web</a></li><li class="chapter-item expanded "><a href="introduction-dev-web/html-css-javascript.html"><strong aria-hidden="true">7.</strong> Langages Web : HTML, CSS et Javascript</a></li><li class="chapter-item expanded "><a href="introduction-dev-web/résumé.html"><strong aria-hidden="true">8.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Installation des outils</li><li class="chapter-item expanded "><a href="installation-outils/introduction.html"><strong aria-hidden="true">9.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="installation-outils/installation-google-chrome.html"><strong aria-hidden="true">10.</strong> Navigateur moderne - google Chrome</a></li><li class="chapter-item expanded "><a href="installation-outils/installation-visual-studio-code.html"><strong aria-hidden="true">11.</strong> Éditeur de code - visual studio Code</a></li><li class="chapter-item expanded "><a href="installation-outils/résumé.html"><strong aria-hidden="true">12.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Bien démarrer avec HTML</li><li class="chapter-item expanded "><a href="bien-démarrer-html/introduction.html"><strong aria-hidden="true">13.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/qu-est-ce-que-html.html"><strong aria-hidden="true">14.</strong> C'est quoi HTML ?</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/élément-balise-attribut.html"><strong aria-hidden="true">15.</strong> Syntaxe : Élément, balise et attribut</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/exemples-balises-html.html"><strong aria-hidden="true">16.</strong> Quelques balises pour commencer</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/document-html-valide.html"><strong aria-hidden="true">17.</strong> Structure d'un document HTML</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/tp-exemple-page-html.html"><strong aria-hidden="true">18.</strong> TP - Exemple d'une page HTMl</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/inspecteur-code.html"><strong aria-hidden="true">19.</strong> TP - Inspecteur de code HTML</a></li><li class="chapter-item expanded "><a href="bien-démarrer-html/résumé.html"><strong aria-hidden="true">20.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Bien démarrer avec CSS</li><li class="chapter-item expanded "><a href="bien-démarrer-css/introduction.html"><strong aria-hidden="true">21.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="bien-démarrer-css/qu-est-ce-que-le-css.html"><strong aria-hidden="true">22.</strong> Qu'est-ce que le CSS?</a></li><li class="chapter-item expanded "><a href="bien-démarrer-css/règle-css.html"><strong aria-hidden="true">23.</strong> Règle CSS</a></li><li class="chapter-item expanded "><a href="bien-démarrer-css/notions-css.html"><strong aria-hidden="true">24.</strong> Quelques notions pour commencer</a></li><li class="chapter-item expanded "><a href="bien-démarrer-css/tp-exemple-page-html-css.html"><strong aria-hidden="true">25.</strong> Exemple d'une page HTMl avec CSS</a></li><li class="chapter-item expanded "><a href="bien-démarrer-css/résumé.html"><strong aria-hidden="true">26.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Bien utiliser les outils</li><li class="chapter-item expanded "><a href="bien-utiliser-outils/premier-pas-avec-visual-studio-code.html"><strong aria-hidden="true">27.</strong> Premier pas avec Visual Studio Code</a></li><li class="chapter-item expanded "><a href="coder-plus-vite-avec-visual-studio-code.html"><strong aria-hidden="true">28.</strong> Coder plus vite avec Visual Studio Code</a></li><li class="chapter-item expanded "><a href="bien-utiliser-outils/inspecteur-code.html"><strong aria-hidden="true">29.</strong> TP - Inspecteur de code</a></li><li class="chapter-item expanded affix "><li class="part-title">Notions de base de HTML</li><li class="chapter-item expanded "><a href="bases-html/introduction.html"><strong aria-hidden="true">30.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="bases-html/élément-bloc-enligne.html"><strong aria-hidden="true">31.</strong> Élément bloc et enligne</a></li><li class="chapter-item expanded "><a href="bases-html/métadonnées.html"><strong aria-hidden="true">32.</strong> Métadonnées d'un document HTML</a></li><li class="chapter-item expanded "><a href="bases-html/commentaires.html"><strong aria-hidden="true">33.</strong> Commentaires</a></li><li class="chapter-item expanded "><a href="bases-html/résumé.html"><strong aria-hidden="true">34.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Texte en HTML</li><li class="chapter-item expanded "><a href="texte/introduction.html"><strong aria-hidden="true">35.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="texte/titres-et-paragraphes.html"><strong aria-hidden="true">36.</strong> Titres et paragraphes</a></li><li class="chapter-item expanded "><a href="texte/listes.html"><strong aria-hidden="true">37.</strong> Listes</a></li><li class="chapter-item expanded "><a href="texte/soulignement-et-importance.html"><strong aria-hidden="true">38.</strong> Soulignement et importance</a></li><li class="chapter-item expanded "><a href="bases-html/inclure-caractères-spéciaux.html"><strong aria-hidden="true">39.</strong> Inclure les caractères spéciaux</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">40.</strong> Formatage avancé du texte</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">41.</strong> TP - Baliser une lettre</div></li><li class="chapter-item expanded "><a href="texte/résumé.html"><strong aria-hidden="true">42.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Lien et image</li><li class="chapter-item expanded "><a href="lien-image/introduction.html"><strong aria-hidden="true">43.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="lien-image/lien-html.html"><strong aria-hidden="true">44.</strong> Création d'hyperliens</a></li><li class="chapter-item expanded "><a href="lien-image/url-et-chemin.html"><strong aria-hidden="true">45.</strong> Une brève présentation des URL et des chemins</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">46.</strong> Insertion d'une image</div></li><li class="chapter-item expanded "><a href="lien-image/résumé.html"><strong aria-hidden="true">47.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Formulaire</li><li class="chapter-item expanded "><div><strong aria-hidden="true">48.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">49.</strong> Formulaire en HTML</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">50.</strong> Formulaire en CSS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">51.</strong> TP - formulaire</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">52.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Tableaux</li><li class="chapter-item expanded "><div><strong aria-hidden="true">53.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">54.</strong> Présentation des tableaux HTML</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">55.</strong> Notions de base sur les tableaux HTML</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">56.</strong> Tableau en CSS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">57.</strong> Fonctionnalités avancées et accessibilité de la table HTML</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">58.</strong> Bilan : Structuration des données planétaires</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">59.</strong> TP - Tableau</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">60.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Sémentique des balises HTML</li><li class="chapter-item expanded "><a href="semantic-html/introduction.html"><strong aria-hidden="true">61.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">62.</strong> SEO</div></li><li class="chapter-item expanded "><a href="semantic-html/résumé.html"><strong aria-hidden="true">63.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Notions de base de CSS</li><li class="chapter-item expanded "><a href="bases-css/introduction.html"><strong aria-hidden="true">64.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="bases-css/qu-est-ce-que-css.html"><strong aria-hidden="true">65.</strong> Qu'est ce que CSS ?</a></li><li class="chapter-item expanded "><a href="bases-css/démarrer-avec-css.html"><strong aria-hidden="true">66.</strong> Démarrer avec CSS</a></li><li class="chapter-item expanded "><a href="bases-css/comment-css-est-structuré.html"><strong aria-hidden="true">67.</strong> Comment est structuré le CSS</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">68.</strong> Comment CSS Fonctionne</div></li><li class="chapter-item expanded "><a href="bases-css/résumé.html"><strong aria-hidden="true">69.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Modèle de boîte</li><li class="chapter-item expanded "><a href="bloc-css/introduction.html"><strong aria-hidden="true">70.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="bloc-css/résumé.html"><strong aria-hidden="true">71.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Sélecteurs en CSS</li><li class="chapter-item expanded "><a href="sélecteurs-css/introduction.html"><strong aria-hidden="true">72.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="sélecteurs-css/résumé.html"><strong aria-hidden="true">73.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Floats</li><li class="chapter-item expanded "><a href="float-css/introduction.html"><strong aria-hidden="true">74.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="float-css/résumé.html"><strong aria-hidden="true">75.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Flexbox</li><li class="chapter-item expanded "><a href="flexbox-css/introduction.html"><strong aria-hidden="true">76.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="flexbox-css/résumé.html"><strong aria-hidden="true">77.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Positionnement avancé</li><li class="chapter-item expanded "><div><strong aria-hidden="true">78.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">79.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Responsive design</li><li class="chapter-item expanded "><a href="responsive-design/introduction.html"><strong aria-hidden="true">80.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">81.</strong> Responsive images</div></li><li class="chapter-item expanded "><a href="responsive-design/résumé.html"><strong aria-hidden="true">82.</strong> Résumé</a></li><li class="chapter-item expanded affix "><li class="part-title">Web typography</li><li class="chapter-item expanded "><div><strong aria-hidden="true">83.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">84.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Menu de navigation</li><li class="chapter-item expanded "><a href="mini-projets/élément-textuels-communs.html"><strong aria-hidden="true">85.</strong> Éléments textuels communs</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">86.</strong> Menu de navigation</div></li><li class="chapter-item expanded "><a href="mini-projets/coder-plus-vite-avec-visual-studio-code.html"><strong aria-hidden="true">87.</strong> Coder plus vite avec Visual Studio Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Grid</li><li class="chapter-item expanded "><div><strong aria-hidden="true">88.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">89.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Article d'un blog</li><li class="chapter-item expanded "><div><strong aria-hidden="true">90.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">91.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Blog</li><li class="chapter-item expanded "><div><strong aria-hidden="true">92.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">93.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Formulaire de contact</li><li class="chapter-item expanded "><div><strong aria-hidden="true">94.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">95.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Mini-projet : Page d'accueil</li><li class="chapter-item expanded "><div><strong aria-hidden="true">96.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">97.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Création d'un site web</li><li class="chapter-item expanded "><div><strong aria-hidden="true">98.</strong> Introduction</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">99.</strong> Gérer les fichiers</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">100.</strong> Structure de site web et de document</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">101.</strong> Résumé</div></li><li class="chapter-item expanded affix "><li class="part-title">Références</li><li class="chapter-item expanded "><div><strong aria-hidden="true">102.</strong> Introduction</div></li><li class="chapter-item expanded "><a href="références-fr.html"><strong aria-hidden="true">103.</strong> Références en français</a></li><li class="chapter-item expanded "><a href="réféences-an.html"><strong aria-hidden="true">104.</strong> Références en anglais</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">105.</strong> Résumé</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="codeur">Codeur (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Initiation à HTML 5 et CSS 3</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="initiation-à-de-html5-et-css3"><a class="header" href="#initiation-à-de-html5-et-css3">Initiation à de HTML5 et CSS3</a></h1>
+<p>Bienvenue dans cette formation d'initiation à la création des sites web avec HTML5 et CSS3. </p>
+<p>La formation a pour but de fournir aux développeurs web débutants tout ce qu'ils ont besoin pour commencer à développer des sites web simples.</p>
+<p><img src="images/introduction/devenir-developpeur-web.png" alt="devenir-developpeur-web" /></p>
+<p>Si vous débutez complètement, le développement web peut être un réel défi. Notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome. </p>
+<p>Vous devriez vous sentir chez vous, que vous soyez </p>
+<ul>
+<li>un <strong>étudiant</strong> apprenant le développement web, </li>
+<li>un <strong>enseignant</strong> recherchant des supports de cours, </li>
+<li>un <strong>amateur</strong> ou quelqu'un qui souhaite simplement comprendre la manière dont fonctionnent le Web et ses technologies.</li>
+</ul>
+<h2 id="ce-que-vous-apprendrez"><a class="header" href="#ce-que-vous-apprendrez">Ce que vous apprendrez</a></h2>
+<ul>
+<li>Apprendre HTML5 à partir de zéro</li>
+<li>Apprendre CSS3 à partir de zéro</li>
+<li>Réalisation des projets du monde réel</li>
+<li>Création des pages responsive </li>
+</ul>
+<h1 id="plan-de-la-formation"><a class="header" href="#plan-de-la-formation">Plan de la formation</a></h1>
+<p>La formation est diviser en <strong>cinq sections</strong>.</p>
+<ol>
+<li>Notion préliminaire</li>
+<li>Bien démarrer</li>
+<li>Les fondamentaux de HTML</li>
+<li>Les fondamentaux de CSS</li>
+<li>Réalisation de 6 mini-projets</li>
+</ol>
+<h2 id="notion-préliminaire"><a class="header" href="#notion-préliminaire">Notion préliminaire</a></h2>
+<p>Dans la première section nommée <strong>notion préliminaire</strong> nous allons apprendre les notions d'internet et de web, puis nous allons découvrir les trois langages web : <strong>HTML5</strong>, <strong>CSS3</strong> et <strong>JavaScript</strong>. Nous clôturerons la section par l'<strong>installation</strong> et découvert des <strong>outils</strong> dont nous avons besoin dans notre formation. La section comprend deux parties : </p>
+<ol>
+<li>Introduction au développement Web</li>
+<li>Installation des outils</li>
+</ol>
+<h2 id="bien-démarrer"><a class="header" href="#bien-démarrer">Bien démarrer</a></h2>
+<p>L'apprentissage d'un langage informatique comprend plusieurs détails, qui rend l'apprenant incapable de suivre et apprendre les notions étudiées. C'est pour cette raison, j'aimerais commencer mes formations par la partie <strong>Bien démarrer</strong> qui nous donne juste l'essentiel pour apprendre comment ça marche la technique informatique. Ensuite, nous entamons les parties suivantes pour enrichir nos savoirs et compétences.</p>
+<p>La section comprend deux parties : </p>
+<ol>
+<li>Bien démarrer avec HTML </li>
+<li>Bien démarrer avec CSS</li>
+</ol>
+<h2 id="les-fondamentaux-de-html"><a class="header" href="#les-fondamentaux-de-html">Les fondamentaux de HTML</a></h2>
+<p>Dans la troisième section nous allons voir les fondamentaux de HTML comme par exemple la structuration d'un texte avec des liens et des images, la structuration d'un formulaire de saisie et la présentation des données sous forme d'un tableau. Nous terminerons la section par découvrir la sémantique des balises HTML. </p>
+<p>La section comprend les parties suivantes : </p>
+<ol>
+<li>Notions de base de HTML</li>
+<li>Texte en HTML</li>
+<li>Lien et image</li>
+<li>Formulaire</li>
+<li>Tableaux</li>
+<li>Sémantique des balises HTML</li>
+</ol>
+<h2 id="les-fondamentaux-de-css"><a class="header" href="#les-fondamentaux-de-css">Les fondamentaux de CSS</a></h2>
+<p>Dans la quatrième section nommée <strong>Les fondamentaux de CSS</strong> nous allons voir les parties suivantes : </p>
+<ol start="11">
+<li>Notions de base de CSS</li>
+<li>Syntaxe : Modèle de boîte</li>
+<li>Syntaxe : Sélecteurs en CSS</li>
+<li>Positionnement avec Floats</li>
+<li>Positionnement avec Flexbox</li>
+<li>Positionnement avancé</li>
+<li>Responsive design</li>
+<li>Web typography</li>
+</ol>
+<h2 id="réalisation-de-6-mini-projets"><a class="header" href="#réalisation-de-6-mini-projets">Réalisation de 6 mini-projets</a></h2>
+<p>Finalement, dans la cinquième partie nous allons réaliser les 6 mini-projets suivants :</p>
+<ol>
+<li>Mini-projet : Menu de navigation</li>
+<li>Mini-projet : Grid</li>
+<li>Mini-projet : Article d'un blog</li>
+<li>Mini-projet : Blog</li>
+<li>Mini-projet : Formulaire de contact</li>
+<li>Mini-projet : Page d'accueil</li>
+<li>Création d'un site web </li>
+</ol>
+<h1 id="introduction-au-développement-web"><a class="header" href="#introduction-au-développement-web">Introduction au développement web</a></h1>
+<p>Dans cette partie de formation, nous allons </p>
+<ul>
+<li>découvrir ce que c'est qu'une page web et la notion d'internet et web. </li>
+<li>Ensuit, vous allez découvrir les trois langages web ( HTML, CSS et JavaScript) qui nous permet de construire une page web. </li>
+<li>Nous terminerons par voir l'importance d'apprentissage des langages web par rapport le développement web et les frameworks web.</li>
+</ul>
+<h1 id="quest-ce-quinternet-"><a class="header" href="#quest-ce-quinternet-">Qu'est ce qu'Internet ?</a></h1>
+<!-- note --> 
+<p>Dans cette session, nous découvrons ce qu'est l'Internet et comment il fonctionne.</p>
+<!-- end note -->
+<h2 id="extrait-de-la-formation-vidéo"><a class="header" href="#extrait-de-la-formation-vidéo">Extrait de la formation vidéo</a></h2>
+<div class="video-container">
+<iframe   src="https://www.youtube.com/embed/7WA_OV7fPxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h2 id="définition"><a class="header" href="#définition">Définition</a></h2>
+<!-- g layout : t 7-3 5-9 p-50  -->
+<p>L'Internet est l'épine dorsale du Web. Il s'agit de <strong>l'infrastructure technique</strong> qui soutient le Web.</p>
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/%C3%A9pine-dorsale.jpg" alt="Internet" /></p>
+<!-- new slide -->
+<!-- g layout : t 6-5 6-9 -->
+<p>De façon simple, l'Internet est un vaste réseau d'ordinateurs qui communiquent les uns avec les autres.</p>
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/reseau-mondial.jpg" alt="Réseaux mondial" /></p>
+<h2 id="comment-fonctionne-internet-"><a class="header" href="#comment-fonctionne-internet-">Comment fonctionne internet ?</a></h2>
+<!-- g layout : t 12-9 -->
+<p><img src="introduction-dev-web/../images/prof/questions.png" alt="question" /></p>
+<!-- note -->
+<p>Pour répondre à cette question, je vous propose de voir d'abord le fonctionnement d'un réseau entre deux ordinateurs, puis un réseau entre dix ordinateurs jusqu'à voir un réseaux entre les villes et les pays. </p>
+<!-- end note -->
+<h2 id="réseau-local--entre-deux-ordinateurs"><a class="header" href="#réseau-local--entre-deux-ordinateurs">Réseau local : entre deux ordinateurs</a></h2>
+<!-- g layout : t 12-5 p-0 -->
+<!-- note -->
+<p>Pour que deux ordinateurs puissent communiquer entre eux, ils doivent être liés soit par un lien physique (généralement par un câble Ethernet), soit par un lien sans fil (par exemple, via le WiFi). Tous ces types de connexions sont possibles sur les ordinateurs modernes. </p>
+<p>Cette connexion entre deux ordinateurs s'appelle réseau local.</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/r%C3%A9seau-de-base.png" alt="connexion entre deux ordinateur par cable ethernet" /></p>
+<h2 id="réseau-entre-plusieurs-ordinateurs"><a class="header" href="#réseau-entre-plusieurs-ordinateurs">Réseau entre plusieurs ordinateurs</a></h2>
+<!-- g layout : t 12-9 p-0  -->
+<!-- note -->
+<p>Un réseau n'est pas limité à deux ordinateurs. Vous pouvez y connecter autant d'ordinateurs que vous souhaitez, mais le tout se complique très rapidement. Ainsi, si vous voulez relier, disons, dix ordinateurs entre eux, vous aurez besoin de neuf prises sur chaque ordinateur et de 45 câbles !</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-2.png" alt="alt" /></p>
+<h2 id="réseau-entre-plusieurs-ordinateurs-avec-routeur"><a class="header" href="#réseau-entre-plusieurs-ordinateurs-avec-routeur">Réseau entre plusieurs ordinateurs avec routeur</a></h2>
+<!-- g layout : t 12-9 p-0 -->
+<!-- note -->
+<p>Afin de résoudre ce problème, chaque ordinateur du réseau est relié à un petit ordinateur bien spécial que l'on appelle routeur. </p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-3.png" alt="alt" /></p>
+<!-- note -->
+<p>Ce routeur n'a qu'une seule fonction : tout comme un signaleur de gare de train, il s'assure que les messages transmis par un ordinateur donné se rendent au bon ordinateur destinataire. Ainsi, pour envoyer un message à l'ordinateur B, l'ordinateur A transmet d'abord le message au routeur, qui s'assure alors de transférer le message à l'ordinateur B et non à l'ordinateur C.</p>
+<p>Vous voyez donc que lorsque nous ajoutons un routeur dans notre structure, notre réseau de dix ordinateurs ne requiert alors que de dix câbles, d'une prise par ordinateur et d'un routeur de 10 ports.</p>
+<!-- end note -->
+<h2 id="un-réseau-de-réseaux"><a class="header" href="#un-réseau-de-réseaux">Un réseau de réseaux</a></h2>
+<!-- g layout : t 12-9 p-0 -->
+<!-- note -->
+<p>Jusqu'ici tout est beau, mais comment fait-on pour relier des centaines, des milliers ou même des millards d'ordinateurs entre eux ? Bien évidemment, un seul routeur ne pourrait suffire pour tant de connexions. Cependant, si vous m'avez suivi attentivement, vous aurez constaté qu'un routeur n'est en réalité qu'un ordinateur. Serait-il alors possible de lier deux routeurs ? Oui, absolument, et en voici le résultat!</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-4.png" alt="alt" /></p>
+<!-- new slide -->
+<!-- g layout : t 12-9 p-0 -->
+<!-- note -->
+<p>En liant les ordinateurs à des routeurs, puis les routeurs entre eux, nous avons la capacité d'étendre le réseau indéfiniment.</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-5.png" alt="alt" /></p>
+<h2 id="un-réseau-de-réseaux-avec-fournisseur-daccès"><a class="header" href="#un-réseau-de-réseaux-avec-fournisseur-daccès">Un réseau de réseaux avec fournisseur d'accès</a></h2>
+<!-- g layout : t 12-9 p-0 -->
+<!-- note -->
+<p>Un tel réseau s'apparente de près à ce que nous appelons l'Internet, mais il y a un élément manquant. Ce réseau a été conçu pour répondre à nos besoins personnels, mais d'autres réseaux existent également. Vos amis, vos voisins et plein d'autres gens peuvent avoir leurs propres réseaux d'ordinateurs. Cependant, il vous est plutôt impossible de brancher des câbles entre votre maison et le reste de la planète, alors que faire ? </p>
+<p>Eh bien, il se trouve que votre maison est déjà câblée et liée aux réseaux téléphonique. L'infrastructure téléphonique, qui lie déjà votre maison au reste de la planète, répond parfaitement à nos besoins. Afin de lier notre réseau à l'infrastructure téléphonique, nous devons utiliser un appareil spécialisé appelé modem. Ce modem convertit l'information de notre réseau en information décodable par l'infrastructure téléphonique et vice-versa.</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-6.png" alt="alt" /></p>
+<h2 id="un-réseau-de-réseaux-avec-fournisseur-daccès-1"><a class="header" href="#un-réseau-de-réseaux-avec-fournisseur-daccès-1">Un réseau de réseaux avec fournisseur d'accès</a></h2>
+<!-- g layout : t 12-9 p-0 -->
+<!-- note -->
+<p>Notre réseau est donc lié à l'infrastructure téléphonique. La prochaine étape consiste alors à transmettre avec succès nos messages au réseau cible. À cette fin, nous allons lier notre réseau à un Fournisseur d'accès à Internet (FAI).</p>
+<p>Un FAI est une entreprise qui gère des routeurs qui sont liés entre eux et qui ont des droits d'accès aux routeurs d'autres FAI. Le message transmis par notre réseau est ainsi transporté à travers le réseau de FAI afin d'atteindre le réseau cible. </p>
+<p>Voilà en quoi consiste l'Internet : il s'agit de toute cette infrastructure de réseaux</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-schema-7.png" alt="alt" /></p>
+<h2 id="localiser-un-ordinateur"><a class="header" href="#localiser-un-ordinateur">Localiser un ordinateur</a></h2>
+<!-- g layout : t 12-7  -->
+<!-- note -->
+<p>Lorsque nous souhaitons transmettre un message à un ordinateur, nous devons préciser de quel ordinateur il s'agit. Par conséquent, chaque ordinateur lié à un réseau possède une adresse unique appelée « adresse IP » (où « IP » signifie Internet Protocol) qui sert à localiser l'ordinateur. Cette adresse est composée d'une série de nombres séparés par des points, par exemple : 192.168.1.3.</p>
+<p>C'est une méthode très efficace pour les ordinateurs, mais les humains ont un peu plus de difficulté à retenir de telles adresses numériques. Afin de se faciliter la tâche, un libellé alphabétique, appelé nom de domaine, est souvent associé aux adresses IP. Par example, google.com est le nom de domaine associé à l'adresse IP 173.194.121.32. L'utilisation d'un nom de domaine est ainsi le moyen le plus facile d'atteindre un ordinateur via l'Internet.</p>
+<!-- end note -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/dns-ip.png" alt="alt" /></p>
+<h2 id="linternet-et-le-web"><a class="header" href="#linternet-et-le-web">L'Internet et le web</a></h2>
+<!-- g layout : t 12-7 -->
+<p><img src="introduction-dev-web/../images/introduction-dev-web/fonctionnement-internet/internet-vs-web.jpg" alt="Internet et le web" /></p>
+<!-- note -->
+<p>Vous aurez peut-être constaté que lorsque nous naviguons sur le Web avec un navigateur Web, nous utilisons un nom de domaine pour rejoindre un site web. Est-ce donc dire qu'Internet et Web réfèrent à une seule et même notion ? La réponse n'est pas si simple. Comme nous l'avons vu, l'Internet est une infrastructure technique qui lie des milliards d'ordinateurs entre eux. Parmi ces ordinateurs, certains ordinateurs (appelés serveurs Web) peuvent transmettre des messages décodables par les navigateurs Web. Ainsi, l'Internet est une infrastructure, alors que le Web est un service installer sur un serveur en  utilisant l'infrastructure de l'Internet.</p>
+<!-- end note -->
+<h2 id="références"><a class="header" href="#références">Références</a></h2>
+<!-- g layout : t 12-9 -->
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Common_questions/How_does_the_Internet_work">Le fonctionnement de l'Internet</a><br />
+<a href="https://www.youtube.com/watch?v=7_LPdttKXPc">How the Internet Works in 5 Minutes</a></p>
+<h1 id="fonctionnement-du-web"><a class="header" href="#fonctionnement-du-web">Fonctionnement du Web</a></h1>
+<h2 id="références-1"><a class="header" href="#références-1">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/How_the_Web_works">Le fonctionnement du Web</a></p>
+<h1 id="différence-entre-page-web-et-site-web"><a class="header" href="#différence-entre-page-web-et-site-web">Différence entre page web et site web</a></h1>
+<h2 id="références-2"><a class="header" href="#références-2">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">Quelle différence entre une page web, un site web, un serveur web et un moteur de recherche ?</a>  </p>
+<h1 id="langages-web--html-css-et-javascript"><a class="header" href="#langages-web--html-css-et-javascript">Langages Web : HTML, CSS et Javascript</a></h1>
+<!-- il faut expliquer la notion de HTML, CSS et Javascript sans donner des exemples de code  -->
+<p><img src="introduction-dev-web/../images/introduction/html-css-javascript.png" alt="Notion de base" /></p>
+<h2 id="démonstration-dune-page-avec-html-et-css"><a class="header" href="#démonstration-dune-page-avec-html-et-css">Démonstration d'une page avec HTML et CSS</a></h2>
+<h2 id="références-3"><a class="header" href="#références-3">Références</a></h2>
+<p><a href="http://alainericgauthier.com/html_css_web/difference_html_css_js.html">Quelle est la différence entre HTML, CSS et JavaScript</a></p>
+<p><a href="https://waytolearnx.com/2019/03/difference-entre-html-css-et-javascript.html">Différence entre HTML, CSS et JavaScript</a></p>
+<p><a href="introduction-dev-web/%5Bhttps://link%5D(https://fr.quora.com/Quelle-est-la-diff%C3%A9rence-entre-HTML-CSS-et-JavaScript)">Quelle est la différence entre HTML, CSS et JavaScript ?</a></p>
+<h1 id="résumé"><a class="header" href="#résumé">Résumé</a></h1>
+<p>Dans cette partie de formation, nous avons vue comment fonctionne une page web dans l'internet et le web.
+Nous avons découvert les trois langage web HTML, CSS et JavaScript qui nous créer un site web professionnelle.</p>
+<p>Dans la partie suivante, nous allons découvrir et installer les outils que nous avons besoin dans la formation.</p>
+<h1 id="installation-des-outils"><a class="header" href="#installation-des-outils">Installation des outils</a></h1>
+<p>Dans cette partie de formation, je vais vous montrer les outils dont vous aurez besoin pour développer un site web simple.</p>
+<p>Je vais vous proposer le minimum à installer : </p>
+<ul>
+<li>un éditeur de texte : Visual Studio Code</li>
+<li>un navigateurs web modernes : Google Chrome</li>
+</ul>
+<p>Les objectifs de cette partie sont : </p>
+<ul>
+<li>Installation des outils de base,</li>
+<li>Apprendre à utiliser visual studio code</li>
+</ul>
+<p><img src="installation-outils/../images/installation-outils/outils-web.png" alt="outils-web." /></p>
+<h1 id="navigateur-moderne---google-chrome"><a class="header" href="#navigateur-moderne---google-chrome">Navigateur moderne - google Chrome</a></h1>
+<h2 id="installation-dun-navigateur-moderne"><a class="header" href="#installation-dun-navigateur-moderne">Installation d'un navigateur moderne</a></h2>
+<p>Il existe plusieurs navigateur moderne que nous pouvons utiliser dans notre développement à savoir Firefox et Chrome.</p>
+<p>Je vous conseille d'utiliser Google Chrome.</p>
+<p><img src="installation-outils/../images/bien-demarrer/installer-outils-de-base/installer-google-chrome.png" alt="Google Chrome" /></p>
+<h3 id="pratique---installation-de-google-chrome"><a class="header" href="#pratique---installation-de-google-chrome">Pratique - Installation de Google Chrome</a></h3>
+<p><img src="installation-outils/../images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+<p><a href="https://www.google.fr/chrome/">Lien d'installation de Google Chrome</a></p>
+<h2 id="références-4"><a class="header" href="#références-4">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/Installing_basic_software">Installation des outils de base</a></p>
+<h1 id="Éditeur-de-code---visual-studio-code"><a class="header" href="#Éditeur-de-code---visual-studio-code">Éditeur de code - visual studio Code</a></h1>
+<h2 id="installation-dun-éditeur-de-texte"><a class="header" href="#installation-dun-éditeur-de-texte">Installation d'un éditeur de texte</a></h2>
+<p>Vous avez probablement un éditeur de texte basique sur votre ordinateur. Par défaut Windows propose <strong>Bloc-note</strong>.</p>
+<p>Pour le développement web, vous trouverez surement mieux que <strong>Bloc-note</strong>. Je vous recommande de commencer avec <strong>Visual Studio Code</strong>,  qui est un éditeur libre offrant des aperçus en direct et des conseils de code.</p>
+<h2 id="pratique---installation-dun-éditeur-de-texte"><a class="header" href="#pratique---installation-dun-éditeur-de-texte">Pratique - Installation d'un éditeur de texte</a></h2>
+<p><img src="installation-outils/../images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+<h2 id="références-5"><a class="header" href="#références-5">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/Installing_basic_software">Installation des outils de base</a></p>
+<h1 id="résumé-1"><a class="header" href="#résumé-1">Résumé</a></h1>
+<p>Je vous ai montrer dans cette partie de formation la navigateur et l'éditeur de code que nous allons utiliser durant notre formation.</p>
+<p>Dans la partie <strong>Bien utiliser les outils</strong> qui vient après la section bien démarrer, je vous montrerai comment utiliser vos outils de façons plus efficaces.</p>
+<h1 id="bien-démarrer-avec-html"><a class="header" href="#bien-démarrer-avec-html">Bien démarrer avec HTML</a></h1>
+<p>Les objectifs de cette partie sont : </p>
+<h1 id="quest-ce-que-le-html-"><a class="header" href="#quest-ce-que-le-html-">Qu'est ce que le HTML ?</a></h1>
+<!-- new slide -->
+<!-- g layout : t 8-4 4-8 -->
+<p><strong>HTML</strong> (HyperText Markup Language) n'est pas un langage de programmation : c'est un langage de balisage qui sert à indiquer au navigateur comment structurer et afficher une page web visitée. </p>
+<p><img src="bien-d%C3%A9marrer-html/../images/logo/logo-html5.png" alt="Logo HTML" /></p>
+<!-- new slide -->
+<!-- g layout : t 6 6-9 -->
+<p>Le HTML se compose d'une série d'éléments avec lesquels vous pouvez encadrer, envelopper ou baliser différentes parties du contenu pour les faire apparaître ou agir d'une certaine manière. </p>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/qu-est-ce-que-html/elements-page-html.png" alt="elements-page-html" /></p>
+<!-- note --> 
+<p>Par exemple, dans la page web d'exemple, nous avons envelopper ou baliser le texte qui décrire les deux parties d'un ordinateur par une balise qui indique au navigateur de les afficher comme une liste. </p>
+<!-- end note -->
+<!-- new slide -->
+<!-- g layout : t 6 6-9 -->
+<p>Une balise encadrante peut transformer une petite partie de contenu en liste ordonnée, mettre des mots en gras, etc.</p>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/qu-est-ce-que-html/elements-page-html-2.png" alt="elements-page-html" /></p>
+<h2 id="exemple-dune-balise"><a class="header" href="#exemple-dune-balise">Exemple d'une balise</a></h2>
+<!-- g layout : t 6-2 6-4 6-2 6-4 p-15 -->
+<!-- note --> 
+<p>Par exemple, prenons la phrase suivante :</p>
+<!-- end note -->
+<pre><code class="language-html">Qu'est-ce que l'ordinateur
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/qu-est-ce-que-html/exemple-balise-texte.png" alt="Exemple balise h1 1 sans balise" /></p>
+<!-- note --> 
+<p>Si nous voulons que cette ligne se présente comme un titre d'un article, nous pouvons dire qu'il s'agit d'un titre de niveau 1 en l'enveloppant d'un élément de titre de niveau 1  ( <code>&lt;h1&gt;</code> ) :</p>
+<!-- end note -->
+<!-- new zone -->
+<pre><code class="language-html">&lt;h1&gt;Qu'est-ce que l'ordinateur&lt;/h1&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/qu-est-ce-que-html/exemple-balise-texte-h1.png" alt="Exemple balise h1 1" /></p>
+<h2 id="pratique---élément--h1"><a class="header" href="#pratique---élément--h1">Pratique - élément : h1</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bien-d%C3%A9marrer-html/../images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+<h2 id="les-éléments-html-sont-insensibles-à-la-casse"><a class="header" href="#les-éléments-html-sont-insensibles-à-la-casse">Les éléments HTML sont insensibles à la casse</a></h2>
+<!-- g layout : t 6-5 6-5 p-20 -->
+<!-- note --> 
+<p>Les éléments en HTML sont insensibles à la casse, c'est-à-dire qu'ils peuvent être écrits en majuscules ou en minuscules. </p>
+<h3 id="par-exemple"><a class="header" href="#par-exemple">Par exemple</a></h3>
+<!-- end note -->
+<pre><code class="language-html">&lt;h1&gt;Qu'est-ce que l'ordinateur&lt;/h1&gt;
+&lt;H1&gt;Titre 2 &lt;/H1&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/qu-est-ce-que-html/exemple2-casse-output.png" alt="exemple2-casse.html" /></p>
+<!-- note --> 
+<p>un élément <code>&lt;h1&gt;</code> peut être écrit <code>&lt;h1&gt; ou &lt;H1&gt;</code>. et il fonctionnera parfaitement. La meilleure pratique, cependant, est d'écrire tous les éléments en minuscules pour des raisons de cohérence et de lisibilité.</p>
+<!-- end note -->
+<h2 id="pratique---insensibilité-à-la-casse"><a class="header" href="#pratique---insensibilité-à-la-casse">Pratique - insensibilité à la casse</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bien-d%C3%A9marrer-html/../images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+<h2 id="références-6"><a class="header" href="#références-6">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics">Les bases du HTML</a></p>
+<h1 id="anatomie-dun-élément-html"><a class="header" href="#anatomie-dun-élément-html">Anatomie d'un élément HTML</a></h1>
+<!-- new slide -->
+<!-- g layout : t 12-8 p-50 -->
+<!-- note -->
+<p>Les objectifs de cette session de formation sont les suivants :</p>
+<!-- end note -->
+<ul>
+<li>Découvrir les différents parties d'un élément HTML, </li>
+<li>Comprendre le rôle d'un attribut pour un élément HTML</li>
+<li>Apprendre à utiliser les attributs dans un élément HTML</li>
+<li>Apprendre à imbriquer un élément dans un autre élément, </li>
+<li>Découvrir ce que c'est un élément vide.</li>
+</ul>
+<!-- new slide -->
+<!-- use : slide 1 -->
+<p>Regardons notre élément paragraphe d'un peu plus près :</p>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/anatomie-%C3%A9l%C3%A9ment-html.png" alt="balise HTML" /></p>
+<p>Constatez qu'il est composé de trois parties : </p>
+<ol>
+<li><strong>La balise ouvrante</strong> : il s'agit du nom de l'élément (dans ce cas, p), encadré par un <strong>chevron</strong> ouvrant (&lt;) et un chevron fermant (&gt;). Elle indique où l'élément commence ;</li>
+<li><strong>La balise fermante</strong> : c'est la même que la balise ouvrante, sauf qu'elle comprend une barre oblique (/) avant le nom de l'élément. Elle indique la fin de l'élément ; </li>
+<li><strong>Le contenu</strong> : il s'agit du contenu de l'élément. Dans notre cas, c'est le texte : &quot;Un ordinateur est un appareil électronique&quot; ;</li>
+</ol>
+<h2 id="pratique---création-dun-élément-html"><a class="header" href="#pratique---création-dun-élément-html">Pratique - Création d'un élément HTML</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bien-d%C3%A9marrer-html/../images/prof/explication-pratique.png" alt="Explication pratique élément p" /></p>
+<h2 id="attributs"><a class="header" href="#attributs">Attributs</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Les éléments peuvent aussi avoir des attributs, qui comme suit:</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;p id=&quot;définition&quot; &gt;Un ordinateur est un appareil électronique&lt;/p&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple7-attribut.png" alt="Attributs" /></p>
+<!-- note -->
+<p>Les attributs contiennent des informations supplémentaires sur l'élément sans qu'elles n'apparaissent dans le contenu réel. Dans ce cas, l'attribut <strong>id</strong> vous permet de donner à l'élément un nom d'identification qui peut ensuite être utilisé pour cibler l'élément afin de lui attribuer un style d'affichage en utilisant le code CSS par exemple.</p>
+<p>Pour créer un attribut, il faut :</p>
+<ul>
+<li>insérer un espace entre cet attribut et le nom de l'élément ;</li>
+<li>donner un nom à l'attribut, puis ajouter le signe égal ;</li>
+<li>donner une valeur à l'attribut, entourée par des guillemets d'ouverture et de fermeture.</li>
+</ul>
+<!-- end note -->
+<h2 id="Éléments-vides"><a class="header" href="#Éléments-vides">Éléments vides</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Tous les éléments ne suivent pas le modèle ci-dessus d'ouverture de balise, puis contenu, puis fermeture de balise. Certains éléments ne sont composés que d'une balise. Ils servent généralement à insérer / incorporer quelque chose dans le document à l'endroit où ils sont mis. Par exemple, l'élément <code>&lt;img /&gt;</code> ou <code>&lt;img&gt;</code> insère une image dans une page à l'endroit où il est placé (la balise auto-fermante <code>&lt;img /&gt;</code> est à privilégier) :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;img src=&quot;image.png&quot; /&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/exemple6-image.png" alt="alt" /></p>
+<!-- new slide -->
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Pratiquement la barre oblique peuvent ne pas être utiliser, dans une balise vide, 
+dans notre exemple, l'image va s'afficher correctement sans la base oblique, mais la syntaxe de la balise auto-fermante est privilégiée.</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;img src=&quot;image.png&quot; &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/exemple6-image.png" alt="alt" /></p>
+<h2 id="pratique---Éléments-vides"><a class="header" href="#pratique---Éléments-vides">Pratique - Éléments vides</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bien-d%C3%A9marrer-html/../images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+<h2 id="exemple-dun-élément-html--input"><a class="header" href="#exemple-dun-élément-html--input">Exemple d'un élément HTML : input</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Avant de continuer notre anatomie d'un élément HTML, je vous propose de découvrir un nouveau élément qui s'appelle <strong>input</strong>. Il vous permet d'insérer une zone de saisie de texte dans votre document HTML.</p>
+<p>Nous allons utiliser deux parmis ces attributs : le première s'appelle <strong>type</strong> qui précise la nature de la zone de saisie, dons notre cas <strong>text</strong> qui indiquer la saisie de texte. Le deuxième attribut s'appelle <strong>disabled</strong>, qui vous permet de  désactiver la saisie de texte.</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=&quot;text&quot; /&gt;
+&lt;input type=&quot;text&quot; disabled=&quot;disabled&quot; /&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple8-attribut-bool%C3%A9en.png" alt="Les attributs booléens" /></p>
+<h2 id="les-attributs-booléens"><a class="header" href="#les-attributs-booléens">Les attributs booléens</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Vous verrez parfois des attributs sans valeur définie : c'est tout à fait autorisé. Ils sont appelés attributs booléens ; ils ne peuvent avoir qu'une seule valeur, généralement la même que le nom de l'attribut. Par exemple,  l'attribut disabled peut s'écrit sans valeur. dans ce cas il prend la valeur par défaut qui généralement le non de l'attribut.</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=&quot;text&quot; /&gt;
+&lt;input type=&quot;text&quot; disabled /&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple8-attribut-bool%C3%A9en.png" alt="Les attributs booléens" /></p>
+<h2 id="exemple-délément--attribut-placeholder"><a class="header" href="#exemple-délément--attribut-placeholder">Exemple d'élément : attribut placeholder</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Dans la partie suivante, nous allons voir l'attribut <strong>placeholder</strong> de l'élément <strong>input</strong> qui permet d'afficher des informations sur la valeur à saisir dans la zone de texte.</p>
+<p>Par exemple, nous avons afficher à l'utilisation une information sur la valeur qu'il peut saisir dans la zone de saisie. Nous avons lui demander de saisir son prénom en.</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Votre prénom&quot; &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple9.1-omettredes-guillemets.png" alt="omettredes des guillemets" /></p>
+<h2 id="omettre-des-guillemets-autour-dattribut"><a class="header" href="#omettre-des-guillemets-autour-dattribut">Omettre des guillemets autour d'attribut</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Si vous regardez ce qui se passe sur le Web, vous rencontrerez tous types de styles de balises étranges, y compris des valeurs d'attribut sans guillemets. C'est permis dans certaines circonstances, mais cela va briser votre balisage dans d'autres. </p>
+<p>Par exemple, si nous voyons notre exemple, nous pourrons écrire la valeur de l'attribut <strong>type</strong> sans guillemets et ça va s'exécuter correctement dans le navigateur.</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=text placeholder=&quot;Votre prénom&quot; &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple9.1-omettredes-guillemets.png" alt="omettredes des guillemets" /></p>
+<!-- new slide -->
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Cependant, si nous ajoutons l'attribut placeholder dans ce même style, c'est à dir sans les guillemets, cela devient incorrect :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=text placeholder=&quot;Nom&quot; &gt;
+&lt;input type=text placeholder=Votre prénom &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple9-omettre-des-guillemets.png" alt="omettredes des guillemets" /></p>
+<!-- note -->
+<p>En effet, le navigateur interprétera mal la balise, pensant que l'attribut placeholder est en fait deux attributs — un attribut placeholder avec la valeur « Votre » et deuxième attributs booléens, « prénom ». Ce n'est évidemment pas ce qui était prévu et cela provoquera des erreurs ou un comportement inattendu dans le code, comme on le voit dans l'exemple.</p>
+<p>Nous vous recommandons de toujours inclure les guillemets afin d'éviter ce type de problèmes, mais aussi pour que le code soit plus lisible.</p>
+<!-- end note -->
+<h2 id="guillemets-simples-ou-doubles-"><a class="header" href="#guillemets-simples-ou-doubles-">Guillemets simples ou doubles ?</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Dans cette session de formation, vous remarquerez que les valeurs des attributs sont toutes entre des guillemets doubles (&quot; &quot;). Vous pouvez cependant voir des guillemets simples (' ') dans le code HTML de certaines personnes. C'est purement une question de style, et vous êtes libre de choisir la solution que vous préférez. Les deux balise suivantes sont équivalentes :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Votre nom&quot; &gt;
+&lt;input type=&quot;text&quot; placeholder='Votre nom' &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple10-guillemets-simples-doubles.png" alt="Guillemets simples ou doubles" /></p>
+<!-- new slide -->
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Vous devez cependant vous assurer de ne pas les mélanger. Ce qui suit n'est pas correct :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Votre nom' &gt;
+&lt;input type=&quot;text&quot; placeholder='Votre nom' &gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/bases-html/anatomie-%C3%A9l%C3%A9ment-html/exemple10.1-guillemets-simples-doubles.png" alt="Guillemets simples ou doubles" /></p>
+<h2 id="eléments-imbriqués"><a class="header" href="#eléments-imbriqués">Eléments imbriqués</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Vous pouvez mettre des éléments à l'intérieur d'autres éléments — cela s'appelle l'imbrication. Si vous voulez mettre en valeur le texte &quot;éléctronique&quot; vous pouvez le mettre dans l'élément <code>&lt;strong&gt;</code>, pour qu'il soit fortement mis en valeur :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;p&gt;Un ordinateur est un appareil &lt;strong&gt;électronique&lt;/strong&gt;&lt;/p&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/exemple3-el%C3%A9ments-imbriqu%C3%A9s.png" alt="exemple3-eléments-imbriqués" /></p>
+<!-- note -->
+<p>Vous devez toutefois vous assurer que vos éléments sont correctement imbriqués : dans l'exemple ci-dessus, nous avons ouvert l'élément p en premier, puis l'élément strong, donc nous devons fermer l'élément strong d'abord, puis l'élément p. Ce qui suit est incorrect :</p>
+<!-- end note -->
+<!-- new slide -->
+<!-- layout : Code html image  -->
+<pre><code class="language-html">&lt;p&gt;Un ordinateur est un appareil &lt;strong&gt;électronique&lt;/p&gt;&lt;/strong&gt;
+</code></pre>
+<p><img src="bien-d%C3%A9marrer-html/../images/commencer-avec-html/exemple3-el%C3%A9ments-imbriqu%C3%A9s.png" alt="exemple3-eléments-imbriqués" /></p>
+<!-- note -->
+<p>Les éléments doivent être ouverts et fermés correctement afin d'être clairement à l'intérieur ou à l'extérieur l'un de l'autre. Si les balises se chevauchent comme dans l'exemple ci-dessus, votre navigateur web essaiera de deviner ce que vous vouliez dire, et vous pourrez obtenir des résultats inattendus.</p>
+<!-- end note -->
+<h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
+<p>Voilà tous pour cette session de formation. Nous avons vu les trois composant d'un élément HTML</p>
+<h2 id="références-7"><a class="header" href="#références-7">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics">Les bases du HTML</a>
+<a href="https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started">Commencer avec le HTML</a></p>
+<h1 id="quelques-balises-pour-commencer"><a class="header" href="#quelques-balises-pour-commencer">Quelques balises pour commencer</a></h1>
+<h2 id="titre"><a class="header" href="#titre">Titre</a></h2>
+<h2 id="paragraphe"><a class="header" href="#paragraphe">Paragraphe</a></h2>
+<h2 id="liste"><a class="header" href="#liste">Liste</a></h2>
+<h2 id="images"><a class="header" href="#images">Images</a></h2>
+<h2 id="références-8"><a class="header" href="#références-8">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics">Les bases du HTML</a></p>
+<h1 id="document-html-valide"><a class="header" href="#document-html-valide">Document HTML valide</a></h1>
+<p>Les éléments HTML basiques ne sont pas très utiles si on les prend séparément. Nous allons voir comment combiner des éléments individuels pour former une page HTML entière </p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page test&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Voici ma page web&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Ici, nous avons :</p>
+<ul>
+<li><code>&lt;!DOCTYPE html&gt;</code> : le type de document. Quand HTML était jeune (vers 1991/2), les doctypes  étaient censés agir comme des liens vers un ensemble de règles que la page HTML devait suivre pour être considérée comme un bon HTML, ce qui pouvait signifier la vérification automatique des erreurs et d'autres choses utiles. Habituellement, ils ressemblaient à ceci :</li>
+</ul>
+<pre><code class="language-html">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+</code></pre>
+<p>Cependant, de nos jours personne ne se soucie vraiment d'eux, et ils sont juste un artefact historique qui doit être inclus pour que tout fonctionne bien. <code>&lt;!DOCTYPE html&gt;</code> est la chaîne de caractères la plus courte qui soit un doctype valide. C'est tout ce que vous avez vraiment besoin de savoir.</p>
+<ul>
+<li><code>&lt;html&gt;&lt;/html&gt;</code> : l'élément <code>&lt;html&gt;</code>. Cet élément est le contenant de tout le code de la page et il est parfois connu comme l'élément racine.</li>
+<li><code>&lt;head&gt;&lt;/head&gt;</code> : l'élément <code>&lt;head&gt;</code>. Cet élément a le rôle de conteneur pour toute chose que vous souhaitez inclure dans la page HTML qui ne soit pas du contenu à afficher aux visiteurs de la page :  mots clés, description de page que vous souhaitez voir apparaître dans les résultats de recherche, style CSS, déclarations de jeu de caractères et plus encore. Je vous en dis plus à ce sujet dans les sessions suivants.</li>
+<li><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code> : cet élément définit que le jeu de caractères à utiliser pour votre document qui est UTF-8. Ce jeu comporte la quasi‑totalité des caractères de toutes les écritures de langues humaines connues. Actuellement, il peut pour l'essentiel gérer tout contenu textuel que vous y pourriez mettre. Il n'y a aucune raison de ne pas définir cela et il peut permettre d'éviter certains problèmes plus tard. 
+<code>&lt;title&gt;&lt;/title&gt;</code> : l'élément title. Il définit le titre de la page, celui qui s'affiche dans l'onglet du navigateur dans lequel la page est chargée et qui est utilisé pour décrire la page lorsque vous la marquez ou l'ajoutez aux favoris. 
+<code>&lt;body&gt;&lt;/body&gt;</code> : l'élément <code>&lt;body&gt;</code>. Il contient tout le contenu que vous souhaitez afficher aux internautes lorsqu'ils visitent votre page, que ce soit du texte, des images, des vidéo ou autre.</li>
+</ul>
+<h2 id="pratique---création-dun-document-html-valide"><a class="header" href="#pratique---création-dun-document-html-valide">Pratique - Création d'un document html valide</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bien-d%C3%A9marrer-html/../images/prof/explication-pratique.png" alt="Explication pratique" /></p>
+<h1 id="conclusion-1"><a class="header" href="#conclusion-1">Conclusion</a></h1>
+<p>Nous avons vu comment créer un document html valide. Il contient l'élément racine <strong>html</strong>, l'élément <strong>head</strong> contenant les métas informations de notre document, et l'élément <strong>body</strong> qui contient le contenue visuel de la page.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page test&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Voici ma page web&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h2 id="références-9"><a class="header" href="#références-9">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics">Les bases du HTML</a></p>
+<h1 id="tp---exemple-dune-page-html"><a class="header" href="#tp---exemple-dune-page-html">TP - Exemple d'une page HTMl</a></h1>
+<h1 id="tp---inspecteur-de-code-html"><a class="header" href="#tp---inspecteur-de-code-html">TP - Inspecteur de code HTML</a></h1>
+<h1 id="résumé-2"><a class="header" href="#résumé-2">Résumé</a></h1>
+<h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<h2 id="références-10"><a class="header" href="#références-10">Références</a></h2>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Les bases des CSS</a></p>
+<h1 id="quest-ce-que-le-css"><a class="header" href="#quest-ce-que-le-css">Qu'est-ce que le CSS?</a></h1>
+<h1 id="références-11"><a class="header" href="#références-11">Références</a></h1>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Les bases des CSS</a></p>
+<h1 id="règle-css"><a class="header" href="#règle-css">Règle CSS</a></h1>
+<h1 id="références-12"><a class="header" href="#références-12">Références</a></h1>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Les bases des CSS</a></p>
+<h1 id="quelques-notions-pour-commencer"><a class="header" href="#quelques-notions-pour-commencer">Quelques notions pour commencer</a></h1>
+<h2 id="les-polices-fontes-et-le-texte"><a class="header" href="#les-polices-fontes-et-le-texte">Les polices (fontes) et le texte</a></h2>
+<h2 id="boîtes-boîtes-encore-et-toujours-des-boîtes"><a class="header" href="#boîtes-boîtes-encore-et-toujours-des-boîtes">Boîtes, boîtes, encore et toujours des boîtes</a></h2>
+<h1 id="références-13"><a class="header" href="#références-13">Références</a></h1>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Les bases des CSS</a></p>
+<h1 id="exemple-dune-page-html-avec-css"><a class="header" href="#exemple-dune-page-html-avec-css">Exemple d'une page HTMl avec CSS</a></h1>
+<h1 id="résumé-3"><a class="header" href="#résumé-3">Résumé</a></h1>
+<h1 id="tp---premier-pas-avec-visual-studio-code"><a class="header" href="#tp---premier-pas-avec-visual-studio-code">TP - Premier pas avec Visual Studio Code</a></h1>
+<h1 id="références-14"><a class="header" href="#références-14">Références</a></h1>
+<p><a href="https://code.visualstudio.com/learn">Learn to code with Visual Studio Code</a></p>
+<h1 id="coder-plus-vite-avec-visual-studio-code"><a class="header" href="#coder-plus-vite-avec-visual-studio-code">Coder plus vite avec Visual Studio Code</a></h1>
+<p>Dans cette vidéo je te montre quelques raccourcis clavier super utiles pour coder plus vite avec Visual Studio Code.</p>
+<h2 id="références-15"><a class="header" href="#références-15">Références</a></h2>
+<p><a href="https://www.youtube.com/watch?v=z7TIgigICC8">Coder plus vite avec Visual Studio Code</a></p>
+<h1 id="tp---inspecteur-de-code-html-1"><a class="header" href="#tp---inspecteur-de-code-html-1">TP - Inspecteur de code HTML</a></h1>
+<h1 id="les-base-de-html"><a class="header" href="#les-base-de-html">Les base de HTML</a></h1>
+<p>Dans cette partie de formation, Nous allons voir les fondements du HTML, pour prendre un bon départ d'apprentissage. </p>
+<p>Nous allons commencer par définir : c'est quoi un élément et ces attributs et tout autre terme important que vous avez peut‑être entendu. Ensuite, je vais vous montrer comment un élément HTML est structuré et comment une page HTML est structurée.</p>
+<p>Les objectifs de cette partie sont : </p>
+<ul>
+<li>Se familiariser avec le langage HTM</li>
+<li>acquérir de la pratique en écrivant quelques éléments HTML.</li>
+</ul>
+<h1 id="Élément-bloc-et-enligne"><a class="header" href="#Élément-bloc-et-enligne">Élément bloc et enligne</a></h1>
+<p>Les objectifs de cette session de formation sont les suivants :</p>
+<ul>
+<li>Comprendre la différence entre un élément bloc et en line,</li>
+<li>Apprendre à utiliser ces deux type d'éléments.</li>
+</ul>
+<h2 id="Éléments-bloc-vs-en-ligne"><a class="header" href="#Éléments-bloc-vs-en-ligne">Éléments bloc vs en ligne</a></h2>
+<!-- g layout : t 6 6 -->
+<!-- note -->
+<p>Il existe deux catégories importantes d'éléments en HTML que vous devez connaître : les éléments de niveau bloc et les éléments en ligne.</p>
+<!-- end note -->
+<p><img src="bases-html/../images/commencer-avec-html/exemple5-element-bloc.png" alt="exemple5-element-bloc" /></p>
+<p><img src="bases-html/../images/commencer-avec-html/exemple5-element-ligne.png" alt="exemple5-element-ligne" /></p>
+<h2 id="Éléments-bloc"><a class="header" href="#Éléments-bloc">Éléments bloc</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Les éléments de niveau bloc forment un bloc visible sur une page — ils apparaissent sur une nouvelle ligne quel que soit le contenu précédant et tout contenu qui les suit apparaît également sur une nouvelle ligne. </p>
+<!-- end note -->
+<pre><code class="language-html">&lt;p&gt;paragraphe 1&lt;/p&gt;&lt;p&gt;paragraphe 2&lt;/p&gt;
+</code></pre>
+<p><img src="bases-html/../images/commencer-avec-html/exemple5-element-bloc.png" alt="exemple5-element-bloc" /></p>
+<!-- new slide -->
+<!-- layout : Code html image  -->
+<pre><code class="language-html">&lt;p&gt;paragraphe 1&lt;/p&gt;&lt;em&gt;phrase1&lt;/em&gt;
+</code></pre>
+<p><img src="bases-html/../images/commencer-avec-html/exemple5-element-bloc-2.png" alt="exemple5-bloc-vs-ligne" /></p>
+<!-- note -->
+<p>Les éléments de niveau de bloc sont souvent des éléments structurels de la page et représentent, par exemple, des paragraphes, des listes, des menus de navigation, des pieds de page, etc. </p>
+<!-- end note -->
+<h2 id="Éléments-en-ligne"><a class="header" href="#Éléments-en-ligne">Éléments en ligne</a></h2>
+<!-- layout : Code html image  -->
+<!-- note -->
+<p>Les éléments en ligne entourent seulement des petites parties du contenu du document et il n'entroune par un element bloc. Un élément en ligne ne fait pas apparaître une nouvelle ligne dans le document. </p>
+<p>Prenez l'exemple suivant :</p>
+<!-- end note -->
+<pre><code class="language-html">&lt;em&gt;phrase 1&lt;/em&gt;&lt;em&gt;phrase 2&lt;/em&gt;
+</code></pre>
+<p><img src="bases-html/../images/commencer-avec-html/exemple5-element-ligne.png" alt="exemple5-element-ligne" /></p>
+<!-- note -->
+<p><code>&lt;em&gt;</code> est un élément en ligne et, comme vous pouvez le voir ci-dessous, les éléments s'affichent sur la même ligne sans qu'il n'y ait d'espace entre eux. </p>
+<!-- end note -->
+<h2 id="conclusion-2"><a class="header" href="#conclusion-2">Conclusion</a></h2>
+<p>Voilà tous, pour cette session de formation. Je vous ai montrer la différence entre un élément de type bloc et en ligne.</p>
+<h1 id="métadonnées-en-html"><a class="header" href="#métadonnées-en-html">Métadonnées en HTML</a></h1>
+<p>L'en-tête <strong>head</strong> dans un document HTML est une partie du document qui n'est pas affichée par le navigateur au chargement de la page. Elle contient des informations comme le titre (<code>&lt;title&gt;</code>) de la page, des liens aux CSS (si vous souhaitez composer le contenu HTML avec des CSS), des liens aux favicons personnalisés et d'autres méta-données (auteur du document, mots-clés décrivant le document, etc.). </p>
+<p>Cette session porte sur tout ceci et plus, pour vous donner de bonnes bases pour gérer les balises et le code qui devraient figurer dans l'en-tête de la page.</p>
+<h2 id="objectifs"><a class="header" href="#objectifs">Objectifs</a></h2>
+<p>Les objectifs sont les suivant : </p>
+<ul>
+<li>En savoir plus sur la balise <head> du HTML, </li>
+<li>son objet, </li>
+<li>les éléments les plus importants qu'elle peut contenir </li>
+<li>et l'effet qu'elle peut avoir sur le document HTML.</li>
+</ul>
+<h2 id="quest-ce-que-len-tête-de-html-"><a class="header" href="#quest-ce-que-len-tête-de-html-">Qu'est-ce que l'en-tête de HTML ?</a></h2>
+<p>Revoyons le document HTML de notre exemple : </p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page test&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Voici ma page&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Le contenu de l'en-tête HTML <code>&lt;head&gt;</code> — à la difference du contenu de l'élément <code>&lt;body&gt;</code> (affiché quand la page est chargée par le navigateur) — n'est pas affiché dans la page du navigateur. Le travail de la balise <code>&lt;head&gt;</code> est de contenir les métadonnées à propos du document. Dans notre exemple l'en-tête est plutôt petit :</p>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page test&lt;/title&gt;
+&lt;/head&gt;
+</code></pre>
+<p>Toutefois dans les pages plus importantes, l'en-tête peut contenir un grand nombre d'éléments — essayez d'aller sur certains de vos sites web préférés et utilisez les outils de développement pour vérifier le contenu de l'en-tête. Mon objectif ici n'est pas de vous montrer comment utiliser tout ce qui peut être mis dans l'élément <code>&lt;head&gt;</code>, mais plutôt de vous apprendre à utiliser les outils les plus évidents, que vous souhaiterez inclure dans l'en-tête, et vous les rendre plus familiers. Commençons.</p>
+<h2 id="ajouter-un-titre"><a class="header" href="#ajouter-un-titre">Ajouter un titre</a></h2>
+<p>Nous avons déjà vu l'élément <code>&lt;title&gt;</code> — qui peut être utilisé pour ajouter un intitulé au document. Il peut toutefois être confondu avec l'élément <code>&lt;h1&gt;</code>, pour ajouter un en‑tête de haut niveau au contenu de votre page dans l'élément <code>&lt;body&gt;</code> — quelquefois désigné comme étant le « titre de la page ». Mais ce sont des choses différentes !</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page de test&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Element h1&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<ul>
+<li>L'élément <code>&lt;h1&gt;</code> apparaît dans la page quand elle est chargée dans le navigateur — généralement, il devrait être utilisé une fois par page, pour marquer le titre du contenu de votre page (le titre d'une histoire, ou d'une actualité, ou tout ce qui vous paraît approprié).</li>
+<li>L'élément <code>&lt;title&gt;</code> est une métadonnée qui représente l'intitulé du document HTML global (non le contenu du document).</li>
+</ul>
+<h2 id="pratique---ajouter-un-titre"><a class="header" href="#pratique---ajouter-un-titre">Pratique - Ajouter un titre</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bases-html/../images/prof/explication-pratique.png" alt="Explication pratique" /></p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Ma page de test&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Element h1&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Le contenu de l'élément <code>&lt;title&gt;</code> est aussi utilisé de manières différentes . Par exemple, si vous tentez de marquer cette page dans vos Marques-pages ( Marques-pages &gt; Marquer cette page ou bien l'étoile dans la barre d'outils de Firefox), vous verrez que le contenu de <code>&lt;title&gt;</code> est suggéré comme nom pour le marque-page.</p>
+<p>Le contenu de <code>&lt;title&gt;</code> est aussi utilisé dans les résultats de recherches, comme vous le verrez ci‑dessous</p>
+<h2 id="métadonnées--lélément-meta"><a class="header" href="#métadonnées--lélément-meta">Métadonnées : l'élément meta</a></h2>
+<p>Les métadonnées sont des données qui décrivent des données, et le langage HTML a une manière « officielle » d'ajouter des métadonnées à un document — l'élément <code>&lt;meta&gt;</code>. Bien sûr, d'autres choses, dont nous parlons dans cette session, pourraient aussi être considérées comme des métadonnées. Il y a une panoplie d'autres éléments de type <code>&lt;meta&gt;</code> qui auraient pu figurer dans l'en-tête de votre page, mais nous n'en parlerons pas pour l'instant, car ce serait trop déroutant. À la place, nous expliquerons quelques éléments que vous pourriez voir, juste pour vous donner une idée.</p>
+<h2 id="définition-de-lencodage-des-caractères-du-document"><a class="header" href="#définition-de-lencodage-des-caractères-du-document">Définition de l'encodage des caractères du document</a></h2>
+<p>Dans l'exemple que nous avons vu, cette ligne était présente :</p>
+<pre><code class="language-html">&lt;meta charset=&quot;utf-8&quot;&gt;
+</code></pre>
+<p>Cet élément définit l'encodage des caractères du document - le jeu de caractères qu'il est autorisé à utiliser. <strong>utf-8</strong> est un jeu de caractères universel qui inclut à peu près tous les caractères des langues humaines. Cela signifie que votre page web sera capable de gérer l'affichage de n'importe quelle langue ; c'est donc une bonne idée de le définir dans chaque page web que vous créez ! Par exemple, votre page peut gérer le français et le l'arabe sans aucun souci :</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;C'est quoi un ordinateur&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Ordinateur&lt;/h1&gt;
+    &lt;p&gt;En français : ordinateur&lt;/p&gt;
+    &lt;p&gt;En arabe : حاسوب&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p><img src="bases-html/../images/bases-html/m%C3%A9tadonn%C3%A9es/exemple-encodage.png" alt="alt" /></p>
+<blockquote>
+<p>Note : Certains navigateurs (par ex. Chrome) corrigent automatiquement les encodages  incorrects, ainsi selon le navigateur utilisé, ce problème pourrait vous passer totalement inaperçu. Vous devriez quand même définir un encodage utf-8 sur votre page de toutes façons pour éviter tout problème potentiel avec d'autres navigateurs.</p>
+</blockquote>
+<p>Si vous définissez votre encodage de caractères en <strong>ISO-8859-1</strong> , par exemple (le jeu de caractères de l'alphabet latin), le rendu de votre page sera totalement perturbé :</p>
+<p><img src="bases-html/../images/bases-html/m%C3%A9tadonn%C3%A9es/exemple2-encodage.png" alt="alt" /></p>
+<h2 id="pratique---encodage-des-caractères"><a class="header" href="#pratique---encodage-des-caractères">Pratique - encodage des caractères</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bases-html/../images/prof/explication-pratique.png" alt="Explication pratique" /></p>
+<h2 id="ajouter--le-nom-de-lauteur-et-une-description"><a class="header" href="#ajouter--le-nom-de-lauteur-et-une-description">Ajouter  le nom de l'auteur et une description</a></h2>
+<p>De nombreux éléments <code>&lt;meta&gt;</code> contiennent les attributs <strong>name</strong> et <strong>content</strong> :</p>
+<ul>
+<li><strong>name</strong> définit le type de méta élément ; le type d'informations  contenu.</li>
+<li><strong>content</strong> définit le contenu réel de la métadonnée.</li>
+</ul>
+<p>Il est utile d'inclure ces deux méta-éléments dans votre page pour définir son auteur et donner une courte description de son contenu. Voyons un exemple :</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Informatique&lt;/title&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;ESSARRAJ Fouad&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Introduction à l'informatique.&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Préciser l'auteur peut être intéressant dans certains cas : il est utile de savoir qui a écrit la page pour le contacter et lui poser des questions à propos du contenu.</p>
+<p>Définir une description qui incorpore des mots-clés relatifs au contenu de la page est utile ; votre page pourra ainsi apparaître plus haut dans la liste de recherches par pertinence créée par un moteur de recherche (ce processus se nomme Search Engine Optimization ou <strong>SEO</strong> — optimisation du moteur de recherche.)</p>
+<h2 id="pratique---encodage-des-caractères-1"><a class="header" href="#pratique---encodage-des-caractères-1">Pratique - encodage des caractères</a></h2>
+<!-- g layout : t 12-8 p-30 -->
+<p><img src="bases-html/../images/prof/explication-pratique.png" alt="Explication pratique" /></p>
+<ul>
+<li>voir l'impact du l'insertion d'un élément meta de type description, dans les résultats de recherche sur google.com</li>
+</ul>
+<h2 id="ajouter-des-icônes-personnalisées-à-un-site"><a class="header" href="#ajouter-des-icônes-personnalisées-à-un-site">Ajouter des icônes personnalisées à un site</a></h2>
+<p>Pour enrichir davantage le design de votre site, vous pouvez ajouter des références à des icônes personnalisées dans vos métadonnées et celles-ci seront affichées dans certains contextes.</p>
+<p>La petite favicône, qui existe depuis de nombreuses années, a été la première icône de ce type, une icône de 16 x 16 pixels utilisée dans de multiples endroits. Vous verrez des favicônes affichés dans chaque onglet du navigateur pour chaque page ouverte et à côté des pages marquées dans le panneau des signets.</p>
+<p>Une favicône peut être ajoutée à votre page de la façon suivante :</p>
+<ul>
+<li>Enregistrez-la dans le même répertoire que la page d'index du site, sous le format .ico (la plupart des navigateurs prendront en charge les favicônes dans des formats plus communs comme .gif ou .png, mais utiliser le format ICO assurera son fonctionnement  depuis Internet Explorer 6.)</li>
+<li>Ajoutez la ligne suivante dans votre <code>&lt;head&gt;</code> du HTML pour la référencer </li>
+</ul>
+<pre><code class="language-html">&lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot;&gt;
+</code></pre>
+<p>Voici un exemple de favicône dans un panneau de favoris :</p>
+<h2 id="définition-de-la-langue-principale-du-document"><a class="header" href="#définition-de-la-langue-principale-du-document">Définition de la langue principale du document</a></h2>
+<p>Enfin, il convient de mentionner que vous pouvez (et devrez vraiment) définir la langue de votre page. Cela peut être fait en ajoutant l'attribut lang à la balise ouvrante HTML.</p>
+<pre><code class="language-html">&lt;html lang=&quot;fr&quot;&gt;
+</code></pre>
+<p>Ceci est utile de plusieurs façons. Votre document sera indexé plus efficacement par les moteurs de recherche si son langage est défini (ce qui lui permet d'apparaître correctement dans les résultats spécifiques à la langue, par exemple).</p>
+<h2 id="résumé-4"><a class="header" href="#résumé-4">Résumé</a></h2>
+<p>Cela marque la fin de notre tour rapide de l'en-tête HTML — il y a beaucoup plus de possibilités ici, mais un panorama exhaustif serait ennuyeux et susceptible de vous embrouiller à ce stade, nous voulions simplement vous donner une idée des éléments les plus courants. Dans la session suivant, nous allons étudier ...</p>
+<h1 id="commentaires-en-html"><a class="header" href="#commentaires-en-html">Commentaires en HTML</a></h1>
+<p>En HTML, comme pour la plupart des langages de programmation, il existe un mécanisme permettant d'écrire des commentaires dans le code. Les commentaires sont ignorés par le navigateur et invisibles à l'utilisateur. Leur but est de permettre d'inclure des commentaires dans le code pour dire comment il fonctionne, que font les diverses  parties du code, etc. Cela peut s'avérer très utile si vous revenez à un codage que vous n'avez pas travaillé depuis 6 mois et que vous ne pouvez pas vous rappeler ce que vous avez fait — ou si vous donnez votre code à quelqu'un d'autre pour qu'il y travaille.</p>
+<p>Pour transformer une section de contenu dans votre fichier HTML en commentaire, vous devez la mettre dans les marqueurs spéciaux <code>&lt;!-- et--&gt;</code>, par exemple :</p>
+<pre><code class="language-html">&lt;p&gt;Je ne suis pas dans un commentaire&lt;/p&gt;
+&lt;!-- &lt;p&gt;Je suis dans un commmentaire!&lt;/p&gt; --&gt;
+</code></pre>
+<p>Comme vous pouvez le voir ci-dessous, le premier paragraphe apparaît dans le rendu de l'éditeur en ligne, mais le second n'apparaît pas.</p>
+<p><img src="bases-html/../images/bases-html/commentaires/exemple-commentaire.png" alt="Commentaires en HTML" /></p>
+<h1 id="résumé-5"><a class="header" href="#résumé-5">Résumé</a></h1>
+<p>Vous avez atteint la fin de cette partie. J'espére que vous avez apprécié de faire le tour des bases du HTML ! </p>
+<p>À ce stade, vous devez comprendre à quoi ce langage ressemble, comment il fonctionne à un niveau de base, et être en mesure d'écrire quelques éléments et attributs. </p>
+<p>C'est parfait pour le moment, car dans les sessions suivants, nous allons approfondir certaines des choses que vous venez de voir, et introduire de nouveaux aspects du langage. Restez à l'écoute !</p>
+<h1 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h1>
+<p>L'un des principaux buts de HTML est de structurer du texte et lui donner du sens (ce que l'on appelle la sémantique) afin que le navigateur puisse l'afficher correctement. Cet article explique comment HTML peut être utilisé pour structurer une page en ajoutant des titres et des paragraphes, en marquant des emphases, en créant des listes, et bien plus encore.</p>
+<h2 id="objectif"><a class="header" href="#objectif">Objectif</a></h2>
+<p>Apprendre comment ajouter des balises dans une page de texte simple pour la structurer et lui donner du sens — en incluant </p>
+<ul>
+<li>des paragraphes, </li>
+<li>des titres, </li>
+<li>des listes, </li>
+<li>des emphases </li>
+<li>et des citations.</li>
+</ul>
+<h1 id="les-bases--titres-et-paragraphes"><a class="header" href="#les-bases--titres-et-paragraphes">Les bases : titres et paragraphes</a></h1>
+<!-- new slide -->
+<p>La plupart <code>&lt;h1&gt;</code> des textes structurés comprennent des titres et des paragraphes, que ce soit dans les romans, les journaux, les livres scolaires, les magazines, etc.</p>
+<p><img src="texte/../images/image.png" alt="Exemple d'un texte structurée en titre et paragraphe" /></p>
+<p>Le contenu structuré facilite la lecture et la rend plus agréable.</p>
+<p>En HTML, les paragraphes doivent être contenus dans un élément <code>&lt;p&gt;</code>, comme ceci :</p>
+<pre><code class="language-html">&lt;p&gt;Je suis un paragraphe.&lt;/p&gt;
+</code></pre>
+<p>Chaque titre doit être contenu dans un élément titre :</p>
+<pre><code class="language-html">&lt;h1&gt;Je suis le titre de l'article.&lt;/h1&gt;
+</code></pre>
+<p>Il y a 6 éléments de titre — <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, et <code>&lt;h6&gt;</code>. Chaque élément représente un niveau de titre différent par exemple : </p>
+<ul>
+<li><code>&lt;h1&gt;</code> représente le titre principal, </li>
+<li><code>&lt;h2&gt;</code> représente un sous-titre, </li>
+<li><code>&lt;h3&gt;</code> représente un sous-sous-titre, </li>
+<li>et ainsi de suite jusqu'au niveau de titre le plus bas qui correspond à <code>&lt;h6&gt;</code>.</li>
+</ul>
+<h2 id="implémentation-de-la-hiérarchie-structurale"><a class="header" href="#implémentation-de-la-hiérarchie-structurale">Implémentation de la hiérarchie structurale</a></h2>
+<p>Dans une histoire, la balise <h1> représenterait le titre de l'histoire, les balises <h2> représenteraient les titres des chapitres, les balises <h3> les sous-sections des chapitres, en poursuivant ainsi jusqu'à la balise <h6>.</p>
+<pre><code class="language-html">&lt;h1&gt;L'ennui mortel&lt;/h1&gt;
+&lt;p&gt;par Chris Mills&lt;/p&gt;
+&lt;h2&gt;Chapitre I : La nuit noire&lt;/h2&gt;
+&lt;p&gt;Il faisait nuit noire. Quelque part une chouette ululait. La pluie tombait sur ...&lt;/p&gt;
+&lt;h2&gt;Chapitre II : Le silence éternel&lt;/h2&gt;
+&lt;p&gt;Notre protagoniste ne pouvait même pas murmurer à l'ombre de la silhouette...&lt;/p&gt;
+&lt;h3&gt;Le spectre parle&lt;/h3&gt;
+&lt;p&gt;Plusieurs heures s'étaient écoulées, quand soudain le spectre assis se releva et s'exclama : « S'il vous plaît, ayez pitié de mon âme ! »...&lt;/p&gt;
+</code></pre>
+<p>C'est vous qui décidez ce que représentent les éléments utilisés tant que la hiérarchie a du sens. Vous devez cependant garder à l'esprit quelques bonnes pratiques lorsque vous créez de telles structures :</p>
+<p>Il est préférable de n'utiliser qu'un seul <h1> par page — c'est le niveau principal, et tous les autres devraient être de niveau inférieur.
+Assurez-vous d'utiliser les balise de titre dans l'ordre correct et logique : <h1> puis <h2>, puis <h3> et ainsi de suite.
+Bien qu'il y ait 6 niveaux de titre (de <h1> à <h6>), Il est déconseillé d'utiliser plus de trois niveaux dans une page. Les documents avec beaucoup de niveaux deviennent complexes et difficiles à parcourir. Dans ce cas, il est préférable de partager le contenu sur plusieurs pages.</p>
+<h2 id="pourquoi--faut-il-structurer-un-document-"><a class="header" href="#pourquoi--faut-il-structurer-un-document-">Pourquoi  faut-il structurer un document ?</a></h2>
+<p>Pour répondre à cette question, regardons la page text-start.html — le point de départ de l'exemple que nous allons utiliser dans cet article (une recette). Enregistrez une copie de ce fichier sur votre ordinateur car vous en aurez besoin pour les exercices qui vont suivre. Le corps de ce document contient plusieurs parties sans aucune balise ; elles sont seulement séparées par des retours chariots (obtenus en pressant la touche <strong>Entrée</strong> ou ⏎)</p>
+<p>Cependant, si l'on ouvre ce document dans un navigateur, il sera affiché sous forme d'un gros bloc de texte !</p>
+<p><img src="texte/../images/image.png" alt="Affichage d'un texte sans structuration" /></p>
+<p>Ceci est dû au fait qu'il n'y a aucun élément indiquant la structure du contenu, et donc le navigateur ne sait pas différencier ce qui est un titre d'un paragraphe. De plus :</p>
+<ul>
+<li>Les visiteurs d'une page web la parcourent pour trouver le contenu pertinent. Par conséquent, ils ne lisent souvent que les titres (généralement nous ne passons que très peu de temps sur une page web). S'ils ne trouvent pas le contenu souhaité en quelques secondes, ils seront probablement déçus et chercheront l'information souhaitée ailleurs.</li>
+<li>Les moteurs de recherche, lorsqu'ils indexent votre page, prennent en considération les titres en tant que mots‑clés ce qui influe sur le classement de la page lors d'une recherche. Sans titre, une page aura un faible référencement (SEO (Search Engine Optimization).</li>
+<li>Les personnes malvoyantes ne pouvant lire votre page peuvent utiliser des lecteurs d'écran. Ces logiciels permettent d'accéder rapidement à une partie du texte. Pour cela, ils lisent les titres de votre document aux utilisateurs, leur permettant ainsi de trouver rapidement l'information dont ils ont besoin. Si les titres ne sont pas disponibles, les lecteurs d'écran lisent tout le document, le rendant peu accessible aux personnes avec un handicap visuel.</li>
+<li>Pour composer un style de contenu avec le CSS ou réaliser des choses intéressantes avec le JavaScript, vous devez avoir des éléments enveloppant les contenus pertinents, ce qui permet ensuite de les cibler avec CSS/JavaScript.</li>
+</ul>
+<p>Il est donc nécessaire d'ajouter des balises de structuration du contenu.</p>
+<h2 id="pratique--structurer-le-contenu"><a class="header" href="#pratique--structurer-le-contenu">Pratique : structurer le contenu</a></h2>
+<h2 id="pourquoi-a-t-on-besoin-de-sémantique-"><a class="header" href="#pourquoi-a-t-on-besoin-de-sémantique-">Pourquoi a-t-on besoin de sémantique ?</a></h2>
+<p>La sémantique est utilisée partout autour de nous — on se fie à nos précédentes experiences pour savoir à quoi servent les objets du quotidien; quand on voit quelque chose, on sait à quoi cela sert. Par exemple, on s'attend à ce qu'un feu rouge de signalisation signifie « Stop » et qu'un feu vert signifie « Avancez ». Les choses peuvent vite devenir plus compliquées si de mauvaises sémantiques sont appliquées (existe-t-il un pays dans lequel un feu rouge signifie que l'on peut passer ? Je ne l'espère pas.)</p>
+<p>Dans la même optique, il faut s'assurer que l'on utilise les bons élements et que l'on donne la bonne signification, la bonne fonction et la bonne apparence à notre contenu. Dans ce contexte, l'élément <h1> est aussi un élement sémantique. Il donne au texte auquel il s'applique la fonction (ou la signification) de « titre principal de la page ».</p>
+<pre><code class="language-html">&lt;h1&gt;Ceci est un titre principal&lt;/h1&gt;
+````html
+
+Par défaut, le navigateur l'affiche avec une police de caractères de grande taille pour qu'il ait l'apparence d'un titre (même si vous pourriez lui donner l'apparence de n'importe quel élément avec le CSS). Plus important encore, sa valeur sémantique est utilisée de différentes manières, notamment par les moteurs de recherche ou les lecteurs d'écran (comme expliqué plus haut).
+
+D'autre part, vous pouvez faire ressembler n'importe quel élément à un titre principal. Par exemple :
+
+````html
+&lt;span style=&quot;font-size: 32px; margin: 21px 0;&quot;&gt;Est-ce un titre principal?&lt;/span&gt;
+Copy to Clipboard
+</code></pre>
+<p>C'est un élément <span>. Il n'a pas de valeur sémantique. Il s'utilise autour d'un contenu auquel vous souhaitez appliquer un style CSS (ou le modifier avec du JavaScript) sans lui donner une signification supplémentaire (vous en apprendrez plus à ce propos plus loin dans ce cours). Nous lui avons appliqué du CSS pour qu'il ressemble à un titre principal, mais comme il n'a pas de valeur sémantique, il ne bénéficie d'aucune des valeurs sémantiques décrites plus haut. Il est conseillé d'utiliser des éléments HTML adaptés à leur rôle.</p>
+<h1 id="listes"><a class="header" href="#listes">Listes</a></h1>
+<p>Intéressons-nous maintenant aux listes. Il y a des listes partout dans la vie — de la liste de courses à la liste de directions que vous suivez inconsciemment pour rentrer chez vous tous les jours,  sans oublier la liste des instructions que vous suivez dans ce tutoriel ! Les listes sont aussi très répandues sur le Web, nous allons nous intéresser aux trois différents types de liste.</p>
+<h2 id="listes-non-ordonnées"><a class="header" href="#listes-non-ordonnées">Listes non-ordonnées</a></h2>
+<p>Les listes non-ordonnées sont utilisées pour représenter des listes d'éléments pour lesquelles l'ordre n'a pas d'importance. Prenons par exemple une liste de courses :</p>
+<pre><code class="language-html">lait
+œufs
+pain
+</code></pre>
+<p>Les listes non-ordonnées débutent par un élément <code>&lt;ul&gt;</code> (unorderd list) qui enveloppe tous les éléments de la liste:</p>
+<pre><code class="language-html">&lt;ul&gt;
+lait
+œufs
+pain
+&lt;/ul&gt;
+</code></pre>
+<p>Chaque item est contenu dans un élément <li> (list item):</p>
+<pre><code class="language-html">&lt;ul&gt;
+  &lt;li&gt;lait&lt;/li&gt;
+  &lt;li&gt;œufs&lt;/li&gt;
+  &lt;li&gt;pain&lt;/li&gt;
+  &lt;li&gt;houmous&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<h2 id="pratique---liste-non-ordonnées"><a class="header" href="#pratique---liste-non-ordonnées">Pratique - liste non-ordonnées</a></h2>
+<h2 id="listes-ordonnées"><a class="header" href="#listes-ordonnées">Listes ordonnées</a></h2>
+<p>Les listes ordonnées permettent de représenter des listes dans lesquelles l'ordre des éléments a de l'importance — prenons par exemple une série de directions à suivre:</p>
+<pre><code class="language-html">Roulez jusqu'au bout de la route
+Tournez à droite
+Allez tout droit aux deux premiers ronds-points
+Tournez à gauche au troisième rond-point
+Roulez sur 300 mètres, l'école est sur votre droite
+</code></pre>
+<p>Les balises suivent la même structure que pour les listes ordonnées, à cela près que la liste est contenue dans l'élément <ol> (ordered list), et non dans <ul>:</p>
+<pre><code class="language-html">&lt;ol&gt;
+  &lt;li&gt;Roulez jusqu'au bout de la route&lt;/li&gt;
+  &lt;li&gt;Tournez à droite&lt;/li&gt;
+  &lt;li&gt;Allez tout droit aux deux premiers ronds-points&lt;/li&gt;
+  &lt;li&gt;Tournez à gauche au troisième rond-point&lt;/li&gt;
+  &lt;li&gt;Roulez sur 300 mètres, l'école est sur votre droite&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<h2 id="pratique---recette-de-cuisine"><a class="header" href="#pratique---recette-de-cuisine">Pratique - Recette de cuisine</a></h2>
+<pre><code class="language-html">
+&lt;h1&gt;Recette rapide de l'houmous&lt;/h1&gt;
+
+&lt;p&gt;Cette .&lt;/p&gt;
+
+&lt;p&gt;L'houmous &lt;/p&gt;
+
+&lt;h2&gt;Ingrédients&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 boîte (400 g) de pois chiches (garbanzos)&lt;/li&gt;
+&lt;li&gt;175g de crème de sésame&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ôter la peau de l'ail et le hacher grossièrement.&lt;/li&gt;
+&lt;li&gt;Enlever les graines et la tige du poivron, le hacher grossièrement.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Pour des saveurs diqui vous va.&lt;/p&gt;
+
+&lt;h2&gt;Conservation&lt;/h2&gt;
+
+&lt;p&gt;Mete. S'il se met à fermenter, jettez‑le sans hésiter.&lt;/p&gt;
+
+</code></pre>
+<h2 id="imbriquer-des-listes"><a class="header" href="#imbriquer-des-listes">Imbriquer des listes</a></h2>
+<p>Il est parfaitement possible d'imbriquer une liste dans une autre. Il se peut que vous vouliez insérer une liste à puces derrière une même puce de niveau supérieur. Prenons par exemple la deuxième liste de la recette :</p>
+<pre><code class="language-html">&lt;ol&gt;
+  &lt;li&gt;Ôter la peau de l'ail et le hacher grossièrement.&lt;/li&gt;
+  &lt;li&gt;Enlever les graines et la tige du poivron, le hacher grossièrement.&lt;/li&gt;
+  &lt;li&gt;Mettre tous les ingrédients dans un robot mixer jusqu'à l'obtention d'une pâte.&lt;/li&gt;
+  &lt;li&gt;Si vous voulez un houmous grenu, ne le mixez pas trop longtemps.&lt;/li&gt;
+  &lt;li&gt;Si vous voulez un houmous lisse, mixez-le plus longtemps.&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<p>Comme les deux dernières puces de la liste sont très liées à celle qui les précède (elles semblent être des sous-instructions ou des choix correspondant à cette puce), il peut être judicieux de les regrouper dans une même liste non-ordonnée, et placer cette liste dans le quatrième item. Cela ressemblerait alors à ceci :</p>
+<pre><code class="language-html">&lt;ol&gt;
+  &lt;li&gt;Ôter la peau de l'ail et le hacher grossièrement.&lt;/li&gt;
+  &lt;li&gt;Enlever les graines et la tige du poivron, le hacher grossièrement.&lt;/li&gt;
+  &lt;li&gt;Mettre tous les ingrédients dans un robot mixer jusqu'à l'obtention d'une pâte.
+    &lt;ul&gt;
+      &lt;li&gt;Si vous voulez un houmous grenu, ne le mixez pas trop longtemps.&lt;/li&gt;
+      &lt;li&gt;Si vous voulez un houmous lisse, mixez-le plus longtemps.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<p>N'hésitez pas à revenir au dernier TP pour modifier vous même la liste correspondante dans la recette.</p>
+<h1 id="soulignement-et-importance"><a class="header" href="#soulignement-et-importance">Soulignement et importance</a></h1>
+<p>Dans le langage, nous mettons souvent l'accent sur certains mots pour modifier le sens d'une phrase et pour marquer certains mots comme étant importants ou différents d'une manière ou d'une autre. HTML fournit divers éléments de sémantique pour nous permettre de marquer un contenu textuel avec de tels effets. Dans cette section, nous examinerons quelques-uns des plus courants.</p>
+<h2 id="emphase"><a class="header" href="#emphase">Emphase</a></h2>
+<p>Dans le langage parlé, pour accentuer, nous insistons sur certains mots, modifiant subtilement le sens de ce que nous disons. De même, dans le langage écrit, nous avons tendance à mettre un certain accent sur des mots en les écrivant en italique. Par exemple, les deux phrases suivantes ont des significations différentes.</p>
+<blockquote>
+<p>« Je suis content que vous n'ayez pas été en retard. »</p>
+</blockquote>
+<blockquote>
+<p>« Je suis content que vous n'ayez pas été <em>en retard.</em> »</p>
+</blockquote>
+<p>La première phrase semble indiquer que le locuteur est vraiment soulagé que la personne n'aie pas été en retard. En revanche, la seconde a une tonalité sarcastique ou passive-agressive, exprimant la gêne que la personne soit arrivée un peu en retard.</p>
+<p>En HTML, nous utilisons l'élément <code>&lt;em&gt;</code> (emphase) pour marquer ces circonstances. Outre rendre le document plus intéressant à lire, ces marqueurs sont reconnus par les lecteurs d'écran et exprimés sur un ton de voix différent. Les navigateurs utilisent l'italique par défaut, mais il ne faut pas utiliser cette balise pour mettre en italique. Pour cela, utilisez un élément <code>&lt;span&gt;</code> et du CSS, ou plus simplement un élément <code>&lt;i&gt;</code> (voir ci-dessous).</p>
+<pre><code class="language-html">&lt;p&gt;Je suis &lt;em&gt;content&lt;/em&gt; que vous n'ayez pas été &lt;em&gt;en retard&lt;/em&gt;.&lt;/p&gt;
+</code></pre>
+<h2 id="grande-importance"><a class="header" href="#grande-importance">Grande importance</a></h2>
+<p>Pour mettre l'accent sur des mots très importants, nous les soulignons d'un ton particulier dans la langue parlée et nous les mettons en caractères gras dans la langue écrite. Par exemple :</p>
+<blockquote>
+<p>Ce liquide est hautement toxique.</p>
+</blockquote>
+<blockquote>
+<p>Je compte sur vous. Ne soyez pas en retard !</p>
+</blockquote>
+<p>En HTML, nous utilisons l'élément <code>&lt;strong&gt;</code> (forte importance) comme balise de telles circonstances. En plus de rendre le document plus lisible, ces balises sont reconnues par les lecteurs d'écran et énoncées avec des intonations différentes. Par défaut, les navigateurs mettent le texte marqué en gras, mais il ne faut pas utiliser cette balise pour mettre en gras. Pour cela, utilisez un élément <code>&lt;span&gt;</code>} et du CSS, ou plus simplement un élément <code>&lt;b&gt;</code> (voir ci-dessous).</p>
+<pre><code class="language-html">&lt;p&gt;Ce liquide est &lt;strong&gt;hautement toxique&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je compte sur vous. &lt;strong&gt;Ne soyez pas en retard&lt;/strong&gt; !&lt;/p&gt;
+</code></pre>
+<p>Il est possible d'imbriquer strong et em :</p>
+<pre><code class="language-html">&lt;p&gt;Ce liquide est &lt;strong&gt;hautement toxique&lt;/strong&gt; —
+si vous en buvez, &lt;strong&gt;vous pourriez en &lt;em&gt;mourir&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+</code></pre>
+<h2 id="pratique---emphase-et-importance"><a class="header" href="#pratique---emphase-et-importance">Pratique - Emphase et importance</a></h2>
+<h2 id="italique-gras-soulignement"><a class="header" href="#italique-gras-soulignement">Italique, gras, soulignement…</a></h2>
+<p>Les éléments dont nous avons discuté jusqu'à présent ont une sémantique bien définie. La situation avec <b>, <i> et <u> est un peu plus complexe. Ils sont apparus pour que les personnes puissent écrire du texte en gras, en italique ou souligné à une époque où le CSS était encore mal ou pas du tout pris en charge. De tels éléments, qui n'affectent que la présentation et non la sémantique, sont appelés éléments de présentation et ne devraient plus être utilisés, car comme nous l'avons vu précédemment, la sémantique a la plus grande importance pour l'accessibilité, le référencement, etc.</p>
+<pre><code class="language-html">
+&lt;!-- noms scientifiques --&gt;
+&lt;p&gt;
+  Le colibri à gorge rouge (&lt;i&gt;Archilochus colubris&lt;/i&gt;)
+  est le colibri le plus courant dans l'ouest de l'Amérique du Nord.
+&lt;/p&gt;
+
+&lt;!-- mots dans une langue étrangère --&gt;
+&lt;p&gt;
+  Le menu était un océan de mots exotiques comme &lt;i lang=&quot;uk-latn&quot;&gt;vatrushka&lt;/i&gt;,
+  &lt;i lang=&quot;id&quot;&gt;nasi goreng&lt;/i&gt; et &lt;i lang=&quot;en&quot;&gt;porridge&lt;/i&gt;.
+&lt;/p&gt;
+
+&lt;!-- une faute d'orthographe connue --&gt;
+&lt;p&gt;
+  Un jour, j'apprendrai comment mieux &lt;u style=&quot;text-decoration-line: underline; text-decoration-style: wavy;&quot;&gt;épeler&lt;/u&gt;.
+&lt;/p&gt;
+
+&lt;!-- Mettre en évidence les mots‑clés dans un ensemble d'instructions --&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;b&gt;Trancher&lt;/b&gt; deux morceaux de pain dans la miche.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;b&gt;Mettre&lt;/b&gt; une rondelle de tomate et une feuille de laitue
+    entre les deux tranches de pain.
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</code></pre>
+<h1 id="espace-et-caractères-spéciaux"><a class="header" href="#espace-et-caractères-spéciaux">Espace et caractères spéciaux</a></h1>
+<h2 id="objectifs-1"><a class="header" href="#objectifs-1">Objectifs</a></h2>
+<h2 id="espace-vide-en-html"><a class="header" href="#espace-vide-en-html">Espace vide en HTML</a></h2>
+<p>Dans les exemples que nous avons vu, vous avez peut-être remarqué que beaucoup d'espaces sont inclus dans le code — ce n'est pas nécessaire du tout. Les deux extraits de code suivants sont équivalents:</p>
+<pre><code class="language-html">&lt;p&gt;Les chiens sont idiots.&lt;/p&gt;
+
+&lt;p&gt;Les chiens        sont
+           idiots.&lt;/p&gt;
+</code></pre>
+<p>Peu importe la quantité d'espace que vous utilisez (pour inclure des espaces, ou aussi des sauts de ligne), l'analyseur HTML réduit chacun à un seul espace lors du rendu du code. Alors, pourquoi utiliser autant d'espace blanc? La réponse est la lisibilité — car il est tellement plus facile de comprendre ce qui se passe dans votre code si vous l'avez bien formaté, et non pas simplement l'écrire dans un grand désordre.</p>
+<h2 id="inclure-les-caractères-spéciaux-en-html"><a class="header" href="#inclure-les-caractères-spéciaux-en-html">Inclure les caractères spéciaux en HTML</a></h2>
+<p>En HTML, les caractères &lt;, &gt;,&quot;,' et &amp; sont des caractères spéciaux. Ils font partie de la syntaxe HTML elle-même, alors comment inclure un de ces caractères dans du texte, par exemple si vous voulez vraiment utiliser une esperluette(&amp;) ou un signe inférieur(&lt;), qui ne soit pas interpré en tant que code comme les navigateurs pourraient le faire ?</p>
+<p>Nous devons utiliser les références des caractères — codes spéciaux qui représentent des caractères et peuvent être utilisés dans ces circonstances exactes. Chaque référence de caractère est démarrée avec une esperluette (&amp;), et se termine par un point-virgule (;).</p>
+<table><thead><tr><th>Le caractère</th><th>Réference équivalent</th></tr></thead><tbody>
+<tr><td>&lt;</td><td><code>&amp;lt;</code></td></tr>
+<tr><td>&gt;</td><td><code>&amp;gt;</code></td></tr>
+<tr><td>&quot;</td><td><code>&amp;quot;</code></td></tr>
+<tr><td>'</td><td><code>&amp;apos;</code></td></tr>
+<tr><td>&amp;</td><td><code>&amp;amp;</code></td></tr>
+</tbody></table>
+<p>Dans l'exemple ci-dessous, voici deux paragraphes parlant de techniques Web :</p>
+<pre><code class="language-html">&lt;p&gt;En HTML, un paragraphe se définit avec l'élément &lt;p&gt;.&lt;/p&gt;
+
+&lt;p&gt;En HTML, un paragraphe se définit avec l'élément &amp;lt;p&amp;gt;.&lt;/p&gt;
+</code></pre>
+<p>Dans la zone de rendu en direct ci-dessous, vous pouvez voir que le premier paragraphe n'est pas correctement affiché : le navigateur interprète le second <p> comme le début d'un nouveau paragraphe ! Le deuxième paragraphe est bien affiché, car nous avons remplacé les  signes inférieur(&lt;)  et supérieur(&gt;) par leurs références de caractère.</p>
+<p><img src="bases-html/../images/bases-html/inclure-caract%C3%A8res-sp%C3%A9ciaux/exemple1.png" alt="Exemple Inclure les caractères spéciaux en HTML" /></p>
+<h2 id="résumé-6"><a class="header" href="#résumé-6">Résumé</a></h2>
+<h1 id="résumé-7"><a class="header" href="#résumé-7">Résumé</a></h1>
+<p>C'est tout pour l'instant ! Cet article doit vous avoir donné une bonne idée de la façon de commencer à baliser le texte en HTML et présenté les éléments les plus importants dans ce domaine. Il existe énormément d'autres éléments sémantiques à connaître dans ce domaine ; nous en verrons beaucoup plus dans notre article « More Semantic Elements », plus loin dans ce cours. Dans le prochain article, nous examinerons en détail comment créer des hyperliens, qui est peut-être l'élément le plus important sur le Web.</p>
+<h1 id="introduction-2"><a class="header" href="#introduction-2">Introduction</a></h1>
+<p>Les Hyperliens sont vraiment importants, ils sont ce qui fait du Web une toile. Cet article montre la syntaxe requise pour faire un lien et discute des bonnes pratiques pour les liens.</p>
+<h2 id="objectifs-2"><a class="header" href="#objectifs-2">Objectifs</a></h2>
+<p>Apprendre à implémenter un hyperlien efficacement, et à relier de multiples fichiers ensemble.</p>
+<h1 id="création-dhyperliens"><a class="header" href="#création-dhyperliens">Création d'hyperliens</a></h1>
+<h2 id="quest-ce-un-hyperlien-"><a class="header" href="#quest-ce-un-hyperlien-">Qu'est-ce un hyperlien ?</a></h2>
+<p>Les hyperliens sont l'une des plus passionnantes innovations que le web a à offrir. De fait, ils ont été une fonctionnalité du Web depuis le tout début, mais ils sont ce qui fait du Web une toile — ils nous permettent de lier nos documents à n'importe quel autre document (ou autre ressource) voulu ; nous pouvons faire des liens vers des parties précises de documents et rendre des applications disponibles à une simple adresse web (contrairement aux applications natives, qui doivent être installées et tout le travail). À peu près tout contenu web peut être converti en lien, de sorte que cliqué (ou activé autrement), il dirigera le navigateur vers une autre adresse web (URL).</p>
+<blockquote>
+<p>Note : Une URL peut pointer vers des fichiers HTML, des fichiers textes, des images, des documents textuels, des fichiers vidéo ou audio et tout ce qui peut exister sur le Web. Si le navigateur Web ne sait pas comment afficher ou gérer un fichier, il vous demande si vous voulez ouvrir le fichier (dans ce cas, la responsabilité de l'ouverture et de la gestion du fichier incombe à l'application native adéquate sur l'appareil) ou bien télécharger le fichier (auquel cas, vous pouvez essayer de vous en occuper plus tard).</p>
+</blockquote>
+<p>La page d'accueil de la BBC, par exemple, contient un nombre important de liens pour pointer, non seulement vers de multiples articles d'actualité, mais encore vers d'autres zones du site (fonctionnalité de navigation) , des pages d'inscription/de connexion (outils utilisateur) et plus encore.</p>
+<p><img src="lien-image/../images/image.png" alt="Exemple pages avec des liens" /></p>
+<h2 id="anatomie-dun-lien"><a class="header" href="#anatomie-dun-lien">Anatomie d'un lien</a></h2>
+<p>Un lien élémentaire se crée en intégrant le texte (ou tout autre contenu) que vous voulez transformer en lien dans un élément <a> et en lui affectant un attribut href (également connu comme étant une Hypertext Reference) contenant l'adresse web vers laquelle vous voulez que le lien pointe.</p>
+<pre><code class="language-html">&lt;p&gt;Je suis en train de créer un lien à
+&lt;a href=&quot;https://www.mozilla.org/fr/&quot;&gt;la page d'accueil Mozilla&lt;/a&gt;.
+&lt;/p&gt;
+</code></pre>
+<p>qui donne le résultat suivant : Je suis en train de créer un lien à la page d'accueil de Mozilla.</p>
+<h2 id="ajouter-des-informations-dassistance-avec-lattribut-title"><a class="header" href="#ajouter-des-informations-dassistance-avec-lattribut-title">Ajouter des informations d'assistance avec l'attribut title</a></h2>
+<p>L'autre attribut qu'il est possible d'ajouter à un lien est title ; il est destiné à contenir des informations utiles supplémentaires à propos du lien, comme le type d'informations contenes dans la page ou ce qu'il faut savoir. Par exemple :</p>
+<pre><code class="language-html">&lt;p&gt;Je suis en train de créer un lien à
+&lt;a href=&quot;https://www.mozilla.org/fr/&quot;
+   title=&quot;Le meilleur endroit pour trouver plus d'informations sur la
+  mission de Mozilla et la manière de contribuer&quot;&gt;la page d'accueil Mozilla&lt;/a&gt;.
+&lt;/p&gt;
+</code></pre>
+<p>Voici le résultat (le contenu de title apparaît dans une info-bulle quand le pointeur de souris passe sur le lien) :</p>
+<h2 id="pratique---création-dun-lien"><a class="header" href="#pratique---création-dun-lien">Pratique - création d'un lien</a></h2>
+<h2 id="liens-de-niveau-bloc"><a class="header" href="#liens-de-niveau-bloc">Liens de niveau bloc</a></h2>
+<p>Comme mentionné précédemment, vous pouvez transformer à peu près tout contenu en un lien, même des éléments bloc . Si vous avez une image que vous voulez transformer en lien, vous avez juste à mettre l'image entre les balises <a></a>.</p>
+<pre><code class="language-html">&lt;a href=&quot;https://www.mozilla.org/fr/&quot;&gt;
+  &lt;img src=&quot;mozilla-image.png&quot; alt=&quot;logo mozilla pointant sur la page d'accueil mozilla&quot;&gt;
+&lt;/a&gt;
+</code></pre>
+<blockquote>
+<p>Note : Nous vous donnerons beaucoup plus de détails sur l'utilisation d'images sur le Web dans un futur article.</p>
+</blockquote>
+<h2 id="fragments-de-documents"><a class="header" href="#fragments-de-documents">Fragments de documents</a></h2>
+<p>Il est possible de faire un lien vers une partie donnée d'un document HTML (désignée du terme fragment de document), plutôt que juste le haut du document. Pour ce faire, vous devrez d'abord assigner un attribut id à l'élément sur lequel vous voulez pointer. Il est généralement logique d'établir un lien vers une rubrique précise, ainsi cela ressemble à quelque chose comme :</p>
+<pre><code class="language-html">&lt;h2 id=&quot;Adresse_mailing&quot;&gt;Adresse de mailing&lt;/h2&gt;
+</code></pre>
+<p>Puis, pour faire un lien vers cet id précisément, il convient de l'indiquer à la fin de l'URL, précédé d'un croisillon (#) :</p>
+<pre><code class="language-html">&lt;p&gt;Vous voulez nous écrire une lettre ? Utilisez notre &lt;a href=&quot;contacts.html#Adresse_mailing&quot;&gt;adresse de contact&lt;/a&gt;.&lt;/p&gt;
+</code></pre>
+<p>Vous pouvez même utiliser une référence au fragment de document seul pour faire un lien vers une autre partie du même document :</p>
+<pre><code class="language-html">&lt;p&gt;Vous trouverez n l'&lt;a href=&quot;#Adresse_mailing&quot;&gt;adresse de mailing&lt;/a&gt; de notre société au
+</code></pre>
+<h2 id="meilleures-pratiques-de-liens"><a class="header" href="#meilleures-pratiques-de-liens">Meilleures pratiques de liens</a></h2>
+<p>Il y a quelques bonnes pratiques à suivre pour l'écriture de liens. Jetons-y un coup d'œil.</p>
+<h1 id="une-brève-présentation-des-url-et-des-chemins"><a class="header" href="#une-brève-présentation-des-url-et-des-chemins">Une brève présentation des URL et des chemins</a></h1>
+<p>Pour bien maîtriser les cibles des liens, vous avez besoin d'avoir compris ce que sont les URL et les chemins. Cette section vous donne les informations voulues pour y parvenir.</p>
+<p>Une URL, ou Uniform Resource Locator, est simplement une chaîne textuelle qui définit où se situe quelque chose sur le Web. Par exemple, la page d'accueil en anglais de Mozilla est située à l'adresse https://www.mozilla.org/en-US/.</p>
+<p>Les URL utilisent des chemins pour trouver des fichiers. Les chemins indiquent où dans le système de fichiers, se trouve celui qui vous intéresse. Regardons un exemple simple de structure de répertoires (voir le dossier creating-hyperlinks).</p>
+<p><img src="lien-image/../images/lien-image/url-chemin/dir-struct.png" alt="Structure des fichiers" /></p>
+<p>La racine de cette structure de répertoires s'appelle creating-hyperlinks. Quand vous travaillez localement sur un site web, vous avez un dossier contenant l'intégralité du site. Dans la racine, nous avons un fichier index.html et un contacts.html. Sur un site réel, index.html serait notre page d'accueil ou portail (page web servant de point d'entrée à un site web ou à une section particulière d'un site web).</p>
+<p>Il y a aussi deux répertoires dans la racine — pdfs et projects. Chacun d'eux comporte un seul fichier — respectivement un PDF (project-brief.pdf) et un fichier index.html. Notez que vous pouvez heureusement avoir deux fichiers index.html dans un projet, pour autant qu'ils se trouvent dans deux emplacements différents dans le système de fichiers. De nombreux sites web le font. Le second index.html peut être le portail des informations relatives au projet.</p>
+<p>Dans un même dossier : si vous voulez inclure un hyperlien dans index.html (celui de plus haut niveau) pointant vers contacts.html, il suffit d'indiquer uniquement le nom du fichier auquel vous voulez le lier, car il est dans le même répertoire que le fichier actuel. Ainsi, l'URL à utiliser est contacts.html :</p>
+<pre><code class="language-html">&lt;p&gt;Voulez‑vous rencontrer un membre du personnel en particulier ?
+Voyez comment faire sur notre page &lt;a href=&quot;contacts.html&quot;&gt;Contacts&lt;/a&gt;.&lt;/p&gt;
+</code></pre>
+<p>Descendre dans les sous-répertoires : si vous désirez inclure un hyperlien dans index.html (celui de plus haut niveau) pointant vers projects/index.html, vous avez besoin de descendre dans le dossierprojects avant d'indiquer le fichier auquel vous voulez vous lier. Cela se fait en indiquant le nom du dossier, suivi d'une barre oblique normale, puis le nom du fichier. Donc l'URL à utiliser sera projects/index.html :</p>
+<pre><code class="language-html">&lt;p&gt;Visitez la &lt;a href=&quot;projects/index.html&quot;&gt;page d'accueil&lt;/a&gt; de mon projet.&lt;/p&gt;
+</code></pre>
+<p>Monter dans les dossiers parents : si vous voulez inclure un hyperlien dans projects/index.html qui pointe vers pdfs/projects-brief.pdf, vous aurez besoin de monter dans le répertoire au niveau au‑dessus, puis de descendre dans le dossier pdfs. « Monter dans le répertoire au niveau au‑dessus » est indiqué avec deux points — .. —, de sorte que l'URL à utiliser sera ../pdfs/project‑brief.pdf :</p>
+<pre><code class="language-html">&lt;p&gt;Voici un lien vers mon &lt;a href=&quot;../pdfs/project-brief.pdf&quot;&gt;sommaire de projet&lt;/a&gt;.&lt;/p&gt;
+</code></pre>
+<blockquote>
+<p>Note : Vous pouvez combiner plusieurs instances de ces fonctionnalités dans des URL complexes si nécessaire, par ex. ../../../complexe/path/to/my/file.html.</p>
+</blockquote>
+<h2 id="url-absolue-vs-url-relative"><a class="header" href="#url-absolue-vs-url-relative">URL absolue vs. URL relative</a></h2>
+<p>Deux termes que vous rencontrerez sur le Web sont URL absolue et URL relative :</p>
+<p>URL absolue : pointe sur un emplacement défini de manière absolue sur le web, y compris en précisant le protocole et le nom de domaine. Ainsi par exemple, si une page index.html est téléversée dans le dossier nommé projects à la racine du serveur web, et que le domaine du site est http://www.example.com, la page sera accessible à l'adresse http://www.example.com/projects/index.html (ou même seulement http://www.example.com/projects/, du fait que la plupart des serveurs web cherchent pour le chargement une page d'accueil comme index.htm, si ce n'est pas précisé dans l'URL).</p>
+<p>Une URL absolue pointera toujours vers le même emplacement, quel que soit l'endroit où elle est utilisée.</p>
+<p>URL relative : pointe vers un emplacement qui est relatif au fichier à partir duquel vous établissez le lien, tout comme ce que nous avons vu précédemment. Donc, si nous voulons créer un lien depuis notre fichier d'exemple en http://www.example.com/projects/index.html vers un fichier PDF dans le même dossier, l'URL sera seulement le nom du fichier — càd., project-brief.pdf — pas besoin d'information supplémentaire. Si le PDF est disponible dans un sous-dossier de projects appelé pdfs, le lien relatif serait pdfs/project-brief.pdf (l'URL absolue équivalente serait http://www.example.com/projects/pdfs/project-brief.pdf.)</p>
+<p>Une URL relative pointera vers des emplacements différents en fonction de l'endroit où se situe le fichier qui est utilisé ; par exemple, si nous déplacions notre index.html du dossier projects vers la racine du site web (au niveau le plus élevé, dans aucun dossier), le lien de l'URL relative pdfs/project-brief.pdf qui s'y trouve pointerait alors vers un fichier situé en http://www.example.com/pdfs/project-brief.pdf, et non vers un fichier situé en http://www.example.com/projects/pdfs/project-brief.pdf.</p>
+<p>Bien sûr, l'emplacement du fichier project-brief.pdf et du dossier pdfs ne changera pas subitement du fait que vous avez déplacé le fichier index.html : cela aura pour effet que votre lien pointera vers un mauvais emplacement, de sorte que cela ne fonctionnera pas si on clique dessus. Vous devez être prudent !</p>
+<h1 id="résumé-8"><a class="header" href="#résumé-8">Résumé</a></h1>
+<h1 id="introduction-3"><a class="header" href="#introduction-3">Introduction</a></h1>
+<h1 id="résumé-9"><a class="header" href="#résumé-9">Résumé</a></h1>
+<h1 id="introduction-4"><a class="header" href="#introduction-4">Introduction</a></h1>
+<h1 id="quest-ce-que-css-"><a class="header" href="#quest-ce-que-css-">Qu'est ce que CSS ?</a></h1>
+<h2 id="À-quoi-sert-css-"><a class="header" href="#À-quoi-sert-css-">À quoi sert CSS ?</a></h2>
+<h2 id="syntaxe-de-css"><a class="header" href="#syntaxe-de-css">Syntaxe de CSS</a></h2>
+<pre><code class="language-CSS">h1 {
+  color: red;
+  font-size: 5em;
+}
+</code></pre>
+<h2 id="modules-css"><a class="header" href="#modules-css">Modules CSS</a></h2>
+<p>L'ensemble des fonctionnalités CSS est si important que le langage et ses spécifications ont été découpés en modules. </p>
+<h2 id="spécifications-css"><a class="header" href="#spécifications-css">Spécifications CSS</a></h2>
+<h2 id="prise-en-charge-par-les-navigateurs"><a class="header" href="#prise-en-charge-par-les-navigateurs">Prise en charge par les navigateurs</a></h2>
+<h1 id="démarrer-avec-css"><a class="header" href="#démarrer-avec-css">Démarrer avec CSS</a></h1>
+<h2 id="dabord-un-peu-de-html"><a class="header" href="#dabord-un-peu-de-html">D'abord un peu de HTML</a></h2>
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Démarrer avec CSS&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Je suis un titre de niveau un&lt;/h1&gt;
+
+    &lt;p&gt;Ceci est un paragraphe. Dans ce texte il y a un &lt;span&gt;élément span&lt;/span&gt;
+ et aussi un &lt;a href=&quot;http://example.com&quot;&gt;lien&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Ceci est un second paragraphe. On y trouve un élément &lt;em&gt;mis en valeur&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;Item un&lt;/li&gt;
+        &lt;li&gt;Item deux&lt;/li&gt;
+        &lt;li&gt;Item &lt;em&gt;trois&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</code></pre>
+<h2 id="ajouter-css-à-notre-document"><a class="header" href="#ajouter-css-à-notre-document">Ajouter CSS à notre document</a></h2>
+<h2 id="mettre-en-forme-des-éléments-html"><a class="header" href="#mettre-en-forme-des-éléments-html">Mettre en forme des éléments HTML</a></h2>
+<h2 id="changer-le-comportement-par-défaut-des-éléments"><a class="header" href="#changer-le-comportement-par-défaut-des-éléments">Changer le comportement par défaut des éléments</a></h2>
+<h2 id="ajouter-une-classe"><a class="header" href="#ajouter-une-classe">Ajouter une classe</a></h2>
+<h2 id="style-en-fonction-de-la-position"><a class="header" href="#style-en-fonction-de-la-position">Style en fonction de la position</a></h2>
+<h2 id="mise-en-forme-basée-sur-létat"><a class="header" href="#mise-en-forme-basée-sur-létat">Mise en forme basée sur l'état</a></h2>
+<h2 id="associer-sélecteurs-et-combinateurs"><a class="header" href="#associer-sélecteurs-et-combinateurs">Associer sélecteurs et combinateurs</a></h2>
+<h1 id="comment-est-structuré-le-css"><a class="header" href="#comment-est-structuré-le-css">Comment est structuré le CSS</a></h1>
+<h2 id="appliquer-css-à-votre-document-html"><a class="header" href="#appliquer-css-à-votre-document-html">Appliquer CSS à votre document HTML</a></h2>
+<h2 id="feuille-de-style-interne"><a class="header" href="#feuille-de-style-interne">Feuille de style interne</a></h2>
+<h2 id="styles-en-ligne"><a class="header" href="#styles-en-ligne">Styles en ligne</a></h2>
+<h2 id="sélecteurs"><a class="header" href="#sélecteurs">Sélecteurs</a></h2>
+<h1 id="résumé-10"><a class="header" href="#résumé-10">Résumé</a></h1>
+<h1 id="introduction-5"><a class="header" href="#introduction-5">Introduction</a></h1>
+<h1 id="résumé-11"><a class="header" href="#résumé-11">Résumé</a></h1>
+<h1 id="introduction-6"><a class="header" href="#introduction-6">Introduction</a></h1>
+<h1 id="résumé-12"><a class="header" href="#résumé-12">Résumé</a></h1>
+<h1 id="introduction-7"><a class="header" href="#introduction-7">Introduction</a></h1>
+<h1 id="résumé-13"><a class="header" href="#résumé-13">Résumé</a></h1>
+<h1 id="introduction-8"><a class="header" href="#introduction-8">Introduction</a></h1>
+<h1 id="résumé-14"><a class="header" href="#résumé-14">Résumé</a></h1>
+<h1 id="introduction-9"><a class="header" href="#introduction-9">Introduction</a></h1>
+<h1 id="résumé-15"><a class="header" href="#résumé-15">Résumé</a></h1>
+<h1 id="Éléments-textuels-communs"><a class="header" href="#Éléments-textuels-communs">Éléments textuels communs</a></h1>
+<h2 id="besoin"><a class="header" href="#besoin">Besoin</a></h2>
+<ul>
+<li>traiter de manière fiable les incohérences entre les navigateurs, tout en appliquant quelques valeurs par défaut de bon goût, telles que l'utilisation de la pile de polices natives pour déterminer la meilleure police pour chaque appareil, en définissant l'arrière-plan et le premier plan couleurs, ainsi que la taille du texte à 16pxet sa hauteur de ligne à 1.5.</li>
+</ul>
+<p>Tous les éléments HTML5 les plus courants, tels que les paragraphes, les liens, les textes gras, petits et inclinés, ont été stylisés par défaut à l'aide d'une typographie épurée et moderne pour donner à vos pages un aspect cool et se démarquer du reste d'Internet.</p>
+<h2 id="références-16"><a class="header" href="#références-16">Références</a></h2>
+<ul>
+<li>Normalize.css v7.0.0</li>
+</ul>
+<h1 id="coder-plus-vite-avec-visual-studio-code-1"><a class="header" href="#coder-plus-vite-avec-visual-studio-code-1">Coder plus vite avec Visual Studio Code</a></h1>
+<p>Dans cette vidéo je vous montre quelques raccourcis clavier super utiles pour coder plus vite avec Visual Studio Code.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z7TIgigICC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="références-17"><a class="header" href="#références-17">Références</a></h2>
+<p>https://www.youtube.com/watch?v=z7TIgigICC8</p>
+<h1 id="références-français"><a class="header" href="#références-français">Références Français</a></h1>
+<p><a href="https://developer.mozilla.org/fr/docs/Learn/HTML">Apprendre le HTML : guides et didacticiels</a></p>
+<h1 id="références-anglais"><a class="header" href="#références-anglais">Références anglais</a></h1>
+<p>https://www.internetingishard.com/html-and-css/</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        <script type="text/javascript" src="theme/custom.js"></script>
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
