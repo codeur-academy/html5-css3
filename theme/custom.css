@@ -40,13 +40,17 @@ em{
 :not(pre):not(a) > .hljs {
     color: #dcdcdc !important;
     overflow-x: initial;
+} 
+
+ 
+.content img {
+   
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-
-a[href="~https"] { 
-    target: new; 
-    target-name: new; target-new: tab;
- }
-
+ 
 
  .video-container { 
      position: relative; 
