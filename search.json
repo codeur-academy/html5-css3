@@ -1,100 +1,37 @@
 {
-"introduction-introduction-html": {
+"introduction-html": {
       "title": "Introduction",
       "content"	 : "Initiation à HTML5 et CSS3Bienvenue dans cette formation d’initiation à la création des sites web avec HTML5 et CSS3.La formation a pour but de fournir aux développeurs web débutants tout ce qu’ils ont besoin pour commencer à développer des sites web simples.Si vous débutez complètement, le développement web peut être un réel défi. Notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome.Vous devriez vous sentir chez vous, que vous soyez  un étudiant apprenant le développement web,  un enseignant recherchant des supports de cours,  un amateur ou quelqu’un qui souhaite simplement comprendre la manière dont fonctionnent le Web et ses technologies.",
-      "url": "/html5-css3/introduction/introduction.html",
+      "url": "/html5-css3/introduction.html",
       "author": "",
       "categories": "introduction"
     },
-"introduction-introduction-html#ce-que-vous-apprendrez": {
+"introduction-html#ce-que-vous-apprendrez": {
       "title": "Ce que vous apprendrez  (Introduction)",
       "content"	 : "Ce que vous apprendrez  Apprendre HTML5 à partir de zéro  Apprendre CSS3 à partir de zéro  Réalisation des projets du monde réel  Création des pages responsive",
-      "url": "/html5-css3/introduction/introduction.html#ce-que-vous-apprendrez",
+      "url": "/html5-css3/introduction.html#ce-que-vous-apprendrez",
       "author": "",
       "categories": "introduction"
     }
 ,
-"introduction-dev-web-fonctionnement-du-web-html": {
-      "title": "Comment fonctionne le Web ?",
-      "content"	 : "Comment fonctionne le Web ?Dans cette session de formation nous allons découvrir ce que se passe quand on affiche une page web.",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html",
+"introduction-dev-web-introduction-html": {
+      "title": "Introduction",
+      "content"	 : "Notions préliminaires : Web et Internet",
+      "url": "/html5-css3/introduction-dev-web/introduction.html",
       "author": "",
       "categories": "introduction-dev-web"
     },
-"introduction-dev-web-fonctionnement-du-web-html#extrait-de-la-formation-vidéo": {
-      "title": "Extrait de la formation vidéo  (Comment fonctionne le Web ?)",
-      "content"	 : "Extrait de la formation vidéo",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#extrait-de-la-formation-vidéo",
+"introduction-dev-web-introduction-html#section--notion-préliminaire": {
+      "title": "Section : Notion préliminaire  (Introduction)",
+      "content"	 : "Section : Notion préliminaireNous commençons notre formation par la section des notions préliminaire dont laquelle nous allons voir la notion du Web, d’Internet et la différence entre eux.",
+      "url": "/html5-css3/introduction-dev-web/introduction.html#section--notion-préliminaire",
       "author": "",
       "categories": "introduction-dev-web"
     },
-"introduction-dev-web-fonctionnement-du-web-html#communication-client-serveur": {
-      "title": "Communication client serveur  (Comment fonctionne le Web ?)",
-      "content"	 : "Communication client serveurSur internet, l’affichage d’une page web nécessite l’intervention de deux machine. La machîne A qui affiche la page Web et la machine B qui serve la page à la machîne A.Dans cette communication, on dit que la machîne A est le client et la machîne B est le serveur. on parle ici d’une communication client-serveur.Dans la machine A, le navigateur joue le rôle de client, et dans la machîne B, une application dit serveur web joue le rôle de serveur.",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#communication-client-serveur",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#adresse-ip": {
-      "title": "Adresse IP  (Comment fonctionne le Web ?)",
-      "content"	 : "Adresse IPChaque machine dans le réseaux internet est identifié par une adresse IP.Par exemple la machine A: est identifier par l’adresse : 192.168.1.19et la machine B par l’adresse : 185.199.108.153",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#adresse-ip",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#nom-de-domaine": {
-      "title": "Nom de domaine  (Comment fonctionne le Web ?)",
-      "content"	 : "Nom de domainePour consulter la première page web de notre site internet, nous avons utilisé le nom codeur-academy.com. Ce nom s’appelle nom de domaine.Ce nom permet de situer le serveur sur internet grâce à un équipement, appelé DNS (Domain Name System) qui permet d’associer une adresse IP un nom de domaine.Les noms de domaine ont été conçus pour simplifier l’utilisation de l’internet : il est plus facile de retenir et taper un nom de domaine qu’une adresse IP.Pour récupérer l’adresse IP de notre serveur Web, vous pouvez utiliser la commande ping sur la console.123456 PS C:Usersessarraj&amp;gt; ping codeur-academy.comEnvoi d’une requête &#39;ping&#39; sur codeur-academy.com [185.199.108.153]  :Réponse de 185.199.108.153 : octets=32 temps=114 ms TTL=52Réponse de 185.199.108.153 : octets=32 temps=82 ms TTL=52",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#nom-de-domaine",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#protocole-de-communication": {
-      "title": "Protocole de communication  (Comment fonctionne le Web ?)",
-      "content"	 : "Protocole de communicationPour communique deux ordinateur sur internet nous avons besoin d’un protocole de communication. Il définisse le language et les règles de communication entre le client et le serveur.Un exemple d’un protocole de communication dans notre vie réel est le code de la route. c’est un ensemble des règles relatif à l’utilisation des voies publiques.Par exemple, un carrefour est commandé par un contrôleur de feux, appareil électronique de contrôle/commande. Les feux sont généralement déclinés à partir de deux couleurs de base : le rouge pour fermer, le vert pour ouvrir. Le jaune-orangé est également utilisé et sert à signaler le passage du feu vert au feu rouge.Pour la consultation de la page web, les deux ordinateur A et B ont utilisé le protocule http que nous allons découvrir dans cette session de formation.",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#protocole-de-communication",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#numéro-de-port": {
-      "title": "Numéro de Port  (Comment fonctionne le Web ?)",
-      "content"	 : "Numéro de PortDans un réseau nous pouvons installer plusieurs application serveur comme le serveur Web, en utilisant un seul adresse IP. Pour que cela soit possible, la notion de Port est inventé. Comme ça, pour demander le service web dans la machîne B nous devons déterminer le numéro du port de service Web qui prend la valeur par défaut : 80.Par exemple, pour consulter, la page d’accueil de site web google.com, nous devons déterminer le numéro du port qui prend la valeur par défaut 80 en cas d’absence du numéro de port.",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#numéro-de-port",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#échange-des-ressources": {
-      "title": "Échange des ressources  (Comment fonctionne le Web ?)",
-      "content"	 : "Échange des ressourcesUne ressource du World Wide Web est une entité informatique (texte, image, vidéo, fichier PDF, ..).Le client et le serveur peuvent s’échanger ces ressources. Dans la plupart des cas ces échanges ne sont pas “symétriques” : en effet le client va souvent se contenter de demander des ressources (fichiers contenant du texte, photos, vidéos, sons…) à l’ordinateur serveur.Le serveur va contenter de fournir les ressources demandés à tous les ordinateurs client qui ont fait la demande.",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#échange-des-ressources",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#protocole---http": {
-      "title": "Protocole - HTTP  (Comment fonctionne le Web ?)",
-      "content"	 : "Protocole - HTTPHTTP (pour HyperText Transfer Protocol) est le protocole de communication  utilisé pour transférer les ressources du Web.Chaque ressource fait l’objet d’un échange demande/réponse entre le client et le serveur.En HTTP, la communication tourne autour d’un concept appelé requête-réponse. Le client envoie au serveur une requête pour faire quelque chose et le serveur envoie en retour une réponse au client disant si oui ou non il est en mesure de faire ce que le client lui demande.HTTPS est la combinaison du HTTP avec une couche de chiffrement. Il permet au visiteur de vérifier l’identité du site web auquel il accède, grâce à un certificat d’authentification",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#protocole---http",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#url---adresse-web": {
-      "title": "URL - adresse web  (Comment fonctionne le Web ?)",
-      "content"	 : "URL - adresse webUne URL (pour Uniform Resource Locator) est une chaîne de caractères décrivant l’emplacement d’une ressource.Elle contient généralement dans l’ordre :  le nom du protocole,  un deux-points (:),  deux barres obliques (//),  un nom d’hôte,  une barre oblique (/),  et un chemin composé de texte séparés par des barres obliques.1https://codeur-academy.com/index.html",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#url---adresse-web",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#comment-fonctionne-le-web": {
-      "title": "Comment fonctionne le Web  (Comment fonctionne le Web ?)",
-      "content"	 : "Comment fonctionne le WebLorsque vous saisissez une adresse web dans votre navigateur :  le navigateur demande l’adresse IP à un serveur spécial nommé “DNS”.  le navigateur envoie une requête HTTP au serveur pour lui demander d’envoyer une copie du site web au client. Ce message, et les autres données envoyées entre le client et le serveur, sont échangés par l’intermédiaire de la connexion internet.  si le serveur accepte la requête émise par le client, le serveur envoie un message « 200 OK » au client qui signifie : « Pas de problème, tu peux consulter ce site web, le voici ». Ensuite le serveur commence à envoyer les fichiers du site web au navigateur.  le navigateur affiche la page web sur votre écran",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#comment-fonctionne-le-web",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-fonctionnement-du-web-html#références": {
-      "title": "Références  (Comment fonctionne le Web ?)",
-      "content"	 : "Références  Protocole de communication  Client-serveur  Modèle client / serveur  HTTP — an Application-Level Protocol  Hypertext Transfer Protocol  Comprendre les URL et leur structure  How does the web work?  Le fonctionnement du Web  HTML  What is a URL?  What is a Domain Name?  Un aperçu de HTTP",
-      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#références",
+"introduction-dev-web-introduction-html#partie--web-et-internet": {
+      "title": "Partie : Web et Internet  (Introduction)",
+      "content"	 : "Partie : Web et InternetNous allons découvrir dans cette partie de formation :  Ce que c’est une page web et la notion d’internet  Les trois langages web ( HTML, CSS et JavaScript) qui vous permettent de construire une page web.Ces éléments théoriques ne sont pas strictement nécessaires pour commencer à faire du développement web dans un premier temps. Cependant, ils seront plus utiles pour mieux comprendre comment le Web fonctionne en arrière-plan.",
+      "url": "/html5-css3/introduction-dev-web/introduction.html#partie--web-et-internet",
       "author": "",
       "categories": "introduction-dev-web"
     }
@@ -191,78 +128,6 @@
       "categories": "introduction-dev-web"
     }
 ,
-"introduction-dev-web-html-css-javascript-html": {
-      "title": "Langages Web",
-      "content"	 : "Langages Web : HTML, CSS et JavascriptHTML, CSS et JavaScript sont 3 langages différents. Ensemble, ils permettent de créer des pages web et chacun contribue à des aspects particuliers d’une page web moderne. Dans cet session de formation, nous verrons comment chacun des langages contribue à la réalisation d’une page web.",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#extrait-de-la-formation-vidéo": {
-      "title": "Extrait de la formation vidéo  (Langages Web)",
-      "content"	 : "Extrait de la formation vidéo",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#extrait-de-la-formation-vidéo",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#cest-quoi-html-": {
-      "title": "C’est quoi HTML ?  (Langages Web)",
-      "content"	 : "C’est quoi HTML ?HTML est un acronyme qui signifie Hypertext Markup Langage. En bon français on pourrait dire langage de balisage d’hypertexte.HTML est très utile pour expliquer à une machine quelle est la fonction et le sens sémantique des différents éléments d’une page.Comme par exemple : les titres, les paragraphes, les listes, les citations, … Il permet aussi d’intégrer des images, du son et de la vidéo et la chose la plus importante : des liens entre différentes pages.HTML sert donc à organiser le contenu d’une page web. À lui tout seul, il ne permet pas de créer une belle présentation ni d’offrir des fonctions interactives. C’est la raison pour laquelle il y a d’autres langages.",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#cest-quoi-html-",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#cest-quoi-css-": {
-      "title": "C’est quoi CSS ?  (Langages Web)",
-      "content"	 : "C’est quoi CSS ?CSS est un acronyme qui signifie Cascading Style Sheet (feuille de style en cascade). Il permet de changer la présentation du contenu d’un document HTML.Le mot clé dans cette expression est style et il n’est pas un langage de programmation.La fonction principale de CSS est de rédiger des règles qui déterminent la présentation des éléments d’une page web. Par exemple, qu’est-ce qui sera centré, qu’est-ce qui sera en caractère gras, comment un titre de page s’affichera, quelle sera la taille d’une image, etc.Si HTML a pour fonction de structurer le contenu d’une page web, CSS s’occupe de la présentation de ce contenu. Et bien que CSS permettent aussi le mouvement des objets (fondu, transition, déplacement, etc.), les interactions sophistiquées se font à l’aide d’un troisième langage.page HTML sans CSSpage HTML avec CSS",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#cest-quoi-css-",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#quest-ce-que-javascript-": {
-      "title": "Qu’est-ce que JavaScript ?  (Langages Web)",
-      "content"	 : "Qu’est-ce que JavaScript ?Contrairement à HTML et CSS, Javascript est un langage de programmation. Et contrairement à ce qu’on pourrait croire à cause de son nom, JavaScript n’a rien à voir avec Java.JavaScript est un langage de programmation qui s’exécute du côté client.Ce qui veut dire que le programme est donné par le serveur en même temps que la page web et c’est l’ordinateur du visiteur (par l’entremise du navigateur) qui éxécutera le programme.Je vous donne un exemple  d’un réalisation très simple  d’une calculatrice avec Javascript, just pour avoir une idée de ce que vous pouvez faire avec Javascript.Le programme permet de réaliser la somme et la soustraction de deux nombres.",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#quest-ce-que-javascript-",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#html-et-css-ne-sont-pas-pour-programmer": {
-      "title": "HTML et CSS ne sont pas pour programmer  (Langages Web)",
-      "content"	 : "HTML et CSS ne sont pas pour programmerHTML et CSS ont une structure et une syntaxe et ils sont cohérents mais contrairement à Javascript, ce ne sont pas des langages de programmation.Les langages de programmation permettent l’utilisation d’algorithme.Ensemble, HTML, CSS et Javascript permettent de créer des pages web qui se chargent rapidement et qui, avec un navigateur récent, offre une expérience riche et très interactive.",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#html-et-css-ne-sont-pas-pour-programmer",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-html-css-javascript-html#références": {
-      "title": "Références  (Langages Web)",
-      "content"	 : "RéférencesQuelle est la différence entre HTML, CSS et JavaScriptDifférence entre HTML, CSS et JavaScriptQuelle est la différence entre HTML, CSS et JavaScript ?",
-      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#références",
-      "author": "",
-      "categories": "introduction-dev-web"
-    }
-,
-"introduction-dev-web-introduction-html": {
-      "title": "Introduction",
-      "content"	 : "Notions préliminaires : Web et Internet",
-      "url": "/html5-css3/introduction-dev-web/introduction.html",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-introduction-html#section--notion-préliminaire": {
-      "title": "Section : Notion préliminaire  (Introduction)",
-      "content"	 : "Section : Notion préliminaireNous commençons notre formation par la section des notions préliminaire dont laquelle nous allons voir la notion du Web, d’Internet et la différence entre eux.",
-      "url": "/html5-css3/introduction-dev-web/introduction.html#section--notion-préliminaire",
-      "author": "",
-      "categories": "introduction-dev-web"
-    },
-"introduction-dev-web-introduction-html#partie--web-et-internet": {
-      "title": "Partie : Web et Internet  (Introduction)",
-      "content"	 : "Partie : Web et InternetNous allons découvrir dans cette partie de formation :  Ce que c’est une page web et la notion d’internet  Les trois langages web ( HTML, CSS et JavaScript) qui vous permettent de construire une page web.Ces éléments théoriques ne sont pas strictement nécessaires pour commencer à faire du développement web dans un premier temps. Cependant, ils seront plus utiles pour mieux comprendre comment le Web fonctionne en arrière-plan.",
-      "url": "/html5-css3/introduction-dev-web/introduction.html#partie--web-et-internet",
-      "author": "",
-      "categories": "introduction-dev-web"
-    }
-,
 "introduction-dev-web-qu-est-ce-que-le-web-html": {
       "title": "Qu'est-ce que le Web ?",
       "content"	 : "Qu’est-ce que le Web ?Dans cette session, nous allons voir de façon simplifiée, ce que c’est le web et sa différence avec internet .",
@@ -320,113 +185,262 @@
       "categories": "introduction-dev-web"
     }
 ,
+"introduction-dev-web-fonctionnement-du-web-html": {
+      "title": "Comment fonctionne le Web ?",
+      "content"	 : "Comment fonctionne le Web ?Dans cette session de formation nous allons découvrir ce que se passe quand on affiche une page web.",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Comment fonctionne le Web ?)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#communication-client-serveur": {
+      "title": "Communication client serveur  (Comment fonctionne le Web ?)",
+      "content"	 : "Communication client serveurSur internet, l’affichage d’une page web nécessite l’intervention de deux machine. La machîne A qui affiche la page Web et la machine B qui serve la page à la machîne A.Dans cette communication, on dit que la machîne A est le client et la machîne B est le serveur. on parle ici d’une communication client-serveur.Dans la machine A, le navigateur joue le rôle de client, et dans la machîne B, une application dit serveur web joue le rôle de serveur.",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#communication-client-serveur",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#adresse-ip": {
+      "title": "Adresse IP  (Comment fonctionne le Web ?)",
+      "content"	 : "Adresse IPChaque machine dans le réseaux internet est identifié par une adresse IP.Par exemple la machine A: est identifier par l’adresse : 192.168.1.19et la machine B par l’adresse : 185.199.108.153",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#adresse-ip",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#nom-de-domaine": {
+      "title": "Nom de domaine  (Comment fonctionne le Web ?)",
+      "content"	 : "Nom de domainePour consulter la première page web de notre site internet, nous avons utilisé le nom codeur-academy.com. Ce nom s’appelle nom de domaine.Ce nom permet de situer le serveur sur internet grâce à un équipement, appelé DNS (Domain Name System) qui permet d’associer une adresse IP un nom de domaine.Les noms de domaine ont été conçus pour simplifier l’utilisation de l’internet : il est plus facile de retenir et taper un nom de domaine qu’une adresse IP.Pour récupérer l’adresse IP de notre serveur Web, vous pouvez utiliser la commande ping sur la console.123456 PS C:Usersessarraj&amp;gt; ping codeur-academy.comEnvoi d’une requête &#39;ping&#39; sur codeur-academy.com [185.199.108.153]  :Réponse de 185.199.108.153 : octets=32 temps=114 ms TTL=52Réponse de 185.199.108.153 : octets=32 temps=82 ms TTL=52",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#nom-de-domaine",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#protocole-de-communication": {
+      "title": "Protocole de communication  (Comment fonctionne le Web ?)",
+      "content"	 : "Protocole de communicationPour communique deux ordinateur sur internet nous avons besoin d’un protocole de communication. Il définisse le language et les règles de communication entre le client et le serveur.Un exemple d’un protocole de communication dans notre vie réel est le code de la route. c’est un ensemble des règles relatif à l’utilisation des voies publiques.Par exemple, un carrefour est commandé par un contrôleur de feux, appareil électronique de contrôle/commande. Les feux sont généralement déclinés à partir de deux couleurs de base : le rouge pour fermer, le vert pour ouvrir. Le jaune-orangé est également utilisé et sert à signaler le passage du feu vert au feu rouge.Pour la consultation de la page web, les deux ordinateur A et B ont utilisé le protocule http que nous allons découvrir dans cette session de formation.",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#protocole-de-communication",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#numéro-de-port": {
+      "title": "Numéro de Port  (Comment fonctionne le Web ?)",
+      "content"	 : "Numéro de PortDans un réseau nous pouvons installer plusieurs application serveur comme le serveur Web, en utilisant un seul adresse IP. Pour que cela soit possible, la notion de Port est inventé. Comme ça, pour demander le service web dans la machîne B nous devons déterminer le numéro du port de service Web qui prend la valeur par défaut : 80.Par exemple, pour consulter, la page d’accueil de site web google.com, nous devons déterminer le numéro du port qui prend la valeur par défaut 80 en cas d’absence du numéro de port.",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#numéro-de-port",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#échange-des-ressources": {
+      "title": "Échange des ressources  (Comment fonctionne le Web ?)",
+      "content"	 : "Échange des ressourcesUne ressource du World Wide Web est une entité informatique (texte, image, vidéo, fichier PDF, ..).Le client et le serveur peuvent s’échanger ces ressources. Dans la plupart des cas ces échanges ne sont pas “symétriques” : en effet le client va souvent se contenter de demander des ressources (fichiers contenant du texte, photos, vidéos, sons…) à l’ordinateur serveur.Le serveur va contenter de fournir les ressources demandés à tous les ordinateurs client qui ont fait la demande.",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#échange-des-ressources",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#protocole---http": {
+      "title": "Protocole - HTTP  (Comment fonctionne le Web ?)",
+      "content"	 : "Protocole - HTTPHTTP (pour HyperText Transfer Protocol) est le protocole de communication  utilisé pour transférer les ressources du Web.Chaque ressource fait l’objet d’un échange demande/réponse entre le client et le serveur.En HTTP, la communication tourne autour d’un concept appelé requête-réponse. Le client envoie au serveur une requête pour faire quelque chose et le serveur envoie en retour une réponse au client disant si oui ou non il est en mesure de faire ce que le client lui demande.HTTPS est la combinaison du HTTP avec une couche de chiffrement. Il permet au visiteur de vérifier l’identité du site web auquel il accède, grâce à un certificat d’authentification",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#protocole---http",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#url---adresse-web": {
+      "title": "URL - adresse web  (Comment fonctionne le Web ?)",
+      "content"	 : "URL - adresse webUne URL (pour Uniform Resource Locator) est une chaîne de caractères décrivant l’emplacement d’une ressource.Elle contient généralement dans l’ordre :  le nom du protocole,  un deux-points (:),  deux barres obliques (//),  un nom d’hôte,  une barre oblique (/),  et un chemin composé de texte séparés par des barres obliques.1https://codeur-academy.com/index.html",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#url---adresse-web",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#comment-fonctionne-le-web": {
+      "title": "Comment fonctionne le Web  (Comment fonctionne le Web ?)",
+      "content"	 : "Comment fonctionne le WebLorsque vous saisissez une adresse web dans votre navigateur :  le navigateur demande l’adresse IP à un serveur spécial nommé “DNS”.  le navigateur envoie une requête HTTP au serveur pour lui demander d’envoyer une copie du site web au client. Ce message, et les autres données envoyées entre le client et le serveur, sont échangés par l’intermédiaire de la connexion internet.  si le serveur accepte la requête émise par le client, le serveur envoie un message « 200 OK » au client qui signifie : « Pas de problème, tu peux consulter ce site web, le voici ». Ensuite le serveur commence à envoyer les fichiers du site web au navigateur.  le navigateur affiche la page web sur votre écran",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#comment-fonctionne-le-web",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-fonctionnement-du-web-html#références": {
+      "title": "Références  (Comment fonctionne le Web ?)",
+      "content"	 : "Références  Protocole de communication  Client-serveur  Modèle client / serveur  HTTP — an Application-Level Protocol  Hypertext Transfer Protocol  Comprendre les URL et leur structure  How does the web work?  Le fonctionnement du Web  HTML  What is a URL?  What is a Domain Name?  Un aperçu de HTTP",
+      "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#références",
+      "author": "",
+      "categories": "introduction-dev-web"
+    }
+,
+"introduction-dev-web-html-css-javascript-html": {
+      "title": "Langages Web",
+      "content"	 : "Langages Web : HTML, CSS et JavascriptHTML, CSS et JavaScript sont 3 langages différents. Ensemble, ils permettent de créer des pages web et chacun contribue à des aspects particuliers d’une page web moderne. Dans cet session de formation, nous verrons comment chacun des langages contribue à la réalisation d’une page web.",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Langages Web)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#cest-quoi-html-": {
+      "title": "C’est quoi HTML ?  (Langages Web)",
+      "content"	 : "C’est quoi HTML ?HTML est un acronyme qui signifie Hypertext Markup Langage. En bon français on pourrait dire langage de balisage d’hypertexte.HTML est très utile pour expliquer à une machine quelle est la fonction et le sens sémantique des différents éléments d’une page.Comme par exemple : les titres, les paragraphes, les listes, les citations, … Il permet aussi d’intégrer des images, du son et de la vidéo et la chose la plus importante : des liens entre différentes pages.HTML sert donc à organiser le contenu d’une page web. À lui tout seul, il ne permet pas de créer une belle présentation ni d’offrir des fonctions interactives. C’est la raison pour laquelle il y a d’autres langages.",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#cest-quoi-html-",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#cest-quoi-css-": {
+      "title": "C’est quoi CSS ?  (Langages Web)",
+      "content"	 : "C’est quoi CSS ?CSS est un acronyme qui signifie Cascading Style Sheet (feuille de style en cascade). Il permet de changer la présentation du contenu d’un document HTML.Le mot clé dans cette expression est style et il n’est pas un langage de programmation.La fonction principale de CSS est de rédiger des règles qui déterminent la présentation des éléments d’une page web. Par exemple, qu’est-ce qui sera centré, qu’est-ce qui sera en caractère gras, comment un titre de page s’affichera, quelle sera la taille d’une image, etc.Si HTML a pour fonction de structurer le contenu d’une page web, CSS s’occupe de la présentation de ce contenu. Et bien que CSS permettent aussi le mouvement des objets (fondu, transition, déplacement, etc.), les interactions sophistiquées se font à l’aide d’un troisième langage.page HTML sans CSSpage HTML avec CSS",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#cest-quoi-css-",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#quest-ce-que-javascript-": {
+      "title": "Qu’est-ce que JavaScript ?  (Langages Web)",
+      "content"	 : "Qu’est-ce que JavaScript ?Contrairement à HTML et CSS, Javascript est un langage de programmation. Et contrairement à ce qu’on pourrait croire à cause de son nom, JavaScript n’a rien à voir avec Java.JavaScript est un langage de programmation qui s’exécute du côté client.Ce qui veut dire que le programme est donné par le serveur en même temps que la page web et c’est l’ordinateur du visiteur (par l’entremise du navigateur) qui éxécutera le programme.Je vous donne un exemple  d’un réalisation très simple  d’une calculatrice avec Javascript, just pour avoir une idée de ce que vous pouvez faire avec Javascript.Le programme permet de réaliser la somme et la soustraction de deux nombres.",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#quest-ce-que-javascript-",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#html-et-css-ne-sont-pas-pour-programmer": {
+      "title": "HTML et CSS ne sont pas pour programmer  (Langages Web)",
+      "content"	 : "HTML et CSS ne sont pas pour programmerHTML et CSS ont une structure et une syntaxe et ils sont cohérents mais contrairement à Javascript, ce ne sont pas des langages de programmation.Les langages de programmation permettent l’utilisation d’algorithme.Ensemble, HTML, CSS et Javascript permettent de créer des pages web qui se chargent rapidement et qui, avec un navigateur récent, offre une expérience riche et très interactive.",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#html-et-css-ne-sont-pas-pour-programmer",
+      "author": "",
+      "categories": "introduction-dev-web"
+    },
+"introduction-dev-web-html-css-javascript-html#références": {
+      "title": "Références  (Langages Web)",
+      "content"	 : "RéférencesQuelle est la différence entre HTML, CSS et JavaScriptDifférence entre HTML, CSS et JavaScriptQuelle est la différence entre HTML, CSS et JavaScript ?",
+      "url": "/html5-css3/introduction-dev-web/html-css-javascript.html#références",
+      "author": "",
+      "categories": "introduction-dev-web"
+    }
+,
 "introduction-dev-web-r-c3-a9sum-c3-a9-html": {
       "title": "Résumé",
-      "content"	 : "RésuméDans cette partie de formation, nous avons vue que l’Internet est un réseaux qui relié les ordinateurs entre eux par contre le Web est une fonction ou une façon d’utiliser internet pour consulter des milions des pages web en relation avec des hyperliens.Nous avons découvert aussi, les deux langage web HTML, CSS qui nous permet de créer un site web professionnelle.Le langage HTMl permet de définir la structure d’une page web et la sémantique de chaque élément de la page.par contre le CSS permet de changer la présentation de chaque élément de la page.Dans la partie suivante, nous allons découvrir et installer les outils que nous avons besoin dans la formation.",
+      "content"	 : "Résumé : Web et InternetDans cette partie de formation, nous avons vue que l’Internet est un réseaux qui relié les ordinateurs entre eux par contre le Web est une fonction ou une façon d’utiliser internet pour consulter des milions des pages web en relation avec des hyperliens.Nous avons découvert aussi, les deux langage web HTML, CSS qui nous permet de créer un site web professionnelle.Le langage HTMl permet de définir la structure d’une page web et la sémantique de chaque élément de la page.par contre le CSS permet de changer la présentation de chaque élément de la page.Dans la partie suivante, nous allons découvrir et installer les outils que nous avons besoin dans la formation.",
       "url": "/html5-css3/introduction-dev-web/r%C3%A9sum%C3%A9.html",
       "author": "",
       "categories": "introduction-dev-web"
     }
 ,
-"installation-outils-installation-google-chrome-html": {
-      "title": "Navigateur moderne",
-      "content"	 : "Navigateur moderne - google Chrome",
-      "url": "/html5-css3/installation-outils/installation-google-chrome.html",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"installation-outils-installation-google-chrome-html#installation-dun-navigateur-moderne": {
-      "title": "Installation d’un navigateur moderne  (Navigateur moderne)",
-      "content"	 : "Installation d’un navigateur moderneIl existe plusieurs navigateur moderne que nous pouvons utiliser dans notre développement à savoir Firefox et Chrome.Je vous conseille d’utiliser Google Chrome.Pratique - Installation de Google ChromeLien d’installation de Google Chrome",
-      "url": "/html5-css3/installation-outils/installation-google-chrome.html#installation-dun-navigateur-moderne",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"installation-outils-installation-google-chrome-html#références": {
-      "title": "Références  (Navigateur moderne)",
-      "content"	 : "RéférencesInstallation des outils de base",
-      "url": "/html5-css3/installation-outils/installation-google-chrome.html#références",
+"installation-des-outils-html": {
+      "title": "Introduction",
+      "content"	 : "Installation des outilsDans cette partie de formation, je vais vous montrer les outils dont vous aurez besoin pour développer un site web simple.Les objectifs de cette partie sont :  Installation des outils de base,  Apprendre à utiliser visual studio code        Je vais vous proposer le minimum à installer :  un navigateurs web modernes : Google Chrome  un éditeur de texte : Visual Studio Code",
+      "url": "/html5-css3/installation-des-outils.html",
       "author": "",
       "categories": "installation-outils"
     }
 ,
-"installation-outils-installation-visual-studio-code-html": {
+"installation-google-chrome-html": {
+      "title": "Installation et utilisation de google chrome",
+      "content"	 : "Installation d’un navigateur moderne",
+      "url": "/html5-css3/installation-google-chrome.html",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-google-chrome-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Installation et utilisation de google chrome)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/installation-google-chrome.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-google-chrome-html#installation-et-utilisation-de-chrome": {
+      "title": "Installation et utilisation de Chrome  (Installation et utilisation de google chrome)",
+      "content"	 : "Installation et utilisation de ChromeIl existe plusieurs navigateur moderne que nous pouvons utiliser dans notre développement à savoir Firefox et Chrome.Je vous conseille d’utiliser Google Chrome.",
+      "url": "/html5-css3/installation-google-chrome.html#installation-et-utilisation-de-chrome",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-google-chrome-html#pratique---installation-et-utilisation-de-chrome": {
+      "title": "Pratique - Installation et utilisation de Chrome  (Installation et utilisation de google chrome)",
+      "content"	 : "Pratique - Installation et utilisation de ChromeLien d’installation de Google Chrome",
+      "url": "/html5-css3/installation-google-chrome.html#pratique---installation-et-utilisation-de-chrome",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-google-chrome-html#références": {
+      "title": "Références  (Installation et utilisation de google chrome)",
+      "content"	 : "RéférencesInstallation des outils de base",
+      "url": "/html5-css3/installation-google-chrome.html#références",
+      "author": "",
+      "categories": "installation-outils"
+    }
+,
+"installation-visual-studio-code-html": {
       "title": "Éditeur de code",
       "content"	 : "Éditeur de code - visual studio Code",
-      "url": "/html5-css3/installation-outils/installation-visual-studio-code.html",
+      "url": "/html5-css3/installation-visual-studio-code.html",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-installation-visual-studio-code-html#installation-dun-éditeur-de-texte": {
+"installation-visual-studio-code-html#installation-dun-éditeur-de-texte": {
       "title": "Installation d’un éditeur de texte  (Éditeur de code)",
       "content"	 : "Installation d’un éditeur de texteVous avez probablement un éditeur de texte basique sur votre ordinateur. Par défaut Windows propose Bloc-note.Pour le développement web, vous trouverez surement mieux que Bloc-note. Je vous recommande de commencer avec Visual Studio Code,  qui est un éditeur libre offrant des aperçus en direct et des conseils de code.",
-      "url": "/html5-css3/installation-outils/installation-visual-studio-code.html#installation-dun-éditeur-de-texte",
+      "url": "/html5-css3/installation-visual-studio-code.html#installation-dun-éditeur-de-texte",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-installation-visual-studio-code-html#pratique---installation-dun-éditeur-de-texte": {
+"installation-visual-studio-code-html#pratique---installation-dun-éditeur-de-texte": {
       "title": "Pratique - Installation d’un éditeur de texte  (Éditeur de code)",
       "content"	 : "Pratique - Installation d’un éditeur de texte",
-      "url": "/html5-css3/installation-outils/installation-visual-studio-code.html#pratique---installation-dun-éditeur-de-texte",
+      "url": "/html5-css3/installation-visual-studio-code.html#pratique---installation-dun-éditeur-de-texte",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-installation-visual-studio-code-html#références": {
+"installation-visual-studio-code-html#références": {
       "title": "Références  (Éditeur de code)",
       "content"	 : "RéférencesInstallation des outils de base",
-      "url": "/html5-css3/installation-outils/installation-visual-studio-code.html#références",
+      "url": "/html5-css3/installation-visual-studio-code.html#références",
       "author": "",
       "categories": "installation-outils"
     }
 ,
-"installation-outils-introduction-html": {
-      "title": "Introduction",
-      "content"	 : "Installation des outilsDans cette partie de formation, je vais vous montrer les outils dont vous aurez besoin pour développer un site web simple.Je vais vous proposer le minimum à installer :  un éditeur de texte : Visual Studio Code  un navigateurs web modernes : Google ChromeLes objectifs de cette partie sont :  Installation des outils de base,  Apprendre à utiliser visual studio code",
-      "url": "/html5-css3/installation-outils/introduction.html",
-      "author": "",
-      "categories": "installation-outils"
-    }
-,
-"installation-outils-premier-pas-avec-visual-studio-code-html": {
+"premier-pas-avec-visual-studio-code-html": {
       "title": "Visual Studio Code",
       "content"	 : "Premier pas avec Visual Studio Code",
-      "url": "/html5-css3/installation-outils/premier-pas-avec-visual-studio-code.html",
+      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-premier-pas-avec-visual-studio-code-html#création-dun-projet": {
+"premier-pas-avec-visual-studio-code-html#création-dun-projet": {
       "title": "Création d’un projet  (Visual Studio Code)",
       "content"	 : "Création d’un projet",
-      "url": "/html5-css3/installation-outils/premier-pas-avec-visual-studio-code.html#création-dun-projet",
+      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#création-dun-projet",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-premier-pas-avec-visual-studio-code-html#création-des-fichiers": {
+"premier-pas-avec-visual-studio-code-html#création-des-fichiers": {
       "title": "Création des fichiers  (Visual Studio Code)",
       "content"	 : "Création des fichiers",
-      "url": "/html5-css3/installation-outils/premier-pas-avec-visual-studio-code.html#création-des-fichiers",
+      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#création-des-fichiers",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-premier-pas-avec-visual-studio-code-html#naviguer-dans-le-système-de-fichiers": {
+"premier-pas-avec-visual-studio-code-html#naviguer-dans-le-système-de-fichiers": {
       "title": "Naviguer dans le système de fichiers  (Visual Studio Code)",
       "content"	 : "Naviguer dans le système de fichiers",
-      "url": "/html5-css3/installation-outils/premier-pas-avec-visual-studio-code.html#naviguer-dans-le-système-de-fichiers",
+      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#naviguer-dans-le-système-de-fichiers",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-outils-premier-pas-avec-visual-studio-code-html#plusieurs-volets": {
+"premier-pas-avec-visual-studio-code-html#plusieurs-volets": {
       "title": "Plusieurs volets  (Visual Studio Code)",
       "content"	 : "Plusieurs volets",
-      "url": "/html5-css3/installation-outils/premier-pas-avec-visual-studio-code.html#plusieurs-volets",
+      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#plusieurs-volets",
       "author": "",
       "categories": "installation-outils"
     }
 ,
-"installation-outils-r-c3-a9sum-c3-a9-html": {
+"r-c3-a9sum-c3-a9-installation-outils-html": {
       "title": "Résumé",
       "content"	 : "RésuméJe vous ai montrer dans cette partie de formation la navigateur et l’éditeur de code que nous allons utiliser durant notre formation.Dans la partie Bien utiliser les outils qui vient après la section bien démarrer, je vous montrerai comment utiliser vos outils de façons plus efficaces.",
-      "url": "/html5-css3/installation-outils/r%C3%A9sum%C3%A9.html",
+      "url": "/html5-css3/r%C3%A9sum%C3%A9-installation-outils.html",
       "author": "",
       "categories": "installation-outils"
     }
