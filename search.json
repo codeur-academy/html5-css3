@@ -330,116 +330,94 @@
 ,
 "installation-des-outils-html": {
       "title": "Introduction",
-      "content"	 : "Installation des outilsDans cette partie de formation, je vais vous montrer les outils dont vous aurez besoin pour développer un site web simple.Les objectifs de cette partie sont :  Installation des outils de base,  Apprendre à utiliser visual studio code        Je vais vous proposer le minimum à installer :  un navigateurs web modernes : Google Chrome  un éditeur de texte : Visual Studio Code",
+      "content"	 : "Installation des outilsDans cette partie de formation, je vais vous montrer les outils dont vous aurez besoin pour développer un site web simple.Je vais vous proposer le minimum à installer :  Navigateurs web modernes : Google Chrome  Éditeur de texte : Visual Studio Code",
       "url": "/html5-css3/installation-des-outils.html",
       "author": "",
       "categories": "installation-outils"
     }
 ,
 "installation-google-chrome-html": {
-      "title": "Installation et utilisation de google chrome",
+      "title": "Navigateur web moderne",
       "content"	 : "Installation d’un navigateur moderne",
       "url": "/html5-css3/installation-google-chrome.html",
       "author": "",
       "categories": "installation-outils"
     },
 "installation-google-chrome-html#extrait-de-la-formation-vidéo": {
-      "title": "Extrait de la formation vidéo  (Installation et utilisation de google chrome)",
+      "title": "Extrait de la formation vidéo  (Navigateur web moderne)",
       "content"	 : "Extrait de la formation vidéo",
       "url": "/html5-css3/installation-google-chrome.html#extrait-de-la-formation-vidéo",
       "author": "",
       "categories": "installation-outils"
     },
 "installation-google-chrome-html#installation-et-utilisation-de-chrome": {
-      "title": "Installation et utilisation de Chrome  (Installation et utilisation de google chrome)",
+      "title": "Installation et utilisation de Chrome  (Navigateur web moderne)",
       "content"	 : "Installation et utilisation de ChromeIl existe plusieurs navigateur moderne que nous pouvons utiliser dans notre développement à savoir Firefox et Chrome.Je vous conseille d’utiliser Google Chrome.",
       "url": "/html5-css3/installation-google-chrome.html#installation-et-utilisation-de-chrome",
       "author": "",
       "categories": "installation-outils"
     },
 "installation-google-chrome-html#pratique---installation-et-utilisation-de-chrome": {
-      "title": "Pratique - Installation et utilisation de Chrome  (Installation et utilisation de google chrome)",
+      "title": "Pratique - Installation et utilisation de Chrome  (Navigateur web moderne)",
       "content"	 : "Pratique - Installation et utilisation de ChromeLien d’installation de Google Chrome",
       "url": "/html5-css3/installation-google-chrome.html#pratique---installation-et-utilisation-de-chrome",
       "author": "",
       "categories": "installation-outils"
     },
 "installation-google-chrome-html#références": {
-      "title": "Références  (Installation et utilisation de google chrome)",
+      "title": "Références  (Navigateur web moderne)",
       "content"	 : "RéférencesInstallation des outils de base",
       "url": "/html5-css3/installation-google-chrome.html#références",
       "author": "",
       "categories": "installation-outils"
     }
 ,
-"installation-visual-studio-code-html": {
+"installation-et-utilisation-de-visual-studio-code-html": {
       "title": "Éditeur de code",
-      "content"	 : "Éditeur de code - visual studio Code",
-      "url": "/html5-css3/installation-visual-studio-code.html",
+      "content"	 : "Éditeur de code - Visual Studio CodeNous allons découvrir dans cette session de formation l’éditeur de code que nous allons utiliser durant notre formation.",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-visual-studio-code-html#installation-dun-éditeur-de-texte": {
-      "title": "Installation d’un éditeur de texte  (Éditeur de code)",
-      "content"	 : "Installation d’un éditeur de texteVous avez probablement un éditeur de texte basique sur votre ordinateur. Par défaut Windows propose Bloc-note.Pour le développement web, vous trouverez surement mieux que Bloc-note. Je vous recommande de commencer avec Visual Studio Code,  qui est un éditeur libre offrant des aperçus en direct et des conseils de code.",
-      "url": "/html5-css3/installation-visual-studio-code.html#installation-dun-éditeur-de-texte",
+"installation-et-utilisation-de-visual-studio-code-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Éditeur de code)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html#extrait-de-la-formation-vidéo",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-visual-studio-code-html#pratique---installation-dun-éditeur-de-texte": {
-      "title": "Pratique - Installation d’un éditeur de texte  (Éditeur de code)",
-      "content"	 : "Pratique - Installation d’un éditeur de texte",
-      "url": "/html5-css3/installation-visual-studio-code.html#pratique---installation-dun-éditeur-de-texte",
+"installation-et-utilisation-de-visual-studio-code-html#éditeur-de-code--visual-studio-code": {
+      "title": "Éditeur de code : Visual Studio Code  (Éditeur de code)",
+      "content"	 : "Éditeur de code : Visual Studio CodeVous avez probablement un éditeur de texte basique sur votre ordinateur. Par défaut Windows propose Bloc-note.Pour le développement web, vous trouverez surement mieux que Bloc-note. Je vous recommande de commencer avec Visual Studio Code,  qui est un éditeur libre offrant des aperçus en direct et des conseils de code.",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html#éditeur-de-code--visual-studio-code",
       "author": "",
       "categories": "installation-outils"
     },
-"installation-visual-studio-code-html#références": {
+"installation-et-utilisation-de-visual-studio-code-html#pratique---téléchargement-et-installation": {
+      "title": "Pratique - Téléchargement et installation  (Éditeur de code)",
+      "content"	 : "Pratique - Téléchargement et installation",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html#pratique---téléchargement-et-installation",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#pratique---quelques-fonctionnalités-de-base": {
+      "title": "Pratique - Quelques fonctionnalités de base  (Éditeur de code)",
+      "content"	 : "Pratique - Quelques fonctionnalités de base",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html#pratique---quelques-fonctionnalités-de-base",
+      "author": "",
+      "categories": "installation-outils"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#références": {
       "title": "Références  (Éditeur de code)",
       "content"	 : "RéférencesInstallation des outils de base",
-      "url": "/html5-css3/installation-visual-studio-code.html#références",
-      "author": "",
-      "categories": "installation-outils"
-    }
-,
-"premier-pas-avec-visual-studio-code-html": {
-      "title": "Visual Studio Code",
-      "content"	 : "Premier pas avec Visual Studio Code",
-      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"premier-pas-avec-visual-studio-code-html#création-dun-projet": {
-      "title": "Création d’un projet  (Visual Studio Code)",
-      "content"	 : "Création d’un projet",
-      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#création-dun-projet",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"premier-pas-avec-visual-studio-code-html#création-des-fichiers": {
-      "title": "Création des fichiers  (Visual Studio Code)",
-      "content"	 : "Création des fichiers",
-      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#création-des-fichiers",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"premier-pas-avec-visual-studio-code-html#naviguer-dans-le-système-de-fichiers": {
-      "title": "Naviguer dans le système de fichiers  (Visual Studio Code)",
-      "content"	 : "Naviguer dans le système de fichiers",
-      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#naviguer-dans-le-système-de-fichiers",
-      "author": "",
-      "categories": "installation-outils"
-    },
-"premier-pas-avec-visual-studio-code-html#plusieurs-volets": {
-      "title": "Plusieurs volets  (Visual Studio Code)",
-      "content"	 : "Plusieurs volets",
-      "url": "/html5-css3/premier-pas-avec-visual-studio-code.html#plusieurs-volets",
+      "url": "/html5-css3/installation-et-utilisation-de-visual-studio-code.html#références",
       "author": "",
       "categories": "installation-outils"
     }
 ,
 "r-c3-a9sum-c3-a9-installation-outils-html": {
       "title": "Résumé",
-      "content"	 : "RésuméJe vous ai montrer dans cette partie de formation la navigateur et l’éditeur de code que nous allons utiliser durant notre formation.Dans la partie Bien utiliser les outils qui vient après la section bien démarrer, je vous montrerai comment utiliser vos outils de façons plus efficaces.",
+      "content"	 : "RésuméJe vous ai montré dans cette partie de formation la navigateur web Google Chrome et l’éditeur de code Visual Studio Code que nous allons utiliser durant notre formation.Dans la partie Bien utiliser les outils qui vient après la parties de la section bien démarrer, je vous montrerai comment utiliser éfficassement, vos outils de façons plus efficaces.",
       "url": "/html5-css3/r%C3%A9sum%C3%A9-installation-outils.html",
       "author": "",
       "categories": "installation-outils"
