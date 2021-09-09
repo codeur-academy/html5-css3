@@ -215,7 +215,7 @@
     },
 "introduction-dev-web-fonctionnement-du-web-html#nom-de-domaine": {
       "title": "Nom de domaine  (Comment fonctionne le Web ?)",
-      "content"	 : "Nom de domainePour consulter la première page web de notre site internet, nous avons utilisé le nom codeur-academy.com. Ce nom s’appelle nom de domaine.Ce nom permet de situer le serveur sur internet grâce à un équipement, appelé DNS (Domain Name System) qui permet d’associer une adresse IP un nom de domaine.Les noms de domaine ont été conçus pour simplifier l’utilisation de l’internet : il est plus facile de retenir et taper un nom de domaine qu’une adresse IP.Pour récupérer l’adresse IP de notre serveur Web, vous pouvez utiliser la commande ping sur la console.123456 PS C:Usersessarraj&amp;gt; ping codeur-academy.comEnvoi d’une requête &#39;ping&#39; sur codeur-academy.com [185.199.108.153]  :Réponse de 185.199.108.153 : octets=32 temps=114 ms TTL=52Réponse de 185.199.108.153 : octets=32 temps=82 ms TTL=52",
+      "content"	 : "Nom de domainePour consulter la première page web de notre site internet, nous avons utilisé le nom codeur-academy.com. Ce nom s’appelle nom de domaine.Ce nom permet de situer le serveur sur internet grâce à un équipement, appelé DNS (Domain Name System) qui permet d’associer une adresse IP un nom de domaine.Les noms de domaine ont été conçus pour simplifier l’utilisation de l’internet : il est plus facile de retenir et taper un nom de domaine qu’une adresse IP.Pour récupérer l’adresse IP de notre serveur Web, vous pouvez utiliser la commande ping sur la console. PS C:Usersessarraj&amp;gt; ping codeur-academy.comEnvoi d’une requête &#39;ping&#39; sur codeur-academy.com [185.199.108.153]  :Réponse de 185.199.108.153 : octets=32 temps=114 ms TTL=52Réponse de 185.199.108.153 : octets=32 temps=82 ms TTL=52",
       "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#nom-de-domaine",
       "author": "",
       "categories": "introduction-dev-web"
@@ -250,7 +250,7 @@
     },
 "introduction-dev-web-fonctionnement-du-web-html#url---adresse-web": {
       "title": "URL - adresse web  (Comment fonctionne le Web ?)",
-      "content"	 : "URL - adresse webUne URL (pour Uniform Resource Locator) est une chaîne de caractères décrivant l’emplacement d’une ressource.Elle contient généralement dans l’ordre :  le nom du protocole,  un deux-points (:),  deux barres obliques (//),  un nom d’hôte,  une barre oblique (/),  et un chemin composé de texte séparés par des barres obliques.1https://codeur-academy.com/index.html",
+      "content"	 : "URL - adresse webUne URL (pour Uniform Resource Locator) est une chaîne de caractères décrivant l’emplacement d’une ressource.Elle contient généralement dans l’ordre :  le nom du protocole,  un deux-points (:),  deux barres obliques (//),  un nom d’hôte,  une barre oblique (/),  et un chemin composé de texte séparés par des barres obliques.https://codeur-academy.com/index.html",
       "url": "/html5-css3/introduction-dev-web/fonctionnement-du-web.html#url---adresse-web",
       "author": "",
       "categories": "introduction-dev-web"
@@ -421,6 +421,306 @@
       "url": "/html5-css3/r%C3%A9sum%C3%A9-installation-outils.html",
       "author": "",
       "categories": "installation-outils"
+    }
+,
+"bien-d-c3-a9marrer-avec-html-html": {
+      "title": "Bien démarrer avec HTML",
+      "content"	 : "Bien démarrer avec HTMLNous allons voir dans cette partie de formation le minimum sur le langage HTML pour lancer l’apprentissage et assurer que vous pouviez me suivre dans les parties suivantes de notre formation.",
+      "url": "/html5-css3/bien-d%C3%A9marrer-avec-html.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"bien-d-c3-a9marrer-avec-html-html#objectifs": {
+      "title": "Objectifs  (Bien démarrer avec HTML)",
+      "content"	 : "ObjectifsNous allons découvrir :  Ce que c’est HTML et son utilité pour les moteurs de recherche  La syntaxe de HTML : élément, balise et attribut  La structure d’une page HTMl valide.Nous terminons par un travail pratique dont lequel nous allons  Créer de notre première page web complet en HTML.  Découvrir quelques éléments HTML que nous utiliserons pendant les travaux pratiques.",
+      "url": "/html5-css3/bien-d%C3%A9marrer-avec-html.html#objectifs",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    }
+,
+"qu-est-ce-que-html-html": {
+      "title": "Qu'est ce que le HTML ?",
+      "content"	 : "Qu’est ce que le HTML ?",
+      "url": "/html5-css3/qu-est-ce-que-html.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Qu'est ce que le HTML ?)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/qu-est-ce-que-html.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#quest-ce-que-le-html--1": {
+      "title": "Qu’est ce que le HTML ?  (Qu'est ce que le HTML ?)",
+      "content"	 : "Qu’est ce que le HTML ?HTML (HyperText Markup Language) n’est pas un langage de programmation : c’est un langage de balisage qui sert à indiquer au navigateur comment structurer et afficher une page web visitée.Le HTML se compose d’une série d’éléments avec lesquels vous pouvez encadrer, envelopper ou baliser différentes parties du contenu pour les faire apparaître ou agir d’une certaine manière.Par exemple, dans la page web d’exemple, nous avons envelopper ou baliser le texte qui décrire les deux parties d’un ordinateur par une balise qui indique au navigateur de les afficher comme une liste.Une balise encadrante peut transformer une petite partie de contenu en liste ordonnée, mettre des mots en gras, etc.",
+      "url": "/html5-css3/qu-est-ce-que-html.html#quest-ce-que-le-html--1",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#exemple-dune-balise": {
+      "title": "Exemple d’une balise  (Qu'est ce que le HTML ?)",
+      "content"	 : "Exemple d’une balisePar exemple, prenons la phrase suivante :Qu&#39;est-ce que l&#39;ordinateurSi nous voulons que cette ligne se présente comme un titre d’un article, nous pouvons dire qu’il s’agit d’un titre de niveau 1 en l’enveloppant d’un élément de titre de niveau 1  ( &amp;lt;h1&amp;gt; ) :&amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;",
+      "url": "/html5-css3/qu-est-ce-que-html.html#exemple-dune-balise",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#pratique---élément--h1": {
+      "title": "Pratique - élément : h1  (Qu'est ce que le HTML ?)",
+      "content"	 : "Pratique - élément : h1",
+      "url": "/html5-css3/qu-est-ce-que-html.html#pratique---élément--h1",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#les-éléments-html-sont-insensibles-à-la-casse": {
+      "title": "Les éléments HTML sont insensibles à la casse  (Qu'est ce que le HTML ?)",
+      "content"	 : "Les éléments HTML sont insensibles à la casseLes éléments en HTML sont insensibles à la casse, c’est-à-dire qu’ils peuvent être écrits en majuscules ou en minuscules.Par exemple&amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;H1&amp;gt;Titre 2 &amp;lt;/H1&amp;gt;un élément &amp;lt;h1&amp;gt; peut être écrit &amp;lt;h1&amp;gt; ou &amp;lt;H1&amp;gt;. et il fonctionnera parfaitement. La meilleure pratique, cependant, est d’écrire tous les éléments en minuscules pour des raisons de cohérence et de lisibilité.",
+      "url": "/html5-css3/qu-est-ce-que-html.html#les-éléments-html-sont-insensibles-à-la-casse",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#pratique---insensibilité-à-la-casse": {
+      "title": "Pratique - insensibilité à la casse  (Qu'est ce que le HTML ?)",
+      "content"	 : "Pratique - insensibilité à la casse",
+      "url": "/html5-css3/qu-est-ce-que-html.html#pratique---insensibilité-à-la-casse",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"qu-est-ce-que-html-html#références": {
+      "title": "Références  (Qu'est ce que le HTML ?)",
+      "content"	 : "RéférencesLes bases du HTML",
+      "url": "/html5-css3/qu-est-ce-que-html.html#références",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    }
+,
+"c3-a9l-c3-a9ment-balise-attribut-html": {
+      "title": "Élément, balise et attribut",
+      "content"	 : "Élément, balise et attribut",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Élément, balise et attribut)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#élément-balise-et-attribut-1": {
+      "title": "Élément, balise et attribut  (Élément, balise et attribut)",
+      "content"	 : "Élément, balise et attributLes objectifs de cette session de formation sont les suivants :  Découvrir les différents parties d’un élément HTML,  Comprendre le rôle d’un attribut pour un élément HTML  Apprendre à utiliser les attributs dans un élément HTML  Apprendre à imbriquer un élément dans un autre élément,  Découvrir ce que c’est un élément vide.Regardons notre élément paragraphe d’un peu plus près :Constatez qu’il est composé de trois parties :  La balise ouvrante : il s’agit du nom de l’élément (dans ce cas, p), encadré par un chevron ouvrant (&amp;lt;) et un chevron fermant (&amp;gt;). Elle indique où l’élément commence ;  La balise fermante : c’est la même que la balise ouvrante, sauf qu’elle comprend une barre oblique (/) avant le nom de l’élément. Elle indique la fin de l’élément ;  Le contenu : il s’agit du contenu de l’élément. Dans notre cas, c’est le texte : “Un ordinateur est un appareil électronique” ;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#élément-balise-et-attribut-1",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#pratique---création-dun-élément-html": {
+      "title": "Pratique - Création d’un élément HTML  (Élément, balise et attribut)",
+      "content"	 : "Pratique - Création d’un élément HTML",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#pratique---création-dun-élément-html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#attributs": {
+      "title": "Attributs  (Élément, balise et attribut)",
+      "content"	 : "AttributsLes éléments peuvent aussi avoir des attributs, qui comme suit:&amp;lt;p id=&quot;définition&quot; &amp;gt;Un ordinateur est un appareil électronique&amp;lt;/p&amp;gt;Les attributs contiennent des informations supplémentaires sur l’élément sans qu’elles n’apparaissent dans le contenu réel. Dans ce cas, l’attribut id vous permet de donner à l’élément un nom d’identification qui peut ensuite être utilisé pour cibler l’élément afin de lui attribuer un style d’affichage en utilisant le code CSS par exemple.Pour créer un attribut, il faut :  insérer un espace entre cet attribut et le nom de l’élément ;  donner un nom à l’attribut, puis ajouter le signe égal ;  donner une valeur à l’attribut, entourée par des guillemets d’ouverture et de fermeture.",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#attributs",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#éléments-vides": {
+      "title": "Éléments vides  (Élément, balise et attribut)",
+      "content"	 : "Éléments videsTous les éléments ne suivent pas le modèle ci-dessus d’ouverture de balise, puis contenu, puis fermeture de balise. Certains éléments ne sont composés que d’une balise. Ils servent généralement à insérer / incorporer quelque chose dans le document à l’endroit où ils sont mis. Par exemple, l’élément &amp;lt;img /&amp;gt; ou &amp;lt;img&amp;gt; insère une image dans une page à l’endroit où il est placé (la balise auto-fermante &amp;lt;img /&amp;gt; est à privilégier) :&amp;lt;img src=&quot;image.png&quot; /&amp;gt;Pratiquement la barre oblique peuvent ne pas être utiliser, dans une balise vide, dans notre exemple, l’image va s’afficher correctement sans la base oblique, mais la syntaxe de la balise auto-fermante est privilégiée.&amp;lt;img src=&quot;image.png&quot; &amp;gt;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#éléments-vides",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#pratique---éléments-vides": {
+      "title": "Pratique - Éléments vides  (Élément, balise et attribut)",
+      "content"	 : "Pratique - Éléments vides",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#pratique---éléments-vides",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#exemple-dun-élément-html--input": {
+      "title": "Exemple d’un élément HTML : input  (Élément, balise et attribut)",
+      "content"	 : "Exemple d’un élément HTML : inputAvant de continuer notre anatomie d’un élément HTML, je vous propose de découvrir un nouveau élément qui s’appelle input. Il vous permet d’insérer une zone de saisie de texte dans votre document HTML.Nous allons utiliser deux parmis ces attributs : le première s’appelle type qui précise la nature de la zone de saisie, dons notre cas text qui indiquer la saisie de texte. Le deuxième attribut s’appelle disabled, qui vous permet de  désactiver la saisie de texte.&amp;lt;input type=&quot;text&quot; /&amp;gt;&amp;lt;input type=&quot;text&quot; disabled=&quot;disabled&quot; /&amp;gt;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#exemple-dun-élément-html--input",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#les-attributs-booléens": {
+      "title": "Les attributs booléens  (Élément, balise et attribut)",
+      "content"	 : "Les attributs booléensVous verrez parfois des attributs sans valeur définie : c’est tout à fait autorisé. Ils sont appelés attributs booléens ; ils ne peuvent avoir qu’une seule valeur, généralement la même que le nom de l’attribut. Par exemple,  l’attribut disabled peut s’écrit sans valeur. dans ce cas il prend la valeur par défaut qui généralement le non de l’attribut.&amp;lt;input type=&quot;text&quot; /&amp;gt;&amp;lt;input type=&quot;text&quot; disabled /&amp;gt;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#les-attributs-booléens",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#exemple-délément--attribut-placeholder": {
+      "title": "Exemple d’élément : attribut placeholder  (Élément, balise et attribut)",
+      "content"	 : "Exemple d’élément : attribut placeholderDans la partie suivante, nous allons voir l’attribut placeholder de l’élément input qui permet d’afficher des informations sur la valeur à saisir dans la zone de texte.Par exemple, nous avons afficher à l’utilisation une information sur la valeur qu’il peut saisir dans la zone de saisie. Nous avons lui demander de saisir son prénom en.&amp;lt;input type=&quot;text&quot; placeholder=&quot;Votre prénom&quot; &amp;gt;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#exemple-délément--attribut-placeholder",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#omettre-des-guillemets-autour-dattribut": {
+      "title": "Omettre des guillemets autour d’attribut  (Élément, balise et attribut)",
+      "content"	 : "Omettre des guillemets autour d’attributSi vous regardez ce qui se passe sur le Web, vous rencontrerez tous types de styles de balises étranges, y compris des valeurs d’attribut sans guillemets. C’est permis dans certaines circonstances, mais cela va briser votre balisage dans d’autres.Par exemple, si nous voyons notre exemple, nous pourrons écrire la valeur de l’attribut type sans guillemets et ça va s’exécuter correctement dans le navigateur.&amp;lt;input type=text placeholder=&quot;Votre prénom&quot; &amp;gt;Cependant, si nous ajoutons l’attribut placeholder dans ce même style, c’est à dir sans les guillemets, cela devient incorrect :&amp;lt;input type=text placeholder=&quot;Nom&quot; &amp;gt;&amp;lt;input type=text placeholder=Votre prénom &amp;gt;En effet, le navigateur interprétera mal la balise, pensant que l’attribut placeholder est en fait deux attributs — un attribut placeholder avec la valeur « Votre » et deuxième attributs booléens, « prénom ». Ce n’est évidemment pas ce qui était prévu et cela provoquera des erreurs ou un comportement inattendu dans le code, comme on le voit dans l’exemple.Nous vous recommandons de toujours inclure les guillemets afin d’éviter ce type de problèmes, mais aussi pour que le code soit plus lisible.",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#omettre-des-guillemets-autour-dattribut",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#guillemets-simples-ou-doubles-": {
+      "title": "Guillemets simples ou doubles ?  (Élément, balise et attribut)",
+      "content"	 : "Guillemets simples ou doubles ?Dans cette session de formation, vous remarquerez que les valeurs des attributs sont toutes entre des guillemets doubles (“ “). Vous pouvez cependant voir des guillemets simples (‘ ‘) dans le code HTML de certaines personnes. C’est purement une question de style, et vous êtes libre de choisir la solution que vous préférez. Les deux balise suivantes sont équivalentes :&amp;lt;input type=&quot;text&quot; placeholder=&quot;Votre nom&quot; &amp;gt;&amp;lt;input type=&quot;text&quot; placeholder=&#39;Votre nom&#39; &amp;gt;Vous devez cependant vous assurer de ne pas les mélanger. Ce qui suit n’est pas correct :&amp;lt;input type=&quot;text&quot; placeholder=&quot;Votre nom&#39; &amp;gt;&amp;lt;input type=&quot;text&quot; placeholder=&#39;Votre nom&#39; &amp;gt;",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#guillemets-simples-ou-doubles-",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#eléments-imbriqués": {
+      "title": "Eléments imbriqués  (Élément, balise et attribut)",
+      "content"	 : "Eléments imbriquésVous pouvez mettre des éléments à l’intérieur d’autres éléments — cela s’appelle l’imbrication. Si vous voulez mettre en valeur le texte “éléctronique” vous pouvez le mettre dans l’élément &amp;lt;strong&amp;gt;, pour qu’il soit fortement mis en valeur :&amp;lt;p&amp;gt;Un ordinateur est un appareil &amp;lt;strong&amp;gt;électronique&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;Vous devez toutefois vous assurer que vos éléments sont correctement imbriqués : dans l’exemple ci-dessus, nous avons ouvert l’élément p en premier, puis l’élément strong, donc nous devons fermer l’élément strong d’abord, puis l’élément p. Ce qui suit est incorrect :&amp;lt;p&amp;gt;Un ordinateur est un appareil &amp;lt;strong&amp;gt;électronique&amp;lt;/p&amp;gt;&amp;lt;/strong&amp;gt;Les éléments doivent être ouverts et fermés correctement afin d’être clairement à l’intérieur ou à l’extérieur l’un de l’autre. Si les balises se chevauchent comme dans l’exemple ci-dessus, votre navigateur web essaiera de deviner ce que vous vouliez dire, et vous pourrez obtenir des résultats inattendus.",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#eléments-imbriqués",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#conclusion": {
+      "title": "Conclusion  (Élément, balise et attribut)",
+      "content"	 : "ConclusionVoilà tous pour cette session de formation. Nous avons vu les trois composant d’un élément HTML",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#conclusion",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"c3-a9l-c3-a9ment-balise-attribut-html#références": {
+      "title": "Références  (Élément, balise et attribut)",
+      "content"	 : "RéférencesLes bases du HTMLCommencer avec le HTML",
+      "url": "/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html#références",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    }
+,
+"document-html-valide-html": {
+      "title": "Document HTML valide",
+      "content"	 : "Document HTML valide",
+      "url": "/html5-css3/document-html-valide.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Document HTML valide)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/document-html-valide.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#document-html-valide-1": {
+      "title": "Document HTML valide  (Document HTML valide)",
+      "content"	 : "Document HTML valideDans cette session de formation, nous allons apprendre comment écrire un document HTML Valide.Les éléments HTML basiques ne sont pas très utiles si on les prend séparément. Nous allons voir comment combiner ces éléments individuels pour former une page HTML entière valide.L’exemple de code suivant représente une page HTMl valide et contient plusieurs éléments que nous allons découvrir dans cette session de formation.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;title&amp;gt;Ma page test&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;p&amp;gt;Voici ma page web&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#document-html-valide-1",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#type-de-document---doctype-html": {
+      "title": "Type de document :  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;  (Document HTML valide)",
+      "content"	 : "Type de document :  &amp;lt;!DOCTYPE html&amp;gt;Quand HTML était jeune (vers 1991/2), les doctypes  étaient censés agir comme des liens vers un ensemble de règles que la page HTML devait suivre pour être considérée comme un bon HTML, ce qui pouvait signifier la vérification automatique des erreurs et d’autres choses utiles. Habituellement, ils ressemblaient à ceci :&amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&amp;gt;Cependant, de nos jours personne ne se soucie vraiment d’eux, et ils sont juste un artefact historique qui doit être inclus pour que tout fonctionne bien.&amp;lt;!DOCTYPE html&amp;gt; est la chaîne de caractères la plus courte qui soit un doctype valide. C’est tout ce que vous avez vraiment besoin de savoir.&amp;lt;!DOCTYPE html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#type-de-document---doctype-html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#lélément-htmlhtml-": {
+      "title": "L’élément &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;&lt;/code&gt; :  (Document HTML valide)",
+      "content"	 : "L’élément &amp;lt;html&amp;gt;&amp;lt;/html&amp;gt; :Cet élément est le contenant de tout le code de la page et il est parfois connu comme l’élément racine.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#lélément-htmlhtml-",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#lélément-headhead": {
+      "title": "L’élément &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&lt;/code&gt;.  (Document HTML valide)",
+      "content"	 : "L’élément &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;.Cet élément a le rôle de conteneur pour toute chose que vous souhaitez inclure dans la page HTML qui ne soit pas du contenu à afficher aux visiteurs de la page :  mots clés, description de page que vous souhaitez voir apparaître dans les résultats de recherche, style CSS, déclarations de jeu de caractères et plus encore. Je vous en dis plus à ce sujet dans les sessions suivants.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;/head&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#lélément-headhead",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#meta-charsetutf-8-": {
+      "title": "&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;&lt;/code&gt; :  (Document HTML valide)",
+      "content"	 : "&amp;lt;meta charset=&quot;utf-8&quot;&amp;gt; :Cet élément définit que le jeu de caractères à utiliser pour votre document qui est UTF-8. Ce jeu comporte la quasi‑totalité des caractères de toutes les écritures de langues humaines connues.Actuellement, il peut pour l’essentiel gérer tout contenu textuel que vous y pourriez mettre. Il n’y a aucune raison de ne pas définir cela et il peut permettre d’éviter certains problèmes plus tard.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;  &amp;lt;/head&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#meta-charsetutf-8-",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#lélément-title--titletitle": {
+      "title": "L’élément title : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/code&gt;  (Document HTML valide)",
+      "content"	 : "L’élément title : &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;Il définit le titre de la page, celui qui s’affiche dans l’onglet du navigateur dans lequel la page est chargée et qui est utilisé pour décrire la page lorsque vous la marquez ou l’ajoutez aux favoris.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;title&amp;gt;Ma page test&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#lélément-title--titletitle",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#lélément--bodybody-": {
+      "title": "l’élément  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/code&gt; :  (Document HTML valide)",
+      "content"	 : "l’élément  &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt; :Il contient tout le contenu que vous souhaitez afficher aux internautes lorsqu’ils visitent votre page, que ce soit du texte, des images, des vidéo ou autre.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;title&amp;gt;Ma page test&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;p&amp;gt;Voici ma page web&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#lélément--bodybody-",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#pratique---création-dun-document-html-valide": {
+      "title": "Pratique - Création d’un document html valide  (Document HTML valide)",
+      "content"	 : "Pratique - Création d’un document html valideConclusionNous avons vu comment créer un document html valide. Il contient l’élément racine html, l’élément head contenant les métas informations de notre document, et l’élément body qui contient le contenue visuel de la page.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;title&amp;gt;Ma page test&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;p&amp;gt;Voici ma page web&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/document-html-valide.html#pratique---création-dun-document-html-valide",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"document-html-valide-html#références": {
+      "title": "Références  (Document HTML valide)",
+      "content"	 : "RéférencesLes bases du HTML",
+      "url": "/html5-css3/document-html-valide.html#références",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    }
+,
+"tp-quelques-c3-a9l-c3-a9ments-html-html": {
+      "title": "TP - Quelques éléments  HTML",
+      "content"	 : "TP - Quelques éléments  HTML",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"tp-quelques-c3-a9l-c3-a9ments-html-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (TP - Quelques éléments  HTML)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"tp-quelques-c3-a9l-c3-a9ments-html-html#tp---quelques-éléments--html-1": {
+      "title": "TP - Quelques éléments  HTML  (TP - Quelques éléments  HTML)",
+      "content"	 : "TP - Quelques éléments  HTMLDans ce travail pratique nous allons découvrir quelques  éléments HTML que nous utiliserons dans les exemples et travaux pratiques des parties suivants de notre formation.Aussi, nous allons développer notre premier page web seulement en HTML.",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#tp---quelques-éléments--html-1",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"tp-quelques-c3-a9l-c3-a9ments-html-html#élements-html": {
+      "title": "Élements HTML  (TP - Quelques éléments  HTML)",
+      "content"	 : "Élements HTMLNous allons découvrir les éléments suivants :  Titres  Image  Liste ordonnée  Liste non ordonée.",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#élements-html",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    },
+"tp-quelques-c3-a9l-c3-a9ments-html-html#pratique": {
+      "title": "Pratique  (TP - Quelques éléments  HTML)",
+      "content"	 : "Pratique",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#pratique",
+      "author": "",
+      "categories": "bien-démarrer-html"
+    }
+,
+"r-c3-a9sum-c3-a9-bien-d-c3-a9marrer-avec-html-html": {
+      "title": "Résumé",
+      "content"	 : "Résumé - bien démarrer avec HTMLNous avons découvert dans cette partie de formation le langage HTMlNous avons appris la syntaxe et la structure d’un document HTML Valide.&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;title&amp;gt;Ma page test&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;p&amp;gt;Voici ma page web&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Nous avons découvert, aussi,  par pratique, quelques éléments HTML utile, à utiliser dans nos exemples et travaux pratiques avant de les étudier en détails.Nous avons vue comment structure le le texte en :  Titre : en utilisant les éléments  h1 et h2  Paragraphe : p  Image : img  Liste ( ordonée et non ordonée ) : ol, ul et liDans la partie suivante, Nous allons démarrer l’apprentissage du langage CSS. Dans l’objectif de comprendre les base de ce langage afin de commencer la réalisation de nos mini-projet sur des cas réel de réalistion des site web professionnel.",
+      "url": "/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-html.html",
+      "author": "",
+      "categories": "bien-démarrer-html"
     }
 
 
