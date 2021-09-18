@@ -75,7 +75,22 @@ em{
     border-collapse: collapse;
 }
 
-pre.highlight {
-    border: solid 1px;
-    padding: 6px;
+.rouge-code pre {
+    overflow-x: auto;
+    width: 658px;
+    padding-bottom: 3px;
+    scrollbar-color: red
+}
+
+.rouge-code pre::-webkit-scrollbar {
+    background: rgb(233, 232, 232);
+ 
+    
+}
+.rouge-code pre::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202);
+}
+ 
+.rouge-table td {
+    vertical-align: top;
 }

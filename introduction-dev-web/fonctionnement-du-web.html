@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html dir="ltr" lang="fr_FR" class="sidebar-visible no-js codeur">
     <head>
+        <meta name="author" content="ESSARRAJ Fouad" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	    <meta name="author" content="ESSARRAJ Fouad" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Comment fonctionne le Web ? | Web et Internet - Initiation à HTML5 et CSS3</title>
         <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Comment fonctionne le Web ? | Initiation à HTML 5 et CSS 3</title>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Comment fonctionne le Web ?" />
 <meta property="og:locale" content="fr_FR" />
@@ -14,173 +14,112 @@
 <meta property="og:description" content="Comment fonctionne le Web ?" />
 <link rel="canonical" href="https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html" />
 <meta property="og:url" content="https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html" />
-<meta property="og:site_name" content="Initiation à HTML 5 et CSS 3" />
+<meta property="og:site_name" content="Initiation à HTML5 et CSS3" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-09-09T11:44:02+01:00" />
+<meta property="article:published_time" content="2021-09-18T20:51:02+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Comment fonctionne le Web ?" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html"},"url":"https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html","headline":"Comment fonctionne le Web ?","dateModified":"2021-09-09T11:44:02+01:00","datePublished":"2021-09-09T11:44:02+01:00","description":"Comment fonctionne le Web ?","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html"},"url":"https://codeur-academy.com/html5-css3/introduction-dev-web/fonctionnement-du-web.html","headline":"Comment fonctionne le Web ?","dateModified":"2021-09-18T20:51:02+01:00","datePublished":"2021-09-18T20:51:02+01:00","description":"Comment fonctionne le Web ?","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="shortcut icon" href="/html5-css3/favicon.png">
         <link rel="stylesheet" href="/html5-css3/assets/css/variables.css">
         <link rel="stylesheet" href="/html5-css3/assets/css/general.css">
         <link rel="stylesheet" href="/html5-css3/assets/css/chrome.css">
         <link rel="stylesheet" href="/html5-css3/assets/css/print.css" media="print">
-        <!-- Fonts -->
         <link rel="stylesheet" href="/html5-css3/vendor/FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="/html5-css3/vendor/fonts/fonts.css">
-        <!-- Highlight.js Stylesheets -->
         <!-- <link rel="stylesheet" href="/html5-css3/vendor/highlight1/highlight.css">
         <link rel="stylesheet" href="/html5-css3/vendor/highlight1/tomorrow-night.css">
         <link rel="stylesheet" href="/html5-css3/vendor/highlight1/ayu-highlight.css"> -->
-       
         <!-- <link rel="stylesheet" href="/html5-css3/vendor/pygments-css/pygments.css"> -->
-        <link rel="stylesheet" href="/html5-css3/vendor/pygments-css/default.css">
-
-        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="/html5-css3/vendor/pygments-css/nimbus-pygments.css">
+        <link rel="stylesheet" href="/html5-css3/vendor/pygments-css/code-format.scss">
+       
         <link rel="stylesheet" href="/html5-css3/assets/css/custom.css">
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" src="/html5-css3/assets/js/theme-config.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-CR3NFZ86T4"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-CR3NFZ86T4');
-        </script>
-        
-    </head>
+        </script></head>
     <body>
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "codeur";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
-            html.classList.remove('no-js')
-            html.classList.remove('codeur')
-            html.classList.add(theme);
-            html.classList.add('js');
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
 <div class="sidebar-scrollbox">
 <a href="/">
     <img width="100%" src="https://codeur-academy.com/Content/CodeurAcademy/images/logo-codeur-academy.png" alt="Codeur Academy">
 </a>
 <ol class="chapter"><li class="chapter-item expanded affix"></li>
-    <li class="part-title"> Introduction</li><li class="chapter-item expanded">
+    <li class="part-title"> Introduction</li>
+        <li class="chapter-item expanded">
         <a href="/html5-css3/introduction.html" class="">
-            <strong aria-hidden="true">1.</strong>  
-            Introduction
-        </a></li><li class="chapter-item expanded affix"></li>
-    <li class="part-title"> Web et Internet</li><li class="chapter-item expanded">
+            <strong aria-hidden="true">1.</strong>Introduction</a></li><li class="chapter-item expanded affix"></li>
+    <li class="part-title"> Web et Internet</li>
+        <li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/introduction.html" class="">
-            <strong aria-hidden="true">2.</strong>  
-            Introduction
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">2.</strong>Introduction</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/fonctionnement-internet.html" class="">
-            <strong aria-hidden="true">3.</strong>  
-            Qu&#39;est ce qu&#39;Internet ?
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">3.</strong>Qu&#39;est ce qu&#39;Internet ?</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/qu-est-ce-que-le-web.html" class="">
-            <strong aria-hidden="true">4.</strong>  
-            Qu&#39;est-ce que le Web ?
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">4.</strong>Qu&#39;est-ce que le Web ?</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/fonctionnement-du-web.html" class="">
-            <strong aria-hidden="true">5.</strong>  
-            Comment fonctionne le Web ?
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">5.</strong>Comment fonctionne le Web ?</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/html-css-javascript.html" class="">
-            <strong aria-hidden="true">6.</strong>  
-            Langages Web
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">6.</strong>Langages Web</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/introduction-dev-web/r%C3%A9sum%C3%A9.html" class="">
-            <strong aria-hidden="true">7.</strong>  
-            Résumé
-        </a></li><li class="chapter-item expanded affix"></li>
-    <li class="part-title"> Installation des outils</li><li class="chapter-item expanded">
+            <strong aria-hidden="true">7.</strong>Résumé</a></li><li class="chapter-item expanded affix"></li>
+    <li class="part-title"> Installation des outils</li>
+        <li class="chapter-item expanded">
         <a href="/html5-css3/installation-des-outils.html" class="">
-            <strong aria-hidden="true">8.</strong>  
-            Introduction
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">8.</strong>Introduction</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/installation-google-chrome.html" class="">
-            <strong aria-hidden="true">9.</strong>  
-            Navigateur web moderne
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">9.</strong>Navigateur web moderne</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/installation-et-utilisation-de-visual-studio-code.html" class="">
-            <strong aria-hidden="true">10.</strong>  
-            Éditeur de code
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">10.</strong>Éditeur de code</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/r%C3%A9sum%C3%A9-installation-outils.html" class="">
-            <strong aria-hidden="true">11.</strong>  
-            Résumé
-        </a></li><li class="chapter-item expanded affix"></li>
-    <li class="part-title"> Bien démarrer avec HTML</li><li class="chapter-item expanded">
+            <strong aria-hidden="true">11.</strong>Résumé - Installation des outils</a></li><li class="chapter-item expanded affix"></li>
+    <li class="part-title"> Bien démarrer avec HTML5</li>
+        <li class="chapter-item expanded">
         <a href="/html5-css3/bien-d%C3%A9marrer-avec-html.html" class="">
-            <strong aria-hidden="true">12.</strong>  
-            Bien démarrer avec HTML
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">12.</strong>Introduction</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/qu-est-ce-que-html.html" class="">
-            <strong aria-hidden="true">13.</strong>  
-            Qu&#39;est ce que le HTML ?
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">13.</strong>Qu&#39;est ce que le HTML ?</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/%C3%A9l%C3%A9ment-balise-attribut.html" class="">
-            <strong aria-hidden="true">14.</strong>  
-            Élément, balise et attribut
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">14.</strong>Élément, balise et attribut</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/document-html-valide.html" class="">
-            <strong aria-hidden="true">15.</strong>  
-            Document HTML valide
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">15.</strong>Document HTML valide</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html" class="">
-            <strong aria-hidden="true">16.</strong>  
-            TP - Quelques éléments  HTML
-        </a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">16.</strong>TP - Quelques éléments  HTML</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-html.html" class="">
-            <strong aria-hidden="true">17.</strong>  
-            Résumé
-        </a></li></ol>
+            <strong aria-hidden="true">17.</strong>Résumé</a></li><li class="chapter-item expanded affix"></li>
+    <li class="part-title"> Bien démarrer avec CSS3</li>
+        <li class="chapter-item expanded">
+        <a href="/html5-css3/bien-d%C3%A9marrer-avec-css3.html" class="">
+            <strong aria-hidden="true">18.</strong>Introduction</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/syntaxe-css.html" class="">
+            <strong aria-hidden="true">19.</strong>Syntaxe  de CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/initiation-police-texte.html" class="">
+            <strong aria-hidden="true">20.</strong>Police et texte</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/display-block-inline.html" class="">
+            <strong aria-hidden="true">21.</strong>Propriété Display</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/unit%C3%A9s-de-longueur.html" class="">
+            <strong aria-hidden="true">22.</strong>Unités de longueur</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/s%C3%A9lecteurs.html" class="">
+            <strong aria-hidden="true">23.</strong>Sélecteurs</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="">
+            <strong aria-hidden="true">24.</strong>Modèle de Boîtes CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/initiation-couleur.html" class="">
+            <strong aria-hidden="true">25.</strong>couleur</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/tp-exemple-page-html5-avec-css3.html" class="">
+            <strong aria-hidden="true">26.</strong>TP-Exemple d&#39;une page avec CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-css3.html" class="">
+            <strong aria-hidden="true">27.</strong>Résumé</a></li></ol>
 </div>
    <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
 </nav>
-       
-
         <div id="page-wrapper" class="page-wrapper">
             <div class="page">       
     <div id="menu-bar-hover-placeholder"></div>
@@ -206,7 +145,7 @@
             </button>
             
         </div>
-        <h1 class="menu-title">Initiation à HTML 5 et CSS 3</h1>
+        <h1 class="menu-title">Initiation à HTML5 et CSS3</h1>
         <div class="right-buttons">
             <!-- <a href="print.html" title="Print this book" aria-label="Print this book">
                 <i id="print-button" class="fa fa-print"></i>
@@ -223,14 +162,7 @@
             </ul>
         </div>
     </div>
-    <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-    <script type="text/javascript">
-        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-        Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-        });
-    </script>
+   
 
     <div id="content" class="content">
         <main>
@@ -321,13 +253,19 @@ et la machine <strong>B</strong> par l’adresse : 185.199.108.153</p>
 
 <!-- end note -->
 
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w"> 
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="w"> 
 </span><span class="n">PS</span><span class="w"> </span><span class="nx">C:\Users\essarraj</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">ping</span><span class="w"> </span><span class="nx">codeur-academy.com</span><span class="w">
 
 </span><span class="n">Envoi</span><span class="w"> </span><span class="nx">d</span><span class="err">’</span><span class="nx">une</span><span class="w"> </span><span class="nx">requ</span><span class="err">ê</span><span class="nx">te</span><span class="w"> </span><span class="s1">'ping'</span><span class="w"> </span><span class="nx">sur</span><span class="w"> </span><span class="nx">codeur-academy.com</span><span class="w"> </span><span class="p">[</span><span class="mf">185.199</span><span class="o">.</span><span class="nf">108</span><span class="o">.</span><span class="nf">153</span><span class="p">]</span><span class="w"> </span><span class="err"> </span><span class="p">:</span><span class="w">
 </span><span class="n">R</span><span class="err">é</span><span class="nx">ponse</span><span class="w"> </span><span class="nx">de</span><span class="w"> </span><span class="nx">185.199.108.153</span><span class="err"> </span><span class="p">:</span><span class="w"> </span><span class="nx">octets</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="n">temps</span><span class="o">=</span><span class="mi">114</span><span class="w"> </span><span class="n">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">52</span><span class="w">
 </span><span class="n">R</span><span class="err">é</span><span class="nx">ponse</span><span class="w"> </span><span class="nx">de</span><span class="w"> </span><span class="nx">185.199.108.153</span><span class="err"> </span><span class="p">:</span><span class="w"> </span><span class="nx">octets</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="n">temps</span><span class="o">=</span><span class="mi">82</span><span class="w"> </span><span class="n">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">52</span><span class="w">
-</span></code></pre></div></div>
+</span></pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="protocole-de-communication">Protocole de communication</h2>
 
@@ -431,8 +369,9 @@ est en mesure de faire ce que le client lui demande.</p>
 
 <!-- new zone -->
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://codeur-academy.com/index.html
-</code></pre></div></div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>https://codeur-academy.com/index.html
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="comment-fonctionne-le-web">Comment fonctionne le Web</h2>
 
@@ -484,30 +423,15 @@ est en mesure de faire ce que le client lui demande.</p>
     <i class="fa fa-angle-right"></i>
 </a></nav>
         </div>
-
-        <script type="text/javascript">
-            window.playground_copyable = true;
-        </script> 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="/html5-css3/vendor/lunrjs/lunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/html5-css3/vendor/mark/mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/html5-css3/vendor/mark/jquery.mark.min.js" type="text/javascript" charset="utf-8"></script>
-
-
-        
-
-
-
         <script src="/html5-css3/assets/js/variables.js" type="text/javascript" charset="utf-8"></script>
         <script src="/html5-css3/assets/js/search2.js" type="text/javascript" charset="utf-8"></script>
         <script src="/html5-css3/vendor/clipboard/clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <!-- <script src="/html5-css3/vendor/highlight/highlight1.js" type="text/javascript" charset="utf-8"></script> -->
         <script src="/html5-css3/assets/js/book.js" type="text/javascript" charset="utf-8"></script>
-
-        <!-- Custom JS scripts -->
-        
         <script type="text/javascript" src="/html5-css3/assets/js/custom.js"></script>
-        
-    
     </body>
 </html>

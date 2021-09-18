@@ -68,16 +68,16 @@ window.onunload = function () { };
         let ace_theme;
 
         if (theme == 'coal' || theme == 'navy') {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.tomorrowNight.disabled = false;
-            stylesheets.highlight.disabled = true;
+            // stylesheets.ayuHighlight.disabled = true;
+            // stylesheets.tomorrowNight.disabled = false;
+            // stylesheets.highlight.disabled = true;
 
-            ace_theme = "ace/theme/tomorrow_night";
+            // ace_theme = "ace/theme/tomorrow_night";
         } else if (theme == 'ayu') {
-            stylesheets.ayuHighlight.disabled = false;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = true;
-            ace_theme = "ace/theme/tomorrow_night";
+            // stylesheets.ayuHighlight.disabled = false;
+            // stylesheets.tomorrowNight.disabled = true;
+            // stylesheets.highlight.disabled = true;
+            // ace_theme = "ace/theme/tomorrow_night";
         } else {
             // stylesheets.ayuHighlight.disabled = true;
             // stylesheets.tomorrowNight.disabled = true;

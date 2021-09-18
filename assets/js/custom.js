@@ -1,3 +1,19 @@
+// if (document.body.clientWidth >= 1080) {
+//     try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+//     sidebar = sidebar || 'visible';
+// }
+
+
+// Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM
+
+document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+    link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+});
+
+
+
 $(document).ready(function(){
 
     var bookReference = "programmation-web";
