@@ -16,11 +16,11 @@
 <meta property="og:url" content="https://codeur-academy.com/html5-css3/s%C3%A9lecteurs.html" />
 <meta property="og:site_name" content="Initiation à HTML5 et CSS3" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-09-18T20:51:02+01:00" />
+<meta property="article:published_time" content="2021-09-21T21:19:54+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sélecteurs" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/s%C3%A9lecteurs.html"},"url":"https://codeur-academy.com/html5-css3/s%C3%A9lecteurs.html","headline":"Sélecteurs","dateModified":"2021-09-18T20:51:02+01:00","datePublished":"2021-09-18T20:51:02+01:00","description":"Sélecteurs","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/s%C3%A9lecteurs.html"},"url":"https://codeur-academy.com/html5-css3/s%C3%A9lecteurs.html","headline":"Sélecteurs","dateModified":"2021-09-21T21:19:54+01:00","datePublished":"2021-09-21T21:19:54+01:00","description":"Sélecteurs","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
         <link rel="shortcut icon" href="/html5-css3/favicon.png">
@@ -101,16 +101,16 @@
             <strong aria-hidden="true">18.</strong>Introduction</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/syntaxe-css.html" class="">
             <strong aria-hidden="true">19.</strong>Syntaxe  de CSS</a></li><li class="chapter-item expanded">
-        <a href="/html5-css3/initiation-police-texte.html" class="">
-            <strong aria-hidden="true">20.</strong>Police et texte</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/display-block-inline.html" class="">
-            <strong aria-hidden="true">21.</strong>Propriété Display</a></li><li class="chapter-item expanded">
-        <a href="/html5-css3/unit%C3%A9s-de-longueur.html" class="">
-            <strong aria-hidden="true">22.</strong>Unités de longueur</a></li><li class="chapter-item expanded">
-        <a href="/html5-css3/s%C3%A9lecteurs.html" class="">
-            <strong aria-hidden="true">23.</strong>Sélecteurs</a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">20.</strong>Élément block et inline</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="">
-            <strong aria-hidden="true">24.</strong>Modèle de Boîtes CSS</a></li><li class="chapter-item expanded">
+            <strong aria-hidden="true">21.</strong>Modèle de Boîtes CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/initiation-police-texte.html" class="">
+            <strong aria-hidden="true">22.</strong>Police et texte</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/unit%C3%A9s-de-longueur.html" class="">
+            <strong aria-hidden="true">23.</strong>Unités de longueur</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/s%C3%A9lecteurs.html" class="">
+            <strong aria-hidden="true">24.</strong>Sélecteurs</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/initiation-couleur.html" class="">
             <strong aria-hidden="true">25.</strong>couleur</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/tp-exemple-page-html5-avec-css3.html" class="">
@@ -168,7 +168,7 @@
         <main>
             <h1 id="sélecteurs">Sélecteurs</h1>
 
-<p>les sélecteurs sont utilisés pour cibler les éléments HTML à mettre en forme dans nos pages web.
+<p>Les sélecteurs sont utilisés pour cibler les éléments HTML à mettre en forme dans nos pages web.
 Dans cette session de formation, nous découvrirons les sélecteurs les plus simples qu’on puisse trouver, ce sont ceux que vous utiliserez le plus couramment dans votre travail de création des sites web.</p>
 
 <h2 id="quest-ce-quun-sélecteur-">Qu’est-ce qu’un sélecteur ?</h2>
@@ -191,11 +191,11 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 
 <p>Un sélecteur est une expression qui indique au navigateur à quel élément HTML à cibler pour applique la la déclaration CSS de la règle.</p>
 
-<h2 id="lattribut-id-et-classe">l’attribut Id et Classe</h2>
+<h2 id="lattribut-id-et-classe">L’attribut <strong>Id</strong> et <strong>Classe</strong></h2>
 
 <p>Les attributs <strong>id</strong> et <strong>class</strong> sont particuliers en HTML puisqu’ils n’ont pas été créés pour préciser le fonctionnement d’un élément HTML en particulier (ce qui est normalement le rôle de tout attribut HTML) mais vont être principalement utilisés pour cibler certains éléments HTML et leur appliquer des styles en CSS.</p>
 
-<p>Les attributs HTML class et id sont des attributs dits <strong>globaux</strong> car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.</p>
+<p>Les attributs HTML <strong>class</strong> et <strong>id</strong> sont des attributs dits <strong>globaux</strong> car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -217,7 +217,7 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 
 <h2 id="sélecteur-de-type">Sélecteur de type</h2>
 
-<p>Un sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  utilise les sélecteurs h1 et a. Chaque instance de <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> est ainsi mise en forme.</p>
+<p>Un sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  nous utilisons les sélecteurs <strong>h1</strong> et <strong>a</strong>. Chaque instance de la balise <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> et <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> est ainsi mise en forme.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -371,7 +371,7 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 
 <p>Vous pouvez attribuer plusieurs classes à un même élément et les sélectionner individuellement, ou cibler l’élément seulement quand toutes les classes apparaissent dans le sélecteur. Cela peut s’avérer utile si vous créez des composants qui peuvent être combinés de différentes manières sur votre site.</p>
 
-<p>L’exemple suivant présente trois &lt;div&gt; contenant chacun une note. Si la boîte est dans la classe  notebox elle a une bordure grise. Si de plus elle est dans la classe warning ou danger, on change la border-color.</p>
+<p>L’exemple suivant présente deux paragraphe. Si le paragraphe est dans la classe <strong>paragraphe</strong> elle a une arrière plan <strong>pink</strong> et <strong>padding</strong> 10px. Si de plus elle est dans la classe <strong>important</strong> on change la bordure et la graisse le texte en <strong>blod</strong>.</p>
 
 <p>On indique au navigateur la combinaison de classes ciblée en enchaînant les sélecteurs de classe sans laisser d’espace entre.</p>
 
@@ -383,27 +383,20 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 6
 7
 8
-9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre><span class="nc">.notebox</span> <span class="p">{</span>
-  <span class="nl">border</span><span class="p">:</span> <span class="m">4px</span> <span class="nb">solid</span> <span class="m">#666</span><span class="p">;</span>
-  <span class="nl">padding</span><span class="p">:</span> <span class="m">.5em</span><span class="p">;</span>
+</pre></td><td class="rouge-code"><pre><span class="nc">.paragraphe</span> <span class="p">{</span>
+     <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+     <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
 <span class="p">}</span>
-
-<span class="nc">.notebox.warning</span> <span class="p">{</span>
-  <span class="nl">border-color</span><span class="p">:</span> <span class="no">orange</span><span class="p">;</span>
-  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nc">.notebox.danger</span> <span class="p">{</span>
-  <span class="nl">border-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+<span class="nc">.important</span> <span class="p">{</span>
+    <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+    <span class="nl">font-weight</span><span class="p">:</span><span class="nb">bold</span>
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
+<p><img src="./images/bien-démarrer-avec-css/sélecteur/plusieurs-classes.png" alt="Sélecteur de type" /></p>
+
+<h2 id="pratique--plusieurs-classe">Pratique : plusieurs classe</h2>
+
+<h3 id="code-source">Code source</h3>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -420,40 +413,66 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 13
 14
 15
-</pre></td><td class="rouge-code"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notebox"</span><span class="nt">&gt;</span>
-    Ceci est une note d'information.
-<span class="nt">&lt;/div&gt;</span>
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+<span class="nt">&lt;style&gt;</span>
+<span class="nc">.paragraphe</span> <span class="p">{</span>
+     <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+     <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.important</span> <span class="p">{</span>
+    <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+    <span class="nl">font-weight</span><span class="p">:</span><span class="nb">bold</span>
+<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"important"</span><span class="nt">&gt;</span>Qu'est-ce que l'ordinateur<span class="nt">&lt;/h1&gt;</span>
 
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notebox warning"</span><span class="nt">&gt;</span>
-    Cette note affiche un avertissement.
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notebox danger"</span><span class="nt">&gt;</span>
-    Cette note montre le danger !
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"danger"</span><span class="nt">&gt;</span>
-    Cela ne sera pas stylisé - il doit également avoir la classe note box
-<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"paragraphe"</span><span class="nt">&gt;</span>
+        Un <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://fr.wikipedia.org/wiki/Ordinateur"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>
+        ordinateur<span class="nt">&lt;/a&gt;</span> est un appareil électronique capable de réaliser 
+        rapidement des opérations mathématiques, logiques, des manipulations 
+        de chaînes de caractères ou des recherches.
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"important"</span><span class="nt">&gt;</span>Unité centrale <span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"paragraphe important"</span><span class="nt">&gt;</span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?
+    <span class="nt">&lt;/p&gt;</span>
+  
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="sélecteurs-did">Sélecteurs d’ID</h2>
 
-<p>Un sélecteur d’ID commence par un # plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document. Le sélecteur cible l’élément avec l’id associée ; on peut faire précéder l’ID d’un sélecteur de type pour ne cibler l’élément que si l’élément et l’ID correspondent.</p>
+<p>Un sélecteur d’ID commence par un <strong>#</strong> plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-6
-7
-</pre></td><td class="rouge-code"><pre><span class="nf">#one</span> <span class="p">{</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">h1</span><span class="nf">#heading</span> <span class="p">{</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="n">rebeccapurple</span><span class="p">;</span>
+</pre></td><td class="rouge-code"><pre><span class="nf">#definition</span> <span class="p">{</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
@@ -463,13 +482,17 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 4
 5
 6
-</pre></td><td class="rouge-code"><pre><span class="nt">&lt;h1</span> <span class="na">id=</span><span class="s">"heading"</span><span class="nt">&gt;</span>ID selector<span class="nt">&lt;/h1&gt;</span>
-<span class="nt">&lt;p&gt;</span>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo
-    melon azuki bean garlic.<span class="nt">&lt;/p&gt;</span>
-
-<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"one"</span><span class="nt">&gt;</span>Gumbo beet greens corn soko <span class="nt">&lt;strong&gt;</span>endive<span class="nt">&lt;/strong&gt;</span> gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard
-    greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<span class="nt">&lt;/p&gt;</span>
+7
+</pre></td><td class="rouge-code"><pre><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"titre"</span><span class="nt">&gt;</span>Qu'est-ce que l'ordinateur<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"definition"</span><span class="nt">&gt;</span>
+    Un <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://fr.wikipedia.org/wiki/Ordinateur"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>
+    ordinateur<span class="nt">&lt;/a&gt;</span> est un appareil électronique capable de réaliser 
+    rapidement des opérations mathématiques, logiques, des manipulations 
+    de chaînes de caractères ou des recherches.
+<span class="nt">&lt;/p&gt;</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><img src="./images/bien-démarrer-avec-css/sélecteur/sélecteur-de-id.png" alt="Sélecteurs d'ID" /></p>
 
 <h2 id="listes-de-sélecteurs">Listes de sélecteurs</h2>
 
@@ -504,13 +527,13 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 <h2 id="références">Références</h2>
 <ul>
   <li><a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors">Sélecteurs CSS</a></li>
-  <li><a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors"></a></li>
+  <li><a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors">Sélecteurs de type, de classe et d’ID</a></li>
 </ul>
 
         </main><nav class="nav-wrapper" aria-label="Page navigation">
             <!-- Mobile navigation buttons --><a rel="prev" href="/html5-css3/unit%C3%A9s-de-longueur.html" class="mobile-nav-chapters previous" title="Unités de longueur" aria-label="Unités de longueur" aria-keyshortcuts="Left">
                     <i class="fa fa-angle-left"></i>
-                </a><a rel="next" href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="mobile-nav-chapters next" title="Modèle de Boîtes CSS" aria-label="Modèle de Boîtes CSS" aria-keyshortcuts="Right">
+                </a><a rel="next" href="/html5-css3/initiation-couleur.html" class="mobile-nav-chapters next" title="couleur" aria-label="couleur" aria-keyshortcuts="Right">
                     <i class="fa fa-angle-right"></i>
                 </a><div style="clear: both"></div>
         </nav>
@@ -518,7 +541,7 @@ Dans cette session de formation, nous découvrirons les sélecteurs les plus sim
 </div>
 <nav class="nav-wide-wrapper" aria-label="Page navigation"><a rel="prev" href="/html5-css3/unit%C3%A9s-de-longueur.html" class="nav-chapters previous" title="Unités de longueur" aria-label="Unités de longueur" aria-keyshortcuts="Left">
     <i class="fa fa-angle-left"></i>
-</a><a rel="next" href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="nav-chapters next" title="Modèle de Boîtes CSS" aria-label="Modèle de Boîtes CSS" aria-keyshortcuts="Right">
+</a><a rel="next" href="/html5-css3/initiation-couleur.html" class="nav-chapters next" title="couleur" aria-label="couleur" aria-keyshortcuts="Right">
     <i class="fa fa-angle-right"></i>
 </a></nav>
         </div>

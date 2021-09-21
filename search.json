@@ -731,14 +731,6 @@
       "categories": "bien-démarrer-css3"
     }
 ,
-"r-c3-a9sum-c3-a9-bien-d-c3-a9marrer-avec-css3-html": {
-      "title": "Résumé - Bien démarrer avec CSS3",
-      "content"	 : "Résumé",
-      "url": "/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-css3.html",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    }
-,
 "syntaxe-css-html": {
       "title": "Syntaxe  de CSS",
       "content"	 : "SyntaxeCSS pour (Cascading Style Sheets) permet de créer des pages web à l’apparence soignée.Dans cette session de formation, nous allons apprendre ce que c’est le CSS.Nous allons découvrir la syntaxe puis quelques termes clé du langage.",
@@ -803,6 +795,120 @@
       "categories": "bien-démarrer-css3"
     }
 ,
+"display-block-inline-html": {
+      "title": "Élément block et inline",
+      "content"	 : "Élément block et inline",
+      "url": "/html5-css3/display-block-inline.html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"display-block-inline-html#disposition-en-flux": {
+      "title": "Disposition en flux  (Élément block et inline)",
+      "content"	 : "Disposition en fluxLe flux normal ou « disposition en flux » (Flow Layout) correspond à la façon dont les éléments de bloc et les éléments en ligne sont disposés avant tout changement apporté à leur disposition.Avec un flux normal, les éléments en ligne (inline elements) sont affichés selon le sens dans lequel les mots sont écrits.Les éléments de bloc (block elements) sont affichés les uns après les autres, à la façon des paragraphes.Par exemple, pour un document français, les éléments en ligne sont affichés les uns à la suite des autres de gauche à droite et les éléments de bloc sont affichés les uns en dessous des autres.Dans l’exemple suivant, on peut voir des boîtes de bloc et des boîtes en ligne. Les deux éléments correspondants aux paragraphes sont des éléments de bloc. Ces deux éléments s’affichent l’un en dessous de l’autre.Le deuxième paragraphe contient également des éléments . C’est un élément en ligne qui s’affiche donc de gauche à droit.1234567891011121314&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Titre&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;Paragraphe 1&amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Paragraphe 2 :         &amp;lt;span&amp;gt;Phrase 1&amp;lt;/span&amp;gt;        &amp;lt;span&amp;gt;Phrase 2&amp;lt;/span&amp;gt;    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/display-block-inline.html#disposition-en-flux",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"display-block-inline-html#display--block-et-inline": {
+      "title": "Display : block et inline  (Élément block et inline)",
+      "content"	 : "Display : block et inlineLa propriété display définit le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils.Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.nous allons traiter les valeurs block, inline et inline-block.      La valeur block génère une boîte de bloc qui ajoute des passages à la ligne avant et après l’élément dans le flux normal.        la valeur inline génère une ou plusieurs boîtes en lignes qui n’ajoutent pas de passages à la ligne avant ou après. Dans un flux normal, le prochain élément sera sur la même ligne si l’espace le permet.. Les propriétés de hauteur et de largeur n’auront aucun effet        la valeur inline-block : affiche un élément en tant que conteneur de blocs de niveau en ligne. L’élément lui-même est formaté comme un élément en ligne, mais vous pouvez appliquer des valeurs de hauteur et de largeur1.  ",
+      "url": "/html5-css3/display-block-inline.html#display--block-et-inline",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"display-block-inline-html#pratique--display-block-et-inline": {
+      "title": "Pratique : display block et inline  (Élément block et inline)",
+      "content"	 : "Pratique : display block et inlineLes objectifs de ce travail paratique :  Découvrir les styles par défaut des éléments HTML  Découvrir la valeur : none  Changer la propritété display  Apprendre la différence entre inline et block  Examiner la différence entre inline et incline-block  Savoir comment chercher la description d’une propriété sur la documentation officiel.Code source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            display: inline;        }        p{            background-color:pink;            display: inline-block;            width: 400px;            height: 150px;        }        a{            display: inline-block;            width: 100px;            text-align: center;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
+      "url": "/html5-css3/display-block-inline.html#pratique--display-block-et-inline",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    }
+,
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html": {
+      "title": "Modèle de Boîtes CSS",
+      "content"	 : "",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#modèle-de-boîtes-css": {
+      "title": "Modèle de Boîtes CSS  (Modèle de Boîtes CSS)",
+      "content"	 : "Modèle de Boîtes CSSEn CSS, tout élément est inclus dans une boîte (“box” en anglais). Comprendre le fonctionnement de ces boîtes est essentiel pour maîtriser la mise en page CSS ainsi que le positionnement des éléments d’une page HTML.C’est pour cette raison que l’architecture de CSS est principalement basée sur un modèle de boîtes. Chacun de ces blocs prend un certain espace sur la page, de cette façon :  padding : l’espace autour, proche du contenu (par exemple, l’espace autour du texte d’un paragraphe) (en français, on pourrait traduire cela par du « remplissage » mais le terme padding étant communément utilisé lorsqu’on parle de CSS, on continuera à utiliser ce terme)  border : la ligne qui est juste autour du padding (en français cela correspond à la bordure)  margin :  l’espace extérieur, autour de l’élément (en français cela correspond à la marge)",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#modèle-de-boîtes-css",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique---découvrir-le-style-par-défaut-des-éléments-html": {
+      "title": "Pratique :  Découvrir le style par défaut des éléments HTML  (Modèle de Boîtes CSS)",
+      "content"	 : "Pratique :  Découvrir le style par défaut des éléments HTMLLes objectives de ce TP :  Utiliser les outils de développement pour voir le modèle de boîte  Découvrir les règle de style par défaut  La modification des règle de style directement dans le navigateurChaque navigateur propose des règle de style par défaut pour chaque élément HTML.",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique---découvrir-le-style-par-défaut-des-éléments-html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#résultat": {
+      "title": "Résultat  (Modèle de Boîtes CSS)",
+      "content"	 : "RésultatCode source12345678910111213141516171819202122232425262728&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-style: dotted;            margin: 10px;            padding: 30px;        }        p{            border-style: solid;            margin: 10px;            padding: 10px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#résultat",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#les-bordures": {
+      "title": "Les bordures  (Modèle de Boîtes CSS)",
+      "content"	 : "Les borduresLa bordure se situe entre la marge et le remplissage (padding) d’une boîte. la taille de la bordure s’ajoute à la largeur (width) et la hauteur (height) de la boîte.Pour modifier la taille, le style ou la couleur de tous les côtés en même temps, nous utilisons les propriétés suivantes :  border-width  border-style  border-color12345 h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;}Pour agir sur le style d’une bordure, il existe de nombreuses propriétés qui permettent de régler le style, la taille et la couleur pour chacun des quatre côtés de la bordure.Vous pouvez naturellement fixer la forme taille et couleur des quatre côtés en une seule fois, par le biais de la propriété border.123 h1{    border : 2px dotted indigo}Pour régler ces propriétés individuellement pour chacun des côtés, vous pouvez utiliser :  border-top  border-right  border-bottom  border-left123p{    border-bottom : 2px dotted grey}",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#les-bordures",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--bordures": {
+      "title": "Pratique : bordures  (Modèle de Boîtes CSS)",
+      "content"	 : "Pratique : bordures123456789101112131415161718192021222324252627&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;            /* border : 2px dotted indigo */        }        p{            border-bottom : 2px dotted grey        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--bordures",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#le-padding-remplissage": {
+      "title": "Le padding (remplissage)  (Modèle de Boîtes CSS)",
+      "content"	 : "Le padding (remplissage)Le padding (ou remplissage) se situe entre la bordure et le contenu. on ne peut pas attribuer une valeur numérique négative à un padding, la valeur ne peut être que 0 ou bien une valeur positive.On peut une fois de plus configurer le padding pour tous les côtés à la fois à l’aide de la propriété padding, ou bien chaque côté indépendamment des autres en utilisant les variantes plus précises suivantes :  padding-top  padding-right  padding-bottom  padding-left12345678910111213        h1{            background-color: indigo;            color: white;            padding-top: 20px;            padding-bottom: 10px;            padding-left: 10px;            padding-right: 5px;        }        p{            background-color: pink;            padding: 20px 10px 10px 5px        }",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#le-padding-remplissage",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--padding": {
+      "title": "Pratique : padding  (Modèle de Boîtes CSS)",
+      "content"	 : "Pratique : padding123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding-top: 20px;            padding-bottom: 10px;            padding-left: 10px;            padding-right: 5px;        }        p{            background-color: pink;            padding: 20px 10px 10px 5px        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--padding",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#les-marges": {
+      "title": "Les marges  (Modèle de Boîtes CSS)",
+      "content"	 : "Les margesLa marge est une zone d’espacement invisible qui encadre votre boîte (une marge extérieure). La marge repousse les éléments alentours de la boîte. On peut de plus lui donner une valeur numérique positive ou bien même négative !Lorsque cette valeur est négative, cela peut cependant engendrer des superpositions entre votre boîte et d’autres éléments. La marge est toujours décomptée en surplus de la taille totale de la boîte.On peut fixer les quatre marges d’une boîte d’un seul coup à l’aide de la propriété margin, ou bien régler chaque côté individuellement avec les propriétés équivalentes suivantes :  margin-top  margin-right  margin-bottom  margin-left1234567891011121314h1{    background-color: indigo;    color: white;    padding: 10px;    margin-top: 20px;    margin-bottom: 10px;    margin-left: 30px;    margin-right: 30px;}p{    background-color: pink;    padding: 10px;    margin: 5px;}",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#les-marges",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--margin": {
+      "title": "Pratique : margin  (Modèle de Boîtes CSS)",
+      "content"	 : "Pratique : marginLes objectifs de ce tp sont :  découvrir les propriété pour modifier les marques d’une boite  apprendre la fusion entre les marges  apprendre les marge négative",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--margin",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#résultat-1": {
+      "title": "Résultat  (Modèle de Boîtes CSS)",
+      "content"	 : "Résultat",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#résultat-1",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#code-source-1": {
+      "title": "Code source  (Modèle de Boîtes CSS)",
+      "content"	 : "Code source1234567891011121314151617181920212223242526272829303132333435&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding: 10px;            margin-top: 20px;            margin-bottom: 10px;            margin-left: 30px;            margin-right: 30px;        }        p{            background-color: pink;            padding: 10px;            margin: 5px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, a.    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Références  Le modèle de boîte",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#code-source-1",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    }
+,
 "initiation-police-texte-html": {
       "title": "Police et texte",
       "content"	 : "Polices (fontes) et texteNous allons voir quelques propriété de font et de texte :  La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l’élément ciblé.  La propriété font-size définit la taille de fonte utilisée pour le texte.  La propriété line-height définit la hauteur de la boîte d’une ligne.  La propriété letter-spacing définit l’interlettre utilisée pour les caractères qui composent le texte.  La propriété text-align définit l’alignement horizontal d’un élément de bloc ou de la boîte d’une cellule de tableau.123456789101112131415    &amp;lt;style&amp;gt;        html{            font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;            font-size: 14px        }        h1{            font-size: 40px;            text-align: center;        }        p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;        }    &amp;lt;/style&amp;gt;",
@@ -814,35 +920,6 @@
       "title": "Pratique : les polices (fontes) et le texte  (Police et texte)",
       "content"	 : "Pratique : les polices (fontes) et le texte123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        html{            font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;            font-size: 14px        }        h1{            font-size: 40px;            text-align: center;        }        p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Références  Initiation à la mise en forme du texte",
       "url": "/html5-css3/initiation-police-texte.html#pratique--les-polices-fontes-et-le-texte",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    }
-,
-"display-block-inline-html": {
-      "title": "Propriété Display",
-      "content"	 : "Initiation à la propriété Display",
-      "url": "/html5-css3/display-block-inline.html",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"display-block-inline-html#disposition-en-flux": {
-      "title": "Disposition en flux  (Propriété Display)",
-      "content"	 : "Disposition en fluxLe flux normal ou « disposition en flux » (Flow Layout) correspond à la façon dont les éléments de bloc et les éléments en ligne sont disposés avant tout changement apporté à leur disposition.Avec un flux normal, les éléments en ligne (inline elements) sont affichés selon le sens dans lequel les mots sont écrits.Les éléments de bloc (block elements) sont affichés les uns après les autres, à la façon des paragraphes.Par exemple, pour un document français, les éléments en ligne sont affichés les uns à la suite des autres de gauche à droite et les éléments de bloc sont affichés les uns en dessous des autres.Dans l’exemple suivant, on peut voir des boîtes de bloc et des boîtes en ligne. Les deux éléments correspondants aux paragraphes sont des éléments de bloc. Ces deux éléments s’affichent l’un en dessous de l’autre.Le deuxième paragraphe contient également des éléments . C’est un élément en ligne qui s’affiche donc de gauche à droit.1234567891011121314&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Titre&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;Paragraphe 1&amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Paragraphe 2 :         &amp;lt;span&amp;gt;Phrase 1&amp;lt;/span&amp;gt;        &amp;lt;span&amp;gt;Phrase 2&amp;lt;/span&amp;gt;    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
-      "url": "/html5-css3/display-block-inline.html#disposition-en-flux",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"display-block-inline-html#display--block-et-inline": {
-      "title": "Display : block et inline  (Propriété Display)",
-      "content"	 : "Display : block et inlineLa propriété display définit le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils.Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.nous allons traiter les valeurs block, inline et inline-block.      La valeur block génère une boîte de bloc qui ajoute des passages à la ligne avant et après l’élément dans le flux normal.        la valeur inline génère une ou plusieurs boîtes en lignes qui n’ajoutent pas de passages à la ligne avant ou après. Dans un flux normal, le prochain élément sera sur la même ligne si l’espace le permet.. Les propriétés de hauteur et de largeur n’auront aucun effet        la valeur inline-block : affiche un élément en tant que conteneur de blocs de niveau en ligne. L’élément lui-même est formaté comme un élément en ligne, mais vous pouvez appliquer des valeurs de hauteur et de largeur1.  ",
-      "url": "/html5-css3/display-block-inline.html#display--block-et-inline",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"display-block-inline-html#pratique--display-block-et-inline": {
-      "title": "Pratique : display block et inline  (Propriété Display)",
-      "content"	 : "Pratique : display block et inlineLes objectifs de ce travail paratique :  Découvrir les styles par défaut des éléments HTML  Découvrir la valeur : none  Changer la propritété display  Apprendre la différence entre inline et block  Examiner la différence entre inline et incline-block  Savoir comment chercher la description d’une propriété sur la documentation officiel.Code source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            display: inline;        }        p{            background-color:pink;            display: inline-block;            width: 400px;            height: 150px;        }        a{            display: inline-block;            width: 100px;            text-align: center;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
-      "url": "/html5-css3/display-block-inline.html#pratique--display-block-et-inline",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
@@ -892,7 +969,7 @@
 ,
 "s-c3-a9lecteurs-html": {
       "title": "Sélecteurs",
-      "content"	 : "Sélecteursles sélecteurs sont utilisés pour cibler les éléments HTML à mettre en forme dans nos pages web.Dans cette session de formation, nous découvrirons les sélecteurs les plus simples qu’on puisse trouver, ce sont ceux que vous utiliserez le plus couramment dans votre travail de création des sites web.",
+      "content"	 : "SélecteursLes sélecteurs sont utilisés pour cibler les éléments HTML à mettre en forme dans nos pages web.Dans cette session de formation, nous découvrirons les sélecteurs les plus simples qu’on puisse trouver, ce sont ceux que vous utiliserez le plus couramment dans votre travail de création des sites web.",
       "url": "/html5-css3/s%C3%A9lecteurs.html",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -905,15 +982,15 @@
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#lattribut-id-et-classe": {
-      "title": "l’attribut Id et Classe  (Sélecteurs)",
-      "content"	 : "l’attribut Id et ClasseLes attributs id et class sont particuliers en HTML puisqu’ils n’ont pas été créés pour préciser le fonctionnement d’un élément HTML en particulier (ce qui est normalement le rôle de tout attribut HTML) mais vont être principalement utilisés pour cibler certains éléments HTML et leur appliquer des styles en CSS.Les attributs HTML class et id sont des attributs dits globaux car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.12345678&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
+      "title": "L’attribut &lt;strong&gt;Id&lt;/strong&gt; et &lt;strong&gt;Classe&lt;/strong&gt;  (Sélecteurs)",
+      "content"	 : "L’attribut Id et ClasseLes attributs id et class sont particuliers en HTML puisqu’ils n’ont pas été créés pour préciser le fonctionnement d’un élément HTML en particulier (ce qui est normalement le rôle de tout attribut HTML) mais vont être principalement utilisés pour cibler certains éléments HTML et leur appliquer des styles en CSS.Les attributs HTML class et id sont des attributs dits globaux car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.12345678&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#lattribut-id-et-classe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#sélecteur-de-type": {
       "title": "Sélecteur de type  (Sélecteurs)",
-      "content"	 : "Sélecteur de typeUn sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  utilise les sélecteurs h1 et a. Chaque instance de &amp;lt;h1&amp;gt;, &amp;lt;a&amp;gt; est ainsi mise en forme.1234567891011121314151617&amp;lt;style&amp;gt;h1 {    color:indigo;}a{    color: red}&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
+      "content"	 : "Sélecteur de typeUn sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  nous utilisons les sélecteurs h1 et a. Chaque instance de la balise &amp;lt;h1&amp;gt; et &amp;lt;a&amp;gt; est ainsi mise en forme.1234567891011121314151617&amp;lt;style&amp;gt;h1 {    color:indigo;}a{    color: red}&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#sélecteur-de-type",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -948,14 +1025,21 @@
     },
 "s-c3-a9lecteurs-html#cibler-un-élément-appartenant-à-plus-dune-classe": {
       "title": "Cibler un élément appartenant à plus d’une classe  (Sélecteurs)",
-      "content"	 : "Cibler un élément appartenant à plus d’une classeVous pouvez attribuer plusieurs classes à un même élément et les sélectionner individuellement, ou cibler l’élément seulement quand toutes les classes apparaissent dans le sélecteur. Cela peut s’avérer utile si vous créez des composants qui peuvent être combinés de différentes manières sur votre site.L’exemple suivant présente trois &amp;lt;div&amp;gt; contenant chacun une note. Si la boîte est dans la classe  notebox elle a une bordure grise. Si de plus elle est dans la classe warning ou danger, on change la border-color.On indique au navigateur la combinaison de classes ciblée en enchaînant les sélecteurs de classe sans laisser d’espace entre.1234567891011121314.notebox {  border: 4px solid #666;  padding: .5em;}.notebox.warning {  border-color: orange;  font-weight: bold;}.notebox.danger {  border-color: red;  font-weight: bold;}123456789101112131415&amp;lt;div class=&quot;notebox&quot;&amp;gt;    Ceci est une note d&#39;information.&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;notebox warning&quot;&amp;gt;    Cette note affiche un avertissement.&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;notebox danger&quot;&amp;gt;    Cette note montre le danger !&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;danger&quot;&amp;gt;    Cela ne sera pas stylisé - il doit également avoir la classe note box&amp;lt;/div&amp;gt;",
+      "content"	 : "Cibler un élément appartenant à plus d’une classeVous pouvez attribuer plusieurs classes à un même élément et les sélectionner individuellement, ou cibler l’élément seulement quand toutes les classes apparaissent dans le sélecteur. Cela peut s’avérer utile si vous créez des composants qui peuvent être combinés de différentes manières sur votre site.L’exemple suivant présente deux paragraphe. Si le paragraphe est dans la classe paragraphe elle a une arrière plan pink et padding 10px. Si de plus elle est dans la classe important on change la bordure et la graisse le texte en blod.On indique au navigateur la combinaison de classes ciblée en enchaînant les sélecteurs de classe sans laisser d’espace entre.12345678.paragraphe {     background-color: pink;     padding: 10px;}.important {    border: 2px solid black;    font-weight:bold}",
       "url": "/html5-css3/s%C3%A9lecteurs.html#cibler-un-élément-appartenant-à-plus-dune-classe",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"s-c3-a9lecteurs-html#pratique--plusieurs-classe": {
+      "title": "Pratique : plusieurs classe  (Sélecteurs)",
+      "content"	 : "Pratique : plusieurs classeCode source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;.paragraphe {     background-color: pink;     padding: 10px;}.important {    border: 2px solid black;    font-weight:bold}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1 class=&quot;important&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p class=&quot;paragraphe&quot;&amp;gt;        Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;        ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser         rapidement des opérations mathématiques, logiques, des manipulations         de chaînes de caractères ou des recherches.    &amp;lt;/p&amp;gt;    &amp;lt;h2 class=&quot;important&quot;&amp;gt;Unité centrale &amp;lt;/h2&amp;gt;    &amp;lt;p class=&quot;paragraphe important&quot;&amp;gt;        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?    &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/s%C3%A9lecteurs.html#pratique--plusieurs-classe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#sélecteurs-did": {
       "title": "Sélecteurs d’ID  (Sélecteurs)",
-      "content"	 : "Sélecteurs d’IDUn sélecteur d’ID commence par un # plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document. Le sélecteur cible l’élément avec l’id associée ; on peut faire précéder l’ID d’un sélecteur de type pour ne cibler l’élément que si l’élément et l’ID correspondent.1234567#one {    background-color: yellow;}h1#heading {    color: rebeccapurple;}123456&amp;lt;h1 id=&quot;heading&quot;&amp;gt;ID selector&amp;lt;/h1&amp;gt;&amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo    melon azuki bean garlic.&amp;lt;/p&amp;gt;&amp;lt;p id=&quot;one&quot;&amp;gt;Gumbo beet greens corn soko &amp;lt;strong&amp;gt;endive&amp;lt;/strong&amp;gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard    greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.&amp;lt;/p&amp;gt;",
+      "content"	 : "Sélecteurs d’IDUn sélecteur d’ID commence par un # plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document.12345#definition {    background-color: pink;    padding: 10px;    font-size: 24px;}1234567&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser     rapidement des opérations mathématiques, logiques, des manipulations     de chaînes de caractères ou des recherches.&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#sélecteurs-did",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -969,38 +1053,8 @@
     },
 "s-c3-a9lecteurs-html#références": {
       "title": "Références  (Sélecteurs)",
-      "content"	 : "Références  Sélecteurs CSS  ",
+      "content"	 : "Références  Sélecteurs CSS  Sélecteurs de type, de classe et d’ID",
       "url": "/html5-css3/s%C3%A9lecteurs.html#références",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    }
-,
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html": {
-      "title": "Modèle de Boîtes CSS",
-      "content"	 : "",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#modèle-de-boîtes-css": {
-      "title": "Modèle de Boîtes CSS  (Modèle de Boîtes CSS)",
-      "content"	 : "Modèle de Boîtes CSSEn CSS, tout élément est inclus dans une boîte (“box” en anglais). Comprendre le fonctionnement de ces boîtes est essentiel pour maîtriser la mise en page CSS ainsi que le positionnement des éléments d’une page HTML.C’est pour cette raison que l’architecture de CSS est principalement basée sur un modèle de boîtes. Chacun de ces blocs prend un certain espace sur la page, de cette façon :  padding : l’espace autour, proche du contenu (par exemple, l’espace autour du texte d’un paragraphe) (en français, on pourrait traduire cela par du « remplissage » mais le terme padding étant communément utilisé lorsqu’on parle de CSS, on continuera à utiliser ce terme)  border : la ligne qui est juste autour du padding (en français cela correspond à la bordure)  margin :  l’espace extérieur, autour de l’élément (en français cela correspond à la marge)",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#modèle-de-boîtes-css",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique---découvrir-le-style-par-défaut-des-éléments-html": {
-      "title": "Pratique :  Découvrir le style par défaut des éléments HTML  (Modèle de Boîtes CSS)",
-      "content"	 : "Pratique :  Découvrir le style par défaut des éléments HTMLChaque navigateur propose des règle de style par défaut pour chaque élément HTML.Références  Le modèle de boîte",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique---découvrir-le-style-par-défaut-des-éléments-html",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    }
-,
-"initiation-couleur-html": {
-      "title": "couleur",
-      "content"	 : "Couleur",
-      "url": "/html5-css3/initiation-couleur.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
@@ -1030,6 +1084,22 @@
       "title": "Code source  (TP-Exemple d'une page avec CSS)",
       "content"	 : "Code source12345678910111213141516171819202122232425262728293031323334353637h1, h2 {    color: indigo;}p, li {    color : #464646;}li {    list-style-type: circle;}li.interne,span.interne {    color :indigo;    font-weight: bold;}li em {    color:red;}h1 + p {    font-size: 120%;}a:link {    color: blue;}  a:visited {    color: blueviolet;}a:hover {    text-decoration: none;}",
       "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html#code-source",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    }
+,
+"r-c3-a9sum-c3-a9-bien-d-c3-a9marrer-avec-css3-html": {
+      "title": "Résumé - Bien démarrer avec CSS3",
+      "content"	 : "Résumé",
+      "url": "/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-css3.html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    }
+,
+"initiation-couleur-html": {
+      "title": "couleur",
+      "content"	 : "Couleur",
+      "url": "/html5-css3/initiation-couleur.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
