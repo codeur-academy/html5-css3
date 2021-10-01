@@ -1,15 +1,15 @@
 {
-"introduction-html": {
+"index-html": {
       "title": "Introduction",
       "content"	 : "Initiation à HTML5 et CSS3Bienvenue dans cette formation d’initiation à la création des sites web avec HTML5 et CSS3.La formation a pour but de fournir aux développeurs web débutants tout ce qu’ils ont besoin pour commencer à développer des sites web simples.Si vous débutez complètement, le développement web peut être un réel défi. Notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome.Vous devriez vous sentir chez vous, que vous soyez  un étudiant apprenant le développement web,  un enseignant recherchant des supports de cours,  un amateur ou quelqu’un qui souhaite simplement comprendre la manière dont fonctionnent le Web et ses technologies.",
-      "url": "/html5-css3/introduction.html",
+      "url": "/html5-css3/index.html",
       "author": "",
       "categories": "introduction"
     },
-"introduction-html#ce-que-vous-apprendrez": {
+"index-html#ce-que-vous-apprendrez": {
       "title": "Ce que vous apprendrez  (Introduction)",
       "content"	 : "Ce que vous apprendrez  Apprendre HTML5 à partir de zéro  Apprendre CSS3 à partir de zéro  Réalisation des projets du monde réel  Création des pages responsive",
-      "url": "/html5-css3/introduction.html#ce-que-vous-apprendrez",
+      "url": "/html5-css3/index.html#ce-que-vous-apprendrez",
       "author": "",
       "categories": "introduction"
     }
@@ -725,100 +725,114 @@
 ,
 "bien-d-c3-a9marrer-avec-css3-html": {
       "title": "Bien démarrer avec CSS3",
-      "content"	 : "Bien démarrer avec CSS3CSS est utilisé pour styliser et mettre en page des pages Web.Cette partrie de formation, vous permet de commencer en douceur votre chemin vers la maîtrise de CSS avec les bases de son fonctionnement, de sa syntaxe et de la façon dont vous pouvez commencer à l’utiliser pour ajouter du style au HTML.",
+      "content"	 : "Bien démarrer avec CSS3Dans cette partie de formation, je vous propose d’apprendre juste les notions de base de CSS nécessaire pour commencer nos projets pratiques.Nous allons découvrir la syntaxe de CSS et seulement le fonctionnement de base de quelques propriétés CSS indispensable pour commencer la pratique. C’est pour ça nomme cette partie : Bien démarrer avec CSS3.Cette technique de démarrage, vous permet de libérer vos cerveaux de la complexité d’assimiler la multitude d’informations dont nous n’avons pas besoin au début pour commencer à réaliser nos projet pratiques. Nous allons traiter les détails importants pour maîtriser le CSS dans la partie : Notion de base de CSS.Nous allons commencer par découvrir la syntaxe de CSS. Ensuite, nous découvrirons le modèle d’affichage en boîte d’un élément HTML. Nous étudierons enfin, en détail, la syntaxe d’une règle CSS.Nous terminerons notre partie par un travail pratique pour valider notre apprentissage.",
       "url": "/html5-css3/bien-d%C3%A9marrer-avec-css3.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
 ,
-"syntaxe-css-html": {
-      "title": "Syntaxe  de CSS",
-      "content"	 : "SyntaxeCSS pour (Cascading Style Sheets) permet de créer des pages web à l’apparence soignée.Dans cette session de formation, nous allons apprendre ce que c’est le CSS.Nous allons découvrir la syntaxe puis quelques termes clé du langage.",
-      "url": "/html5-css3/syntaxe-css.html",
+"syntaxe-utilit-c3-a9-css-html": {
+      "title": "Syntaxe et utilité",
+      "content"	 : "Syntaxe et utilitéDans cette session de formation, nous allons apprendre ce que c’est le CSS.Nous allons découvrir :  la syntaxe,  quelques termes clé du langage,  et comment applique le CSS à un document HTML",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#à-quoi-sert-css-": {
-      "title": "À quoi sert CSS ?  (Syntaxe  de CSS)",
-      "content"	 : "À quoi sert CSS ?Dans la partie Bien démarrer avec HTML, nous avons présenté le langage HTML afin de rédiger des documents structurés et consultables par un navigateur ou un moteur de recherche.Par défaut :  Les titres apparaîtront dans une police plus grande que le corps de texte,  la rupture entre deux paragraphes sera marquée par un saut de ligne.  Les liens seront soulignés et colorés pour les distinguer du reste du texte.L’image que vous voyez montre comment un navigateur affiche un document HTML sans CSS. La mise en forme par défaut garantit un minimum de lisibilité, même si l’auteur de la page n’a spécifié aucune règle de style.Le Web serait d’un ennui terrible si tous les sites ressemblaient à la page de notre exemple.Grâce à CSS, vous pouvez contrôler et paramétrer l’affichage de chaque élément HTML dans le navigateur et  présenter vos documents HTML avec la mise en forme de votre choix.",
-      "url": "/html5-css3/syntaxe-css.html#à-quoi-sert-css-",
+"syntaxe-utilit-c3-a9-css-html#à-quoi-sert-css-": {
+      "title": "À quoi sert CSS ?  (Syntaxe et utilité)",
+      "content"	 : "À quoi sert CSS ?Dans la partie Bien démarrer avec HTML, nous avons présenté le langage HTML afin de rédiger des documents structurés et consultables par un navigateur ou un moteur de recherche.Par défaut :  Les titres apparaîtront dans une police plus grande que le corps de texte,  la rupture entre deux paragraphes sera marquée par un saut de ligne.  Les liens seront soulignés et colorés pour les distinguer du reste du texte.L’image que vous voyez montre comment un navigateur affiche un document HTML sans CSS. La mise en forme par défaut garantit un minimum de lisibilité, même si l’auteur de la page n’a spécifié aucune règle de style.Affichage d’une page HTML sans CSSLe Web serait d’un ennui terrible si tous les sites ressemblaient à la page de notre exemple.Grâce à CSS, vous pouvez contrôler et paramétrer l’affichage de chaque élément HTML dans le navigateur et  présenter vos documents HTML avec la mise en forme de votre choix.Affichage d’une page HTML avec CSS",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#à-quoi-sert-css-",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#syntaxe-et-règle-css": {
-      "title": "Syntaxe et règle css  (Syntaxe  de CSS)",
-      "content"	 : "Syntaxe et règle cssCSS est un langage basé sur des règles.On définit des règles de styles destinées à des éléments ou des groupes d’éléments particuliers dans la page.Par exemple “Je veux que le titre principal de ma page s’affiche en rouge”Dans le code suivant, une règle CSS élémentaire réalise cette mise en forme peut être insérer dans un élément nommé style à déposer à l’intérieur de l’élément head  :1234567891011121314151617&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            color:red        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;        Un ordinateur est un appareil électronique capable de         réaliser rapidement des opérations .. :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Regardons un peu plus en détails ce que nous avons écrit en CSS :123h1 {  color: red;}  La règle commence par un sélecteur, qui détermine l’élément HTML mis en forme. Ici le style s’applique aux titres de niveau 1 (&amp;lt;h1&amp;gt;).  Ensuite, une paire d’accolades { } à l’intérieur lesquelles on trouve une ou plusieurs déclarations, sous la forme d’une paire propriété : valeur.  Chaque paire précise une propriété de l’élément sélectionné, suivie de la valeur choisie pour cette propriété ; la propriété et la valeur sont séparées par deux points.  Chaque déclaration se termine par un point-virgule.  À chaque propriété définie par CSS correspondent différentes valeurs possibles.Dans l’exemple, la propriété color peut prendre différentes valeurs de type color.Une feuille de style CSS est constituée d’une succession de telles règles :123456789101112131415&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            color: red        }        p {            color: grey;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt; ..&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
-      "url": "/html5-css3/syntaxe-css.html#syntaxe-et-règle-css",
+"syntaxe-utilit-c3-a9-css-html#syntaxe-et-règle-css": {
+      "title": "Syntaxe et règle css  (Syntaxe et utilité)",
+      "content"	 : "Syntaxe et règle cssCSS est un langage basé sur des règles. On définit des règles de styles destinées à des éléments ou des groupes d’éléments particuliers dans la page.Par exemple “Je veux que le titre principal de ma page s’affiche en rouge”Dans le code suivant, une règle CSS élémentaire réalise cette mise en forme peut être insérer dans un élément nommé style à déposer à l’intérieur de l’élément head  :123456789&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            color:red        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;Regardons un peu plus en détails ce que nous avons écrit en CSS :  La règle commence par un sélecteur, qui détermine l’élément HTML mis en forme. Ici le style s’applique aux titres de niveau 1 (&amp;lt;h1&amp;gt;).  Ensuite, une paire d’accolades { } à l’intérieur lesquelles on trouve une ou plusieurs déclarations, sous la forme d’une paire propriété : valeur.  Chaque paire précise une propriété de l’élément sélectionné, suivie de la valeur choisie pour cette propriété ; la propriété et la valeur sont séparées par deux points.  Chaque déclaration se termine par un point-virgule.  À chaque propriété définie par CSS correspondent différentes valeurs possibles.Dans l’exemple, la propriété color peut prendre différentes valeurs de type color.Une feuille de style CSS peut  être constituée d’une succession de telles règles :1234567891011&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            color: red        }        p {            color: grey;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#syntaxe-et-règle-css",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#appliquer-css-à-un-document": {
-      "title": "Appliquer CSS à un document  (Syntaxe  de CSS)",
-      "content"	 : "Appliquer CSS à un documentNous allons découvrir dans cette session de formation les trois façons pour appliquer le CSS dans un document HTML.",
-      "url": "/html5-css3/syntaxe-css.html#appliquer-css-à-un-document",
+"syntaxe-utilit-c3-a9-css-html#feuille-de-style-interne": {
+      "title": "Feuille de style interne  (Syntaxe et utilité)",
+      "content"	 : "Feuille de style interneLes règles CSS peuvent être écrites directement dans l’en-tête HTML &amp;lt;head&amp;gt; dans l’élément &amp;lt;style&amp;gt;. On parle alors de feuille de style interne.Le code HTML suivant illustre cette technique :12345678910&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            color:red        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt; ... &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Dans un site web, avec la méthode de styles internes, le CSS doit être recopié dans chaque page : la mise à jour des styles nécessite donc de modifier chaque fichier.",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#feuille-de-style-interne",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#feuille-de-style-interne": {
-      "title": "Feuille de style interne  (Syntaxe  de CSS)",
-      "content"	 : "Feuille de style interneLes règles CSS peuvent être écrites directement dans l’en-tête HTML &amp;lt;head&amp;gt; dans l’élément &amp;lt;style&amp;gt;. On parle alors de feuille de style interne.Le code HTML suivant illustre cette technique :12345678910111213141516171819202122&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;    &amp;lt;style&amp;gt;        h1{            color:red        }        p {        color: grey;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;        Un ordinateur est un appareil électronique capable de         réaliser rapidement des opérations mathématiques,         logiques, des manipulations de chaînes de caractères         ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Dans un site web, avec la méthode de styles internes, le CSS doit être recopié dans chaque page : la mise à jour des styles nécessite donc de modifier chaque fichier.",
-      "url": "/html5-css3/syntaxe-css.html#feuille-de-style-interne",
+"syntaxe-utilit-c3-a9-css-html#pratique--feuille-de-style-interne": {
+      "title": "Pratique : Feuille de style interne  (Syntaxe et utilité)",
+      "content"	 : "Pratique : Feuille de style interneObjectifs  Apprendre la syntaxe de css  Création de notre première règle css  Apprendre à utiliser les feuilles de style interneCode source12345678910111213141516171819202122&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;    &amp;lt;style&amp;gt;        h1{            color:red        }        p {        color: grey;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;        Un ordinateur est un appareil électronique capable de         réaliser rapidement des opérations mathématiques,         logiques, des manipulations de chaînes de caractères         ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#pratique--feuille-de-style-interne",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#pratique--feuille-de-style-interne": {
-      "title": "Pratique : Feuille de style interne  (Syntaxe  de CSS)",
-      "content"	 : "Pratique : Feuille de style interneFeuille de style externeDans le cas d’une feuille de style externe, les règles CSS sont écrites dans un fichier séparé, avec l’extension .css. Un élément HTML  fait référence à ce fichier.C’est la méthode la plus utile pour appliquer CSS à un document : dans la plupart des cas, les différentes pages d’un site ont à peu près la même apparence, on peut donc utiliser le même jeu de règles pour l’apparence de base.Il est dans ce cas commode d’écrire ces règles une seule fois dans une feuille de style commune à toutes les pages.1234567891011121314151617&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;      &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;      &amp;lt;p&amp;gt;          Un ordinateur est un appareil électronique capable de           réaliser rapidement des opérations mathématiques,           logiques, des manipulations de chaînes de caractères           ou des recherches. Il est composé de deux grandes parties :      &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;L’attribut href de l’élément &amp;lt;link&amp;gt; doit pointer vers un fichier dans votre système de fichiers.Le fichier CSS devrait ressembler à cela :123456        h1{            color:red        }        p {        color: grey;        }Dans notre exemple, le fichier CSS et le document HTML sont dans le même dossier, mais vous pouvez le placer ailleurs et ajuster le chemin, par exemple :12345678&amp;lt;!-- Dans un sous-répertoire nommé styles dans le répertoire courant --&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot;&amp;gt;&amp;lt;!-- Dans un sous-répertoire nommé general, lui-même dans un sous-répertoire nommé styles, dans le répertoire courant --&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles/general/style.css&quot;&amp;gt;&amp;lt;!-- Dans un sous-répertoire nommé styles, un niveau plus haut --&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;../styles/style.css&quot;&amp;gt;",
-      "url": "/html5-css3/syntaxe-css.html#pratique--feuille-de-style-interne",
+"syntaxe-utilit-c3-a9-css-html#feuille-de-style-externe": {
+      "title": "Feuille de style externe  (Syntaxe et utilité)",
+      "content"	 : "Feuille de style externeDans le cas d’une feuille de style externe, les règles CSS sont écrites dans un fichier séparé, avec l’extension .css. Un élément HTML  fait référence à ce fichier.C’est la méthode la plus utile pour appliquer CSS à un document : dans la plupart des cas, les différentes pages d’un site ont un peu près la même apparence, on peut donc utiliser le même jeu de règles pour l’apparence de base.Il est dans ce cas commode d’écrire ces règles une seule fois dans une feuille de style commune à toutes les pages.123456&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt; .. &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;L’attribut href de l’élément &amp;lt;link&amp;gt; doit pointer vers un fichier dans votre système de fichiers.Le fichier CSS devrait ressembler à cela :123456        h1{            color:red        }        p {        color: grey;        }Dans notre exemple, le fichier CSS et le document HTML sont dans le même dossier, mais vous pouvez le placer ailleurs et ajuster le chemin, par exemple :  Dans un sous-répertoire nommé styles dans le répertoire courant  Dans un sous-répertoire nommé general, lui-même dans un sous-répertoire nommé styles, dans le répertoire courant  Dans un sous-répertoire nommé styles, un niveau plus haut123&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot;&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles/general/style.css&quot;&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;../styles/style.css&quot;&amp;gt;",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#feuille-de-style-externe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#pratique--feuille-de-style-externe": {
-      "title": "Pratique : Feuille de style externe  (Syntaxe  de CSS)",
-      "content"	 : "Pratique : Feuille de style externeStyles en ligneLes styles en ligne sont des déclarations CSS qui n’affectent qu’un seul élément, elles sont déclarées grâce à l’attribut style:123456789101112131415&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;      &amp;lt;h1 style=&quot;color: red;&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;      &amp;lt;p style=&quot;color: red;&quot;&amp;gt;          Un ordinateur est un appareil électronique capable de           réaliser rapidement des opérations mathématiques,           logiques, des manipulations de chaînes de caractères           ou des recherches. Il est composé de deux grandes parties :      &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Cette approche est vraiment à éviter ! Le code produit n’est pas maintenable (les modifications ne doivent plus se faire pour chaque page, mais dans chaque page, élément par élément !).Par ailleurs, mélanger le CSS avec le HTML rend la lecture du code plus difficile. En plus d’une meilleure lisibilité du code, séparer le fond de la forme rend le travail d’équipe plus facile.Il existe quelques endroits où les styles en ligne sont utils, voire recommandés. Vous les verrez beaucoup utilisés dans les e-mails HTML afin d’être compatibles avec autant de clients de messagerie que possible.",
-      "url": "/html5-css3/syntaxe-css.html#pratique--feuille-de-style-externe",
+"syntaxe-utilit-c3-a9-css-html#pratique--feuille-de-style-externe": {
+      "title": "Pratique : Feuille de style externe  (Syntaxe et utilité)",
+      "content"	 : "Pratique : Feuille de style externeObjectifs  découvrir les feuilles de style externe.Code source1234567891011121314151617&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;      &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;      &amp;lt;p&amp;gt;          Un ordinateur est un appareil électronique capable de           réaliser rapidement des opérations mathématiques,           logiques, des manipulations de chaînes de caractères           ou des recherches. Il est composé de deux grandes parties :      &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#pratique--feuille-de-style-externe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#pratique--styles-en-ligne": {
-      "title": "Pratique : Styles en ligne  (Syntaxe  de CSS)",
-      "content"	 : "Pratique : Styles en ligne",
-      "url": "/html5-css3/syntaxe-css.html#pratique--styles-en-ligne",
+"syntaxe-utilit-c3-a9-css-html#styles-en-ligne": {
+      "title": "Styles en ligne  (Syntaxe et utilité)",
+      "content"	 : "Styles en ligneLes styles en ligne sont des déclarations CSS qui n’affectent qu’un seul élément, elles sont déclarées grâce à l’attribut style:123456&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;      &amp;lt;h1 style=&quot;color: red;&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Cette approche est vraiment à éviter ! Le code produit n’est pas maintenable (les modifications ne doivent plus se faire pour chaque page, mais dans chaque page, élément par élément !).Par ailleurs, mélanger le CSS avec le HTML rend la lecture du code plus difficile. En plus d’une meilleure lisibilité du code, séparer le fond de la forme rend le travail d’équipe plus facile.Il existe quelques endroits où les styles en ligne sont utils, voire recommandés. Vous les verrez beaucoup utilisés dans les e-mails HTML afin d’être compatibles avec autant de clients de messagerie que possible.",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#styles-en-ligne",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"syntaxe-css-html#commentaire": {
-      "title": "Commentaire  (Syntaxe  de CSS)",
-      "content"	 : "Commentaire1234        /* Exemple d&#39;une règle CSS */        h1{            color:red        }Références  Comment CSS est structuréRéférences  Qu’est ce que CSS ?",
-      "url": "/html5-css3/syntaxe-css.html#commentaire",
+"syntaxe-utilit-c3-a9-css-html#pratique--styles-en-ligne": {
+      "title": "Pratique : Styles en ligne  (Syntaxe et utilité)",
+      "content"	 : "Pratique : Styles en ligneObjectifs  Découvrir les style en ligneCode source123456789101112131415&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;      &amp;lt;h1 style=&quot;color: red;&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;      &amp;lt;p style=&quot;color: red;&quot;&amp;gt;          Un ordinateur est un appareil électronique capable de           réaliser rapidement des opérations mathématiques,           logiques, des manipulations de chaînes de caractères           ou des recherches. Il est composé de deux grandes parties :      &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#pratique--styles-en-ligne",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"syntaxe-utilit-c3-a9-css-html#commentaire": {
+      "title": "Commentaire  (Syntaxe et utilité)",
+      "content"	 : "CommentaireLes commentaire peut  être ajouté au code CSS en utilisant /* et */1234        /* Exemple d&#39;une règle CSS */        h1{            color:red        }",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#commentaire",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"syntaxe-utilit-c3-a9-css-html#références": {
+      "title": "Références  (Syntaxe et utilité)",
+      "content"	 : "Références  Comment CSS est structuré  Qu’est ce que CSS ?",
+      "url": "/html5-css3/syntaxe-utilit%C3%A9-css.html#références",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
 ,
 "display-block-inline-html": {
       "title": "Élément block et inline",
-      "content"	 : "Élément block et inline",
+      "content"	 : "Élément block et inlineDans cette session de formation nous allons découvrir la propriété Display qui nous permet de changer la disposition d’affichage des élément HTML.",
       "url": "/html5-css3/display-block-inline.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "display-block-inline-html#disposition-en-flux": {
       "title": "Disposition en flux  (Élément block et inline)",
-      "content"	 : "Disposition en fluxLe flux normal ou « disposition en flux » (Flow Layout) correspond à la façon dont les éléments de bloc et les éléments en ligne sont disposés avant tout changement apporté à leur disposition.Avec un flux normal, les éléments en ligne (inline elements) sont affichés selon le sens dans lequel les mots sont écrits.Les éléments de bloc (block elements) sont affichés les uns après les autres, à la façon des paragraphes.Par exemple, pour un document français, les éléments en ligne sont affichés les uns à la suite des autres de gauche à droite et les éléments de bloc sont affichés les uns en dessous des autres.Dans l’exemple suivant, on peut voir des boîtes de bloc et des boîtes en ligne. Les deux éléments correspondants aux paragraphes sont des éléments de bloc. Ces deux éléments s’affichent l’un en dessous de l’autre.Le deuxième paragraphe contient également des éléments . C’est un élément en ligne qui s’affiche donc de gauche à droit.1234567891011121314&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Titre&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;Paragraphe 1&amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Paragraphe 2 :         &amp;lt;span&amp;gt;Phrase 1&amp;lt;/span&amp;gt;        &amp;lt;span&amp;gt;Phrase 2&amp;lt;/span&amp;gt;    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "content"	 : "Disposition en fluxLe flux normal ou « disposition en flux » (Flow Layout) correspond à la façon dont les éléments de bloc et les éléments en ligne sont disposés avant tout changement apporté à leur disposition.Avec un flux normal, les éléments en ligne (inline elements) sont affichés selon le sens dans lequel les mots sont écrits.Les éléments de bloc sont affichés les uns après les autres, à la façon des paragraphes.Par exemple, pour un document français, les éléments en ligne sont affichés les uns à la suite des autres de gauche à droite et les éléments de bloc sont affichés les uns en dessous des autres.Dans l’exemple suivant, on peut voir des boîtes de bloc et des boîtes en ligne. Les deux éléments correspondants aux paragraphes sont des éléments de bloc. Ces deux éléments s’affichent l’un en dessous de l’autre.Le deuxième paragraphe contient également des éléments . C’est un élément en ligne qui s’affiche donc de gauche à droit.123456789&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Titre&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;Paragraphe 1&amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Paragraphe 2 :         &amp;lt;span&amp;gt;Phrase 1&amp;lt;/span&amp;gt;        &amp;lt;span&amp;gt;Phrase 2&amp;lt;/span&amp;gt;    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;",
       "url": "/html5-css3/display-block-inline.html#disposition-en-flux",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "display-block-inline-html#display--block-et-inline": {
       "title": "Display : block et inline  (Élément block et inline)",
-      "content"	 : "Display : block et inlineLa propriété display définit le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils.Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.nous allons traiter les valeurs block, inline et inline-block.      La valeur block génère une boîte de bloc qui ajoute des passages à la ligne avant et après l’élément dans le flux normal.        la valeur inline génère une ou plusieurs boîtes en lignes qui n’ajoutent pas de passages à la ligne avant ou après. Dans un flux normal, le prochain élément sera sur la même ligne si l’espace le permet.. Les propriétés de hauteur et de largeur n’auront aucun effet        la valeur inline-block : affiche un élément en tant que conteneur de blocs de niveau en ligne. L’élément lui-même est formaté comme un élément en ligne, mais vous pouvez appliquer des valeurs de hauteur et de largeur1.  ",
+      "content"	 : "Display : block et inlineLa propriété display définit :  le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne)  et la disposition utilisée pour ses éléments fils.Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.Nous allons traiter les valeurs  block,  inline  et inline-block.      La valeur block génère une boîte de bloc qui ajoute des passages à la ligne avant et après l’élément dans le flux normal.        la valeur inline génère une ou plusieurs boîtes en lignes qui n’ajoutent pas de passages à la ligne avant ou après. Dans un flux normal, le prochain élément sera sur la même ligne si l’espace le permet.. Les propriétés de hauteur et de largeur n’auront aucun effet        la valeur inline-block : affiche un élément en tant que conteneur de blocs de niveau en ligne. L’élément lui-même est formaté comme un élément en ligne, mais vous pouvez appliquer des valeurs de hauteur et de largeur1.  ",
       "url": "/html5-css3/display-block-inline.html#display--block-et-inline",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "display-block-inline-html#pratique--display-block-et-inline": {
       "title": "Pratique : display block et inline  (Élément block et inline)",
-      "content"	 : "Pratique : display block et inlineLes objectifs de ce travail paratique :  Découvrir les styles par défaut des éléments HTML  Découvrir la valeur : none  Changer la propritété display  Apprendre la différence entre inline et block  Examiner la différence entre inline et incline-block  Savoir comment chercher la description d’une propriété sur la documentation officiel.Code source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            display: inline;        }        p{            background-color:pink;            display: inline-block;            width: 400px;            height: 150px;        }        a{            display: inline-block;            width: 100px;            text-align: center;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
+      "content"	 : "Pratique : display block et inlineLes objectifs de ce travail paratique :  Découvrir les styles par défaut  Changer la propritété display  Découvrir la valeur : none  Apprendre la différence entre inline, block et incline-block  Savoir comment utiliser la documentation officiel.Code source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            display: inline;        }        p{            background-color:pink;            display: inline-block;            width: 400px;            height: 150px;        }        a{            display: inline-block;            width: 100px;            text-align: center;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
       "url": "/html5-css3/display-block-inline.html#pratique--display-block-et-inline",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -826,100 +840,107 @@
 ,
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html": {
       "title": "Modèle de Boîtes CSS",
-      "content"	 : "",
+      "content"	 : "Modèle de Boîtes CSSEn CSS, tout élément est inclus dans une boîte (“box” en anglais). Comprendre le fonctionnement de ces boîtes est essentiel pour maîtriser la mise en page CSS ainsi que le positionnement des éléments d’une page HTML.C’est pour cette raison que l’architecture de CSS est principalement basée sur un modèle de boîtes. Chacun de ces blocs prend un certain espace sur la page, de cette façon :  padding : l’espace autour, proche du contenu (remplissage)  border : la ligne qui est juste autour du padding (bordure)  margin :  l’espace extérieur, autour de l’élément (marge)",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#modèle-de-boîtes-css": {
-      "title": "Modèle de Boîtes CSS  (Modèle de Boîtes CSS)",
-      "content"	 : "Modèle de Boîtes CSSEn CSS, tout élément est inclus dans une boîte (“box” en anglais). Comprendre le fonctionnement de ces boîtes est essentiel pour maîtriser la mise en page CSS ainsi que le positionnement des éléments d’une page HTML.C’est pour cette raison que l’architecture de CSS est principalement basée sur un modèle de boîtes. Chacun de ces blocs prend un certain espace sur la page, de cette façon :  padding : l’espace autour, proche du contenu (par exemple, l’espace autour du texte d’un paragraphe) (en français, on pourrait traduire cela par du « remplissage » mais le terme padding étant communément utilisé lorsqu’on parle de CSS, on continuera à utiliser ce terme)  border : la ligne qui est juste autour du padding (en français cela correspond à la bordure)  margin :  l’espace extérieur, autour de l’élément (en français cela correspond à la marge)",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#modèle-de-boîtes-css",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique---découvrir-le-style-par-défaut-des-éléments-html": {
-      "title": "Pratique :  Découvrir le style par défaut des éléments HTML  (Modèle de Boîtes CSS)",
-      "content"	 : "Pratique :  Découvrir le style par défaut des éléments HTMLLes objectives de ce TP :  Utiliser les outils de développement pour voir le modèle de boîte  Découvrir les règle de style par défaut  La modification des règle de style directement dans le navigateurChaque navigateur propose des règle de style par défaut pour chaque élément HTML.",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique---découvrir-le-style-par-défaut-des-éléments-html",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#résultat": {
-      "title": "Résultat  (Modèle de Boîtes CSS)",
-      "content"	 : "RésultatCode source12345678910111213141516171819202122232425262728&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-style: dotted;            margin: 10px;            padding: 30px;        }        p{            border-style: solid;            margin: 10px;            padding: 10px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#résultat",
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique---découvrir-le-modèle-de-boite": {
+      "title": "Pratique :  Découvrir le modèle de boite  (Modèle de Boîtes CSS)",
+      "content"	 : "Pratique :  Découvrir le modèle de boiteLes objectives de ce TP :  Découvrir les propriété : border, margin, padding  Utiliser l’inspecteur de code pour voir le modèle de boîte  La modification des règle de style directement dans le navigateurRésultatCode source123456789101112131415161718192021222324252627&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-style: dotted;            margin: 10px;            padding: 30px;        }        p{            border-style: solid;            margin: 10px;            padding: 10px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique---découvrir-le-modèle-de-boite",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#les-bordures": {
       "title": "Les bordures  (Modèle de Boîtes CSS)",
-      "content"	 : "Les borduresLa bordure se situe entre la marge et le remplissage (padding) d’une boîte. la taille de la bordure s’ajoute à la largeur (width) et la hauteur (height) de la boîte.Pour modifier la taille, le style ou la couleur de tous les côtés en même temps, nous utilisons les propriétés suivantes :  border-width  border-style  border-color12345 h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;}Pour agir sur le style d’une bordure, il existe de nombreuses propriétés qui permettent de régler le style, la taille et la couleur pour chacun des quatre côtés de la bordure.Vous pouvez naturellement fixer la forme taille et couleur des quatre côtés en une seule fois, par le biais de la propriété border.123 h1{    border : 2px dotted indigo}Pour régler ces propriétés individuellement pour chacun des côtés, vous pouvez utiliser :  border-top  border-right  border-bottom  border-left123p{    border-bottom : 2px dotted grey}",
+      "content"	 : "Les borduresLa bordure se situe entre la marge et le remplissage (padding) d’une boîte. la taille de la bordure s’ajoute à la largeur (width) et la hauteur (height) de la boîte.Pour modifier la taille, le style ou la couleur de tous les côtés en même temps, nous utilisons les propriétés suivantes :12345 h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;}Pour agir sur le style d’une bordure, il existe de nombreuses propriétés qui permettent de régler le style, la taille et la couleur pour chacun des quatre côtés de la bordure.Vous pouvez naturellement fixer la forme taille et couleur des quatre côtés en une seule fois, par le biais de la propriété border.123 h1{    border : 2px dotted indigo}Pour régler ces propriétés individuellement pour chacun des côtés, vous pouvez utiliser :  border-top  border-right  border-bottom  border-left123p{    border-bottom : 2px dotted grey}",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#les-bordures",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--bordures": {
       "title": "Pratique : bordures  (Modèle de Boîtes CSS)",
-      "content"	 : "Pratique : bordures123456789101112131415161718192021222324252627&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;            /* border : 2px dotted indigo */        }        p{            border-bottom : 2px dotted grey        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "content"	 : "Pratique : borduresLes objectif de ce TP :  Apprendre la propriété borderCode source1234567891011121314151617181920212223242526&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            border-width: 2px;            border-style: dotted;            border-color: indigo;            /* border : 2px dotted indigo */        }        p{            border-bottom : 2px dotted grey        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--bordures",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#le-padding-remplissage": {
       "title": "Le padding (remplissage)  (Modèle de Boîtes CSS)",
-      "content"	 : "Le padding (remplissage)Le padding (ou remplissage) se situe entre la bordure et le contenu. on ne peut pas attribuer une valeur numérique négative à un padding, la valeur ne peut être que 0 ou bien une valeur positive.On peut une fois de plus configurer le padding pour tous les côtés à la fois à l’aide de la propriété padding, ou bien chaque côté indépendamment des autres en utilisant les variantes plus précises suivantes :  padding-top  padding-right  padding-bottom  padding-left12345678910111213        h1{            background-color: indigo;            color: white;            padding-top: 20px;            padding-bottom: 10px;            padding-left: 10px;            padding-right: 5px;        }        p{            background-color: pink;            padding: 20px 10px 10px 5px        }",
+      "content"	 : "Le padding (remplissage)Le padding (ou remplissage) se situe entre la bordure et le contenu. on ne peut pas attribuer une valeur numérique négative à un padding, la valeur ne peut être que 0 ou bien une valeur positive.On peut une fois de plus configurer le padding pour tous les côtés à la fois à l’aide de la propriété padding, ou bien chaque côté indépendamment des autres en utilisant les variantes plus précises suivantes :  padding-top  padding-right  padding-bottom  padding-left123456789h1{     background-color: indigo; color: white;    padding-top: 20px;    padding-bottom: 10px;    padding-left: 10px;    padding-right: 5px; }p{      background-color: pink;    padding: 20px 10px 10px 5px }",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#le-padding-remplissage",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--padding": {
       "title": "Pratique : padding  (Modèle de Boîtes CSS)",
-      "content"	 : "Pratique : padding123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding-top: 20px;            padding-bottom: 10px;            padding-left: 10px;            padding-right: 5px;        }        p{            background-color: pink;            padding: 20px 10px 10px 5px        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "content"	 : "Pratique : paddingL’objectif de ce tp :  Apprendre à utiliser la propriété padding.Code source1234567891011121314151617181920212223242526272829&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding-top: 20px;            padding-bottom: 10px;            padding-left: 10px;            padding-right: 5px;        }        p{            background-color: pink;            padding: 20px 10px 10px 5px        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--padding",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#les-marges": {
       "title": "Les marges  (Modèle de Boîtes CSS)",
-      "content"	 : "Les margesLa marge est une zone d’espacement invisible qui encadre votre boîte (une marge extérieure). La marge repousse les éléments alentours de la boîte. On peut de plus lui donner une valeur numérique positive ou bien même négative !Lorsque cette valeur est négative, cela peut cependant engendrer des superpositions entre votre boîte et d’autres éléments. La marge est toujours décomptée en surplus de la taille totale de la boîte.On peut fixer les quatre marges d’une boîte d’un seul coup à l’aide de la propriété margin, ou bien régler chaque côté individuellement avec les propriétés équivalentes suivantes :  margin-top  margin-right  margin-bottom  margin-left1234567891011121314h1{    background-color: indigo;    color: white;    padding: 10px;    margin-top: 20px;    margin-bottom: 10px;    margin-left: 30px;    margin-right: 30px;}p{    background-color: pink;    padding: 10px;    margin: 5px;}",
+      "content"	 : "Les margesLa marge est une zone d’espacement invisible qui encadre votre boîte (une marge extérieure). La marge repousse les éléments alentours de la boîte. On peut de plus lui donner une valeur numérique positive ou bien même négative !Lorsque cette valeur est négative, cela peut cependant engendrer des superpositions entre votre boîte et d’autres éléments. La marge est toujours décomptée en surplus de la taille totale de la boîte.On peut fixer les quatre marges d’une boîte d’un seul coup à l’aide de la propriété margin, ou bien régler chaque côté individuellement avec les propriétés équivalentes suivantes :  margin-top  margin-right  margin-bottom  margin-left123456789h1{    background-color: indigo;color: white;    padding: 10px;    margin-top: 20px; margin-bottom: 10px;    margin-left: 30px; margin-right: 30px;}p{    background-color: pink;     padding: 10px;    margin: 5px; }",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#les-marges",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#pratique--margin": {
       "title": "Pratique : margin  (Modèle de Boîtes CSS)",
-      "content"	 : "Pratique : marginLes objectifs de ce tp sont :  découvrir les propriété pour modifier les marques d’une boite  apprendre la fusion entre les marges  apprendre les marge négative",
+      "content"	 : "Pratique : marginLes objectifs de ce tp sont :  découvrir les propriété pour modifier les marques d’une boite  apprendre la fusion entre les marges  apprendre les marge négativeCode source1234567891011121314151617181920212223242526272829303132333435&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding: 10px;            margin-top: 20px;            margin-bottom: 10px;            margin-left: 30px;            margin-right: 30px;        }        p{            background-color: pink;            padding: 10px;            margin: 5px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, a.    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
       "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#pratique--margin",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#résultat-1": {
-      "title": "Résultat  (Modèle de Boîtes CSS)",
-      "content"	 : "Résultat",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#résultat-1",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#code-source-1": {
-      "title": "Code source  (Modèle de Boîtes CSS)",
-      "content"	 : "Code source1234567891011121314151617181920212223242526272829303132333435&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            background-color: indigo;            color: white;            padding: 10px;            margin-top: 20px;            margin-bottom: 10px;            margin-left: 30px;            margin-right: 30px;        }        p{            background-color: pink;            padding: 10px;            margin: 5px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;    &amp;lt;p&amp;gt;        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, a.    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Références  Le modèle de boîte",
-      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#code-source-1",
+"initiation-mod-c3-a8le-de-bo-c3-aetes-css-html#références": {
+      "title": "Références  (Modèle de Boîtes CSS)",
+      "content"	 : "Références  Le modèle de boîte",
+      "url": "/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html#références",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
 ,
 "initiation-police-texte-html": {
       "title": "Police et texte",
-      "content"	 : "Polices (fontes) et texteNous allons voir quelques propriété de font et de texte :  La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l’élément ciblé.  La propriété font-size définit la taille de fonte utilisée pour le texte.  La propriété line-height définit la hauteur de la boîte d’une ligne.  La propriété letter-spacing définit l’interlettre utilisée pour les caractères qui composent le texte.  La propriété text-align définit l’alignement horizontal d’un élément de bloc ou de la boîte d’une cellule de tableau.123456789101112131415    &amp;lt;style&amp;gt;        html{            font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;            font-size: 14px        }        h1{            font-size: 40px;            text-align: center;        }        p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;        }    &amp;lt;/style&amp;gt;",
+      "content"	 : "Polices (fontes) et texteNous allons voir dans cette session de formation quelques propriété de font et de texte.",
       "url": "/html5-css3/initiation-police-texte.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
-"initiation-police-texte-html#pratique--les-polices-fontes-et-le-texte": {
-      "title": "Pratique : les polices (fontes) et le texte  (Police et texte)",
-      "content"	 : "Pratique : les polices (fontes) et le texte123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        html{            font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;            font-size: 14px        }        h1{            font-size: 40px;            text-align: center;        }        p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Références  Initiation à la mise en forme du texte",
-      "url": "/html5-css3/initiation-police-texte.html#pratique--les-polices-fontes-et-le-texte",
+"initiation-police-texte-html#font-et-texte": {
+      "title": "Font et Texte  (Police et texte)",
+      "content"	 : "Font et TexteNous allons découvrir pratiquement les propiétés suivant :  font-family : permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l’élément ciblé.  font-size : définit la taille de fonte à utilisée pour le texte.  line-height : définit la hauteur de la boîte d’une ligne.  letter-spacing : définit l’interlettre utilisée pour les caractères qui composent le texte.  text-align :  définit l’alignement horizontal d’un élément de bloc ou de la boîte d’une cellule de tableau.123456789html{     font-family: Calibri, sans-serif;    font-size: 14px }h1{    font-size: 40px;     text-align: center; }p{    font-size: 20px; line-height: 2;    letter-spacing: 1px; }",
+      "url": "/html5-css3/initiation-police-texte.html#font-et-texte",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-police-texte-html#pratique--polices-et-texte": {
+      "title": "Pratique : polices et texte  (Police et texte)",
+      "content"	 : "Pratique : polices et texteL’objectifs de ce TP :  découvrir de quelques propriétés de font et de texteCode source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        html{            font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;            font-size: 14px        }        h1{            font-size: 40px;            text-align: center;        }        p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-police-texte.html#pratique--polices-et-texte",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-police-texte-html#google-font": {
+      "title": "Google font  (Police et texte)",
+      "content"	 : "Google fontGoogle Fonts est une bibliothèque de plus de 1000 familles de polices sous licence gratuites pour une utilisation pratique via CSS.La règle @import est utilisée afin d’importer des règles à partir d’autres feuilles de style. Ces règles @ doivent être utilisées avant toutes les autres règles123&amp;lt;style&amp;gt;    @import url(&#39;https://fonts.googleapis.com/css2?family=...&#39;);&amp;lt;/style&amp;gt;",
+      "url": "/html5-css3/initiation-police-texte.html#google-font",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-police-texte-html#pratique--google-font": {
+      "title": "Pratique : google font  (Police et texte)",
+      "content"	 : "Pratique : google fontL’objectifs de ce TP :  découvrir google fontCode source1234567891011121314151617181920212223242526272829303132333435&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;    &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt;    &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;    &amp;lt;title&amp;gt;Police et Texte&amp;lt;/title&amp;gt;    &amp;lt;style&amp;gt;       @import url(&#39;https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;amp;display=swap&#39;);       html{            font-family: &#39;Ubuntu&#39;, sans-serif;       }       h1{            font-size: 40px;            text-align: center;       }       p{            font-size: 20px;            line-height: 2;            letter-spacing: 1px;       }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/html5-css3/initiation-police-texte.html#pratique--google-font",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"initiation-police-texte-html#références": {
+      "title": "Références  (Police et texte)",
+      "content"	 : "Références  Initiation à la mise en forme du texte  Google Fonts",
+      "url": "/html5-css3/initiation-police-texte.html#références",
       "author": "",
       "categories": "bien-démarrer-css3"
     }

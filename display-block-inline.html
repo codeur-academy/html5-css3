@@ -16,11 +16,11 @@
 <meta property="og:url" content="https://codeur-academy.com/html5-css3/display-block-inline.html" />
 <meta property="og:site_name" content="Initiation à HTML5 et CSS3" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-09-21T21:19:54+01:00" />
+<meta property="article:published_time" content="2021-10-01T20:57:52+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Élément block et inline" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/display-block-inline.html"},"url":"https://codeur-academy.com/html5-css3/display-block-inline.html","headline":"Élément block et inline","dateModified":"2021-09-21T21:19:54+01:00","datePublished":"2021-09-21T21:19:54+01:00","description":"Élément block et inline","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/display-block-inline.html"},"url":"https://codeur-academy.com/html5-css3/display-block-inline.html","headline":"Élément block et inline","dateModified":"2021-10-01T20:57:52+01:00","datePublished":"2021-10-01T20:57:52+01:00","description":"Élément block et inline","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
         <link rel="shortcut icon" href="/html5-css3/favicon.png">
@@ -55,7 +55,7 @@
 <ol class="chapter"><li class="chapter-item expanded affix"></li>
     <li class="part-title"> Introduction</li>
         <li class="chapter-item expanded">
-        <a href="/html5-css3/introduction.html" class="">
+        <a href="/html5-css3/index.html" class="">
             <strong aria-hidden="true">1.</strong>Introduction</a></li><li class="chapter-item expanded affix"></li>
     <li class="part-title"> Web et Internet</li>
         <li class="chapter-item expanded">
@@ -99,8 +99,8 @@
         <li class="chapter-item expanded">
         <a href="/html5-css3/bien-d%C3%A9marrer-avec-css3.html" class="">
             <strong aria-hidden="true">18.</strong>Introduction</a></li><li class="chapter-item expanded">
-        <a href="/html5-css3/syntaxe-css.html" class="">
-            <strong aria-hidden="true">19.</strong>Syntaxe  de CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/syntaxe-utilit%C3%A9-css.html" class="">
+            <strong aria-hidden="true">19.</strong>Syntaxe et utilité</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/display-block-inline.html" class="">
             <strong aria-hidden="true">20.</strong>Élément block et inline</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="">
@@ -168,19 +168,31 @@
         <main>
             <h1 id="élément-block-et-inline">Élément block et inline</h1>
 
+<!-- note -->
+
+<p>Dans cette session de formation nous allons découvrir la propriété <strong>Display</strong> qui nous permet de changer la disposition d’affichage des élément HTML.</p>
+
+<!-- end note -->
+
 <h2 id="disposition-en-flux">Disposition en flux</h2>
+
+<!-- g layout : 7-9 5-9 -->
+
+<!-- note -->
 
 <p>Le flux normal ou « disposition en flux » (Flow Layout) correspond à la façon dont les <strong>éléments de bloc</strong> et les <strong>éléments en ligne</strong> sont disposés avant tout changement apporté à leur disposition.</p>
 
 <p>Avec un flux normal, les éléments en ligne (inline elements) sont affichés selon le sens dans lequel les mots sont écrits.</p>
 
-<p>Les éléments de bloc (block elements) sont affichés les uns après les autres, à la façon des paragraphes.</p>
+<p>Les éléments de bloc sont affichés les uns après les autres, à la façon des paragraphes.</p>
 
 <p>Par exemple, pour un document français, les éléments en ligne sont affichés les uns à la suite des autres de gauche à droite et les éléments de bloc sont affichés les uns en dessous des autres.</p>
 
 <p>Dans l’exemple suivant, on peut voir des boîtes de bloc et des boîtes en ligne. Les deux éléments correspondants aux paragraphes sont des éléments de bloc. Ces deux éléments s’affichent l’un en dessous de l’autre.</p>
 
 <p>Le deuxième paragraphe contient également des éléments <span>. C’est un élément en ligne qui s’affiche donc de gauche à droit.</span></p>
+
+<!-- end note -->
 
 <p><img src="./images/bien-démarrer-avec-css/quelques-propriétés-css/disposition-en-flux.png" alt="Disposition en flux" /></p>
 
@@ -193,16 +205,7 @@
 7
 8
 9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;head&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
+</pre></td><td class="rouge-code"><pre><span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;h1&gt;</span>Titre<span class="nt">&lt;/h1&gt;</span>
     <span class="nt">&lt;p&gt;</span>Paragraphe 1<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;p&gt;</span>
@@ -211,15 +214,33 @@
         <span class="nt">&lt;span&gt;</span>Phrase 2<span class="nt">&lt;/span&gt;</span>
     <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="display--block-et-inline">Display : block et inline</h2>
 
-<p>La propriété display définit le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils.</p>
+<!-- g layout : 4-9 8-9 p-50 -->
 
-<p>Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.
-nous allons traiter les valeurs block, inline et inline-block.</p>
+<!-- note -->
+
+<p>La propriété display définit :</p>
+<ul>
+  <li>le type d’affichage utilisée pour le rendu d’un élément (de bloc ou en ligne)</li>
+  <li>et la disposition utilisée pour ses éléments fils.</li>
+</ul>
+
+<p>Nous allons ce concentrer dans notre session de formation sur le rendu d’un élément en bloc ou en ligne.</p>
+
+<!-- end note -->
+
+<p>Nous allons traiter les valeurs</p>
+
+<ul>
+  <li><strong>block</strong>,</li>
+  <li><strong>inline</strong></li>
+  <li>et <strong>inline-block</strong>.</li>
+</ul>
+
+<!-- note -->
 
 <ul>
   <li>
@@ -233,18 +254,25 @@ nous allons traiter les valeurs block, inline et inline-block.</p>
   </li>
 </ul>
 
+<!-- end note -->
+
+<p><img src="./images/bien-démarrer-avec-css/quelques-propriétés-css/display-block-inline.png" alt="Disposition en flux" /></p>
+
 <h2 id="pratique--display-block-et-inline">Pratique : display block et inline</h2>
+
+<!-- g layout : 8-9 4-9 p-70 -->
 
 <p>Les objectifs de ce travail paratique :</p>
 
 <ul>
-  <li>Découvrir les styles par défaut des éléments HTML</li>
-  <li>Découvrir la valeur : <strong>none</strong></li>
+  <li>Découvrir les styles par défaut</li>
   <li>Changer la propritété <strong>display</strong></li>
-  <li>Apprendre la différence entre <strong>inline</strong> et <strong>block</strong></li>
-  <li>Examiner la différence entre <strong>inline</strong> et <strong>incline-block</strong></li>
-  <li>Savoir comment chercher la description d’une propriété sur la documentation officiel.</li>
+  <li>Découvrir la valeur : <strong>none</strong></li>
+  <li>Apprendre la différence entre <strong>inline</strong>, <strong>block</strong> et <strong>incline-block</strong></li>
+  <li>Savoir comment utiliser la documentation officiel.</li>
 </ul>
+
+<p><img src="./images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
 
 <h3 id="code-source">Code source</h3>
 
@@ -311,10 +339,9 @@ nous allons traiter les valeurs block, inline et inline-block.</p>
 </pre></td></tr></tbody></table></code></pre></div></div>
 <h3 id="résultat">Résultat</h3>
 
-<p><img src="./images/bien-démarrer-avec-css/quelques-propriétés-css/display-block-inline.png" alt="Disposition en flux" /></p>
 
         </main><nav class="nav-wrapper" aria-label="Page navigation">
-            <!-- Mobile navigation buttons --><a rel="prev" href="/html5-css3/syntaxe-css.html" class="mobile-nav-chapters previous" title="Syntaxe  de CSS" aria-label="Syntaxe  de CSS" aria-keyshortcuts="Left">
+            <!-- Mobile navigation buttons --><a rel="prev" href="/html5-css3/syntaxe-utilit%C3%A9-css.html" class="mobile-nav-chapters previous" title="Syntaxe et utilité" aria-label="Syntaxe et utilité" aria-keyshortcuts="Left">
                     <i class="fa fa-angle-left"></i>
                 </a><a rel="next" href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="mobile-nav-chapters next" title="Modèle de Boîtes CSS" aria-label="Modèle de Boîtes CSS" aria-keyshortcuts="Right">
                     <i class="fa fa-angle-right"></i>
@@ -322,7 +349,7 @@ nous allons traiter les valeurs block, inline et inline-block.</p>
         </nav>
     </div>
 </div>
-<nav class="nav-wide-wrapper" aria-label="Page navigation"><a rel="prev" href="/html5-css3/syntaxe-css.html" class="nav-chapters previous" title="Syntaxe  de CSS" aria-label="Syntaxe  de CSS" aria-keyshortcuts="Left">
+<nav class="nav-wide-wrapper" aria-label="Page navigation"><a rel="prev" href="/html5-css3/syntaxe-utilit%C3%A9-css.html" class="nav-chapters previous" title="Syntaxe et utilité" aria-label="Syntaxe et utilité" aria-keyshortcuts="Left">
     <i class="fa fa-angle-left"></i>
 </a><a rel="next" href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="nav-chapters next" title="Modèle de Boîtes CSS" aria-label="Modèle de Boîtes CSS" aria-keyshortcuts="Right">
     <i class="fa fa-angle-right"></i>

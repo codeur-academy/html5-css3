@@ -16,11 +16,11 @@
 <meta property="og:url" content="https://codeur-academy.com/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" />
 <meta property="og:site_name" content="Initiation à HTML5 et CSS3" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-09-21T21:19:54+01:00" />
+<meta property="article:published_time" content="2021-10-01T20:57:52+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Modèle de Boîtes CSS" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html"},"url":"https://codeur-academy.com/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html","headline":"Modèle de Boîtes CSS","dateModified":"2021-09-21T21:19:54+01:00","datePublished":"2021-09-21T21:19:54+01:00","description":"Modèle de Boîtes CSS","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html"},"url":"https://codeur-academy.com/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html","headline":"Modèle de Boîtes CSS","dateModified":"2021-10-01T20:57:52+01:00","datePublished":"2021-10-01T20:57:52+01:00","description":"Modèle de Boîtes CSS","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
         <link rel="shortcut icon" href="/html5-css3/favicon.png">
@@ -55,7 +55,7 @@
 <ol class="chapter"><li class="chapter-item expanded affix"></li>
     <li class="part-title"> Introduction</li>
         <li class="chapter-item expanded">
-        <a href="/html5-css3/introduction.html" class="">
+        <a href="/html5-css3/index.html" class="">
             <strong aria-hidden="true">1.</strong>Introduction</a></li><li class="chapter-item expanded affix"></li>
     <li class="part-title"> Web et Internet</li>
         <li class="chapter-item expanded">
@@ -99,8 +99,8 @@
         <li class="chapter-item expanded">
         <a href="/html5-css3/bien-d%C3%A9marrer-avec-css3.html" class="">
             <strong aria-hidden="true">18.</strong>Introduction</a></li><li class="chapter-item expanded">
-        <a href="/html5-css3/syntaxe-css.html" class="">
-            <strong aria-hidden="true">19.</strong>Syntaxe  de CSS</a></li><li class="chapter-item expanded">
+        <a href="/html5-css3/syntaxe-utilit%C3%A9-css.html" class="">
+            <strong aria-hidden="true">19.</strong>Syntaxe et utilité</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/display-block-inline.html" class="">
             <strong aria-hidden="true">20.</strong>Élément block et inline</a></li><li class="chapter-item expanded">
         <a href="/html5-css3/initiation-mod%C3%A8le-de-bo%C3%AEtes-css.html" class="">
@@ -166,33 +166,43 @@
 
     <div id="content" class="content">
         <main>
-            <h2 id="modèle-de-boîtes-css">Modèle de Boîtes CSS</h2>
+            <h1 id="modèle-de-boîtes-css">Modèle de Boîtes CSS</h1>
+
+<!-- new slide -->
+
+<!-- g layout : 6-5 6-9 -->
+
+<!-- note -->
 
 <p>En CSS, tout élément est inclus dans une boîte (“box” en anglais). Comprendre le fonctionnement de ces boîtes est essentiel pour maîtriser la mise en page CSS ainsi que le positionnement des éléments d’une page HTML.</p>
 
 <p>C’est pour cette raison que l’architecture de CSS est principalement basée sur un modèle de boîtes. Chacun de ces blocs prend un certain espace sur la page, de cette façon :</p>
 
-<p><img src="./images/bien-démarrer-avec-css/quelques-propriétés-css/box-model.png" alt="" /></p>
+<!-- end note -->
 
 <ul>
-  <li><strong>padding</strong> : l’espace autour, proche du contenu (par exemple, l’espace autour du texte d’un paragraphe) (en français, on pourrait traduire cela par du « remplissage » mais le terme padding étant communément utilisé lorsqu’on parle de CSS, on continuera à utiliser ce terme)</li>
-  <li><strong>border</strong> : la ligne qui est juste autour du padding (en français cela correspond à la bordure)</li>
-  <li><strong>margin</strong> :  l’espace extérieur, autour de l’élément (en français cela correspond à la marge)</li>
+  <li><strong>padding</strong> : l’espace autour, proche du contenu (remplissage)</li>
+  <li><strong>border</strong> : la ligne qui est juste autour du padding (bordure)</li>
+  <li><strong>margin</strong> :  l’espace extérieur, autour de l’élément (marge)</li>
 </ul>
 
-<h2 id="pratique---découvrir-le-style-par-défaut-des-éléments-html">Pratique :  Découvrir le style par défaut des éléments HTML</h2>
+<p><img src="./images/bien-démarrer-avec-css/quelques-propriétés-css/box-model.png" alt="Modèle de Boîtes CSS" /></p>
+
+<h2 id="pratique---découvrir-le-modèle-de-boite">Pratique :  Découvrir le modèle de boite</h2>
+
+<!-- g layout : 7-9 5-9 p-70 -->
 
 <p>Les objectives de ce TP :</p>
 
 <ul>
-  <li>Utiliser les outils de développement pour voir le modèle de boîte</li>
-  <li>Découvrir les règle de style par défaut</li>
+  <li>Découvrir les propriété : border, margin, padding</li>
+  <li>Utiliser l’inspecteur de code pour voir le modèle de boîte</li>
   <li>La modification des règle de style directement dans le navigateur</li>
 </ul>
 
-<p>Chaque navigateur propose des règle de style par défaut pour chaque élément HTML.</p>
+<p><img src="./images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
 
-<h2 id="résultat">Résultat</h2>
+<h3 id="résultat">Résultat</h3>
 
 <p><img src="./images/bien-démarrer-avec-css/modèle-de-boîtes/découvrir.png" alt="" /></p>
 
@@ -225,7 +235,6 @@
 25
 26
 27
-28
 </pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -253,19 +262,18 @@
     <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-
 </pre></td></tr></tbody></table></code></pre></div></div>
 <h2 id="les-bordures">Les bordures</h2>
+
+<!-- g layout : 5-5 7-8 -->
+
+<!-- note -->
 
 <p>La bordure se situe entre la marge et le remplissage (padding) d’une boîte. la taille de la bordure s’ajoute à la largeur (width) et la hauteur (height) de la boîte.</p>
 
 <p>Pour modifier la <strong>taille</strong>, le <strong>style</strong> ou la <strong>couleur</strong> de tous les côtés en même temps, nous utilisons les propriétés suivantes :</p>
 
-<ul>
-  <li>border-width</li>
-  <li>border-style</li>
-  <li>border-color</li>
-</ul>
+<!-- end note -->
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -281,7 +289,15 @@
 
 <p><img src="./images/bien-démarrer-avec-css/modèle-de-boîtes/bordures.png" alt="bordures" /></p>
 
+<!-- new slide -->
+
+<!-- g layout : 6-9 6-9 -->
+
+<!-- note -->
+
 <p>Pour agir sur le style d’une bordure, il existe de nombreuses propriétés qui permettent de régler le <strong>style</strong>, la <strong>taille</strong> et la <strong>couleur</strong> pour chacun des quatre côtés de la bordure.</p>
+
+<!-- end note -->
 
 <p>Vous pouvez naturellement fixer la forme <strong>taille</strong> et <strong>couleur</strong> des quatre côtés en une seule fois, par le biais de la propriété <strong>border</strong>.</p>
 
@@ -292,6 +308,7 @@
     <span class="nl">border</span> <span class="p">:</span> <span class="m">2px</span> <span class="nb">dotted</span> <span class="no">indigo</span>
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
+<!-- new zone -->
 
 <p>Pour régler ces propriétés individuellement pour chacun des côtés, vous pouvez utiliser :</p>
 
@@ -309,7 +326,20 @@
     <span class="nl">border-bottom</span> <span class="p">:</span> <span class="m">2px</span> <span class="nb">dotted</span> <span class="n">grey</span>
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
+
 <h2 id="pratique--bordures">Pratique : bordures</h2>
+
+<!-- g layout : 6-5 6-8 p-70 -->
+
+<p>Les objectif de ce TP :</p>
+
+<ul>
+  <li>Apprendre la propriété border</li>
+</ul>
+
+<p><img src="./images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+
+<h3 id="code-source-1">Code source</h3>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -337,7 +367,6 @@
 24
 25
 26
-27
 </pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -364,10 +393,13 @@
     <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="le-padding-remplissage">Le padding (remplissage)</h2>
+
+<!-- g layout : 7-9 5-9  -->
+
+<!-- note -->
 
 <p>Le padding (ou remplissage) se situe entre la bordure et le contenu. on ne peut pas attribuer une valeur numérique négative à un padding, la valeur ne peut être que 0 ou bien une valeur positive.</p>
 
@@ -380,6 +412,8 @@
   <li>padding-left</li>
 </ul>
 
+<!-- end note -->
+
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -389,28 +423,31 @@
 7
 8
 9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>        <span class="nt">h1</span><span class="p">{</span>
-            <span class="nl">background-color</span><span class="p">:</span> <span class="no">indigo</span><span class="p">;</span>
-            <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
-            <span class="nl">padding-top</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
-            <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-            <span class="nl">padding-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-            <span class="nl">padding-right</span><span class="p">:</span> <span class="m">5px</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="nt">p</span><span class="p">{</span>
-            <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
-            <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">5px</span>
-        <span class="p">}</span>
-
+</pre></td><td class="rouge-code"><pre><span class="nt">h1</span><span class="p">{</span> 
+    <span class="nl">background-color</span><span class="p">:</span> <span class="no">indigo</span><span class="p">;</span> <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+    <span class="nl">padding-top</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+    <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">padding-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">padding-right</span><span class="p">:</span> <span class="m">5px</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">p</span><span class="p">{</span>  
+    <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">5px</span> <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 <p><img src="./images/bien-démarrer-avec-css/modèle-de-boîtes/padding.png" alt="padding" /></p>
 
 <h2 id="pratique--padding">Pratique : padding</h2>
 
+<!-- g layout : 7-5 5-8 p-70 -->
+
+<p>L’objectif de ce tp :</p>
+
+<ul>
+  <li>Apprendre à utiliser la propriété padding.</li>
+</ul>
+
+<p><img src="./images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
+
+<h3 id="code-source-2">Code source</h3>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -440,7 +477,6 @@
 27
 28
 29
-30
 </pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -470,10 +506,13 @@
     <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="les-marges">Les marges</h2>
+
+<!-- g layout : 7-9 5-9  -->
+
+<!-- note -->
 
 <p>La marge est une zone d’espacement invisible qui encadre votre boîte (une marge extérieure). La marge repousse les éléments alentours de la boîte. On peut de plus lui donner une valeur numérique positive ou bien même négative !</p>
 
@@ -488,6 +527,8 @@
   <li>margin-left</li>
 </ul>
 
+<!-- end note -->
+
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -497,30 +538,22 @@
 7
 8
 9
-10
-11
-12
-13
-14
 </pre></td><td class="rouge-code"><pre><span class="nt">h1</span><span class="p">{</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="no">indigo</span><span class="p">;</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="no">indigo</span><span class="p">;</span><span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
     <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-    <span class="nl">margin-top</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
-    <span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-    <span class="nl">margin-left</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
-    <span class="nl">margin-right</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
-<span class="p">}</span>
+    <span class="nl">margin-top</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span> <span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">margin-left</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span> <span class="nl">margin-right</span><span class="p">:</span> <span class="m">30px</span><span class="p">;}</span>
 <span class="nt">p</span><span class="p">{</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span> 
     <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="m">5px</span><span class="p">;</span>
-<span class="p">}</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">5px</span><span class="p">;</span> <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p><img src="./images/bien-démarrer-avec-css/modèle-de-boîtes/margin.png" alt="padding" /></p>
 
 <h2 id="pratique--margin">Pratique : margin</h2>
+
+<!-- g layout : 7-5 5-8 p-70 -->
 
 <p>Les objectifs de ce tp sont :</p>
 
@@ -530,11 +563,9 @@
   <li>apprendre les marge négative</li>
 </ul>
 
-<h2 id="résultat-1">Résultat</h2>
+<p><img src="./images/prof/explication-pratique.png" alt="Explication pratique élément h1" /></p>
 
-<p><img src="./images/bien-démarrer-avec-css/modèle-de-boîtes/margin.png" alt="padding" /></p>
-
-<h2 id="code-source-1">Code source</h2>
+<h3 id="code-source-3">Code source</h3>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -608,7 +639,7 @@
 <span class="nt">&lt;/html&gt;</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<h1 id="références">Références</h1>
+<h2 id="références">Références</h2>
 <ul>
   <li><a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/The_box_model">Le modèle de boîte</a></li>
 </ul>
