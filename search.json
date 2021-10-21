@@ -725,7 +725,7 @@
 ,
 "bien-d-c3-a9marrer-avec-css3-html": {
       "title": "Bien démarrer avec CSS3",
-      "content"	 : "Bien démarrer avec CSS3Dans cette partie de formation, je vous propose d’apprendre juste les notions de base de CSS nécessaire pour commencer nos projets pratiques.Nous allons découvrir la syntaxe de CSS et seulement le fonctionnement de base de quelques propriétés CSS indispensable pour commencer la pratique. C’est pour ça nomme cette partie : Bien démarrer avec CSS3.Cette technique de démarrage, vous permet de libérer vos cerveaux de la complexité d’assimiler la multitude d’informations dont nous n’avons pas besoin au début pour commencer à réaliser nos projet pratiques. Nous allons traiter les détails importants pour maîtriser le CSS dans la partie : Notion de base de CSS.Nous allons commencer par découvrir la syntaxe de CSS. Ensuite, nous découvrirons le modèle d’affichage en boîte d’un élément HTML. Nous étudierons enfin, en détail, la syntaxe d’une règle CSS.Nous terminerons notre partie par un travail pratique pour valider notre apprentissage.",
+      "content"	 : "Bien démarrer avec CSS3Dans cette partie de formation, je vous propose d’apprendre juste les notions de base de CSS nécessaire pour commencer nos projets pratiques.Nous allons découvrir la syntaxe de CSS et seulement le fonctionnement de base de quelques propriétés CSS indispensable pour commencer la pratique. C’est pour ça je nomme cette partie : Bien démarrer avec CSS3.Cette technique de démarrage, vous permet de libérer vos cerveaux de la complexité d’assimiler la multitude d’informations dont nous n’avons pas besoin au début pour commencer à réaliser nos projet pratiques. Nous allons traiter les détails importants pour maîtriser le CSS dans la partie : Notion de base de CSS.Nous allons commencer par découvrir la syntaxe de CSS. Ensuite, nous découvrirons le modèle d’affichage en boîte d’un élément HTML. Nous étudierons enfin, en détail, la syntaxe d’une règle CSS.Nous terminerons notre partie par un travail pratique pour valider notre apprentissage.",
       "url": "/html5-css3/bien-d%C3%A9marrer-avec-css3.html",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -954,21 +954,14 @@
     },
 "unit-c3-a9s-de-longueur-html#unité-absolues": {
       "title": "Unité absolues  (Unités de longueur)",
-      "content"	 : "Unité absoluesLes unités absolues ne sont pas recommandées à l’écran, car les tailles d’écran varient énormément.Avec l’avènement des smartphones et des tablettes, les tailles de supports se démultiplient. On est très loin des trois grandes résolutions d’écrans qui ont régné pendant un moment : 800x600, 1024x768 et 1280x1080.Cependant, elles peuvent être utilisées si le support de sortie est connu, comme pour la mise en page pour l’impression.Il existe plusieurs unité absolues comme  cm : centimètre  mm : millimétré  px : pixelMais généralement, on n’utilise pas le cm et le mm, nous utilisons seulement le pixel qui prend la dimension d’un pixel sur l’écran.Dans l’exemple suivant, nous avons changer la taille de police de titre et paragraphe en 32px.Nous avons aussi augmenter la hauteur du paragraphe en 150px.12345678910h1{    font-size: 32px;    height: 50px;}p{    font-size: 32px;    height: 150px;    background-color: pink;}",
+      "content"	 : "Unité absoluesLes unités absolues ne sont pas recommandées à l’écran, car les tailles d’écran varient énormément.Avec l’avènement des smartphones et des tablettes, les tailles de supports se démultiplient.On est très loin des trois grandes résolutions d’écrans qui ont régné pendant un moment :  800x600,  1024x768,  1280x1080.Cependant, elles peuvent être utilisées si le support de sortie est connu, comme pour la mise en page pour l’impression.Il existe plusieurs unité absolues comme  cm : centimètre  mm : millimétré  px : pixelMais généralement, on n’utilise pas le cm et le mm, nous utilisons seulement le pixel qui prend la dimension d’un pixel sur l’écran.Dans l’exemple suivant, nous avons changer la taille de police de titre et paragraphe en 32px.Nous avons aussi augmenter la hauteur du paragraphe en 150px.123456789h1{    font-size: 32px;    height: 50px;}p{    font-size: 32px;    height: 150px;    background-color: pink;}",
       "url": "/html5-css3/unit%C3%A9s-de-longueur.html#unité-absolues",
-      "author": "",
-      "categories": "bien-démarrer-css3"
-    },
-"unit-c3-a9s-de-longueur-html#pratique--unité-pixel": {
-      "title": "Pratique : Unité pixel  (Unités de longueur)",
-      "content"	 : "Pratique : Unité pixelLes objectives de ce travail pratique sont les suivant :  Apprendre à utiliser des valeurs en pixel  Découvrir la taille par défaut de Police.  Comprendre la notion d’héritage des valeurs de père vers le filsCode source12345678910111213141516171819202122232425262728&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        h1{            font-size: 32px;            height: 50px;        }        p{            font-size: 32px;            height: 150px;            background-color: pink;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
-      "url": "/html5-css3/unit%C3%A9s-de-longueur.html#pratique--unité-pixel",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "unit-c3-a9s-de-longueur-html#unité-relatives": {
       "title": "Unité relatives  (Unités de longueur)",
-      "content"	 : "Unité relativesLes unités relatives se réfèrent toujours à un autre élément. Elles sont très utiles, notamment avec la multiplication des supports et pour gérer le responsive design ou l’affichage sur mobile.il existe trois unité :  %     :Relatif à la taille de l’élément parent  em    :Relatif à la taille de police de l’élément parent  rem:   Relatif à la taille de police de l’élément racine HTML de la page.",
+      "content"	 : "Unité relativesLes unités relatives se réfèrent toujours à un autre élément. Elles sont très utiles, notamment avec la multiplication des supports et pour gérer le responsive design ou l’affichage sur mobile.Il existe trois unité :  %     :Relatif à la taille de l’élément parent  em    :Relatif à la taille de police de l’élément parent  rem:   Relatif à la taille de police de l’élément racine HTML de la page.",
       "url": "/html5-css3/unit%C3%A9s-de-longueur.html#unité-relatives",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -982,8 +975,15 @@
     },
 "unit-c3-a9s-de-longueur-html#pratique---unité-relative--em-et-rem": {
       "title": "Pratique - Unité relative : em et rem  (Unités de longueur)",
-      "content"	 : "Pratique - Unité relative : em et remLes objectives de ce travail pratique sont les suivant :  Apprendre à utiliser les unité relative em et rem  comprendre la différence entre eux.  Code source1234567891011121314151617181920212223242526272829303132&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        html{            /* font-size: 16px;   */        }        body{            font-size: 24px;         }        h1{            font-size: 1em;        }        p{            font-size: 1rem;        }        a{            font-size: 1.2em;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;RésultatRéférences  Valeurs et unités CSS  px, %, em, rem… quelle unité de mesure utiliser en CSS ?",
+      "content"	 : "Pratique - Unité relative : em et remLes objectives de ce travail pratique sont les suivant :  Apprendre à utiliser les unité relative em et rem  comprendre la différence entre eux.Code source1234567891011121314151617181920212223242526272829303132&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;style&amp;gt;        html{            /* font-size: 16px;   */        }        body{            font-size: 24px;         }        h1{            font-size: 1em;        }        p{            font-size: 1rem;        }        a{            font-size: 1.2em;        }    &amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :    &amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
       "url": "/html5-css3/unit%C3%A9s-de-longueur.html#pratique---unité-relative--em-et-rem",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"unit-c3-a9s-de-longueur-html#références": {
+      "title": "Références  (Unités de longueur)",
+      "content"	 : "Références  Valeurs et unités CSS  px, %, em, rem… quelle unité de mesure utiliser en CSS ?",
+      "url": "/html5-css3/unit%C3%A9s-de-longueur.html#références",
       "author": "",
       "categories": "bien-démarrer-css3"
     }
@@ -997,21 +997,21 @@
     },
 "s-c3-a9lecteurs-html#quest-ce-quun-sélecteur-": {
       "title": "Qu’est-ce qu’un sélecteur ?  (Sélecteurs)",
-      "content"	 : "Qu’est-ce qu’un sélecteur ?Vous les avez déjà rencontrés : toute règle CSS commence par un sélecteur.123456h1{    color:red}p {    color: grey;}Un sélecteur est une expression qui indique au navigateur à quel élément HTML à cibler pour applique la la déclaration CSS de la règle.",
+      "content"	 : "Qu’est-ce qu’un sélecteur ?Vous les avez déjà rencontrés : toute règle CSS commence par un sélecteur.Un sélecteur est une expression qui indique au navigateur à quel élément HTML à cibler pour applique la la déclaration CSS de la règle.123h1{    color:red}",
       "url": "/html5-css3/s%C3%A9lecteurs.html#quest-ce-quun-sélecteur-",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#lattribut-id-et-classe": {
       "title": "L’attribut &lt;strong&gt;Id&lt;/strong&gt; et &lt;strong&gt;Classe&lt;/strong&gt;  (Sélecteurs)",
-      "content"	 : "L’attribut Id et ClasseLes attributs id et class sont particuliers en HTML puisqu’ils n’ont pas été créés pour préciser le fonctionnement d’un élément HTML en particulier (ce qui est normalement le rôle de tout attribut HTML) mais vont être principalement utilisés pour cibler certains éléments HTML et leur appliquer des styles en CSS.Les attributs HTML class et id sont des attributs dits globaux car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.12345678&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
+      "content"	 : "L’attribut Id et ClasseLes attributs id et class sont particuliers en HTML puisqu’ils n’ont pas été créés pour préciser le fonctionnement d’un élément HTML en particulier (ce qui est normalement le rôle de tout attribut HTML) mais vont être principalement utilisés pour cibler certains éléments HTML et leur appliquer des styles en CSS.Les attributs HTML class et id sont des attributs dits globaux car on va pouvoir les ajouter dans la balise ouvrante de n’importe quel élément HTML.1234&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un ordinateur est un appareil ..&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#lattribut-id-et-classe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#sélecteur-de-type": {
       "title": "Sélecteur de type  (Sélecteurs)",
-      "content"	 : "Sélecteur de typeUn sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  nous utilisons les sélecteurs h1 et a. Chaque instance de la balise &amp;lt;h1&amp;gt; et &amp;lt;a&amp;gt; est ainsi mise en forme.1234567891011121314151617&amp;lt;style&amp;gt;h1 {    color:indigo;}a{    color: red}&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser rapidement     des opérations mathématiques, logiques, des manipulations de chaînes de     caractères ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;",
+      "content"	 : "Sélecteur de typeUn sélecteur de type cible un élément HTML (une balise) de votre document, on parle aussi de sélecteur de balise ou d’élément. Dans notre exemple  nous utilisons les sélecteurs h1 et a. Chaque instance de la balise &amp;lt;h1&amp;gt; et &amp;lt;a&amp;gt; est ainsi mise en forme.12345&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un ...&amp;lt;/p&amp;gt;1234h1 {    color:indigo;}a{ color: red }",
       "url": "/html5-css3/s%C3%A9lecteurs.html#sélecteur-de-type",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -1025,7 +1025,7 @@
     },
 "s-c3-a9lecteurs-html#pratique-sélecteur-universel": {
       "title": "Pratique :sélecteur universel  (Sélecteurs)",
-      "content"	 : "Pratique :sélecteur universel12345678910111213141516171819&amp;lt;style&amp;gt;    * {        margin: 0px;    }&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;    Lorem ipsum dolor sit amet consectetur adipisicing elit.     Labore nobis ea voluptatum doloribus debitis quis perferendis     quia id iste. Quasi?&amp;lt;/p&amp;gt;",
+      "content"	 : "Pratique :sélecteur universelL’objectif de travail pratique :  Découvrir le sélecteur universel12345678910111213141516171819&amp;lt;style&amp;gt;    * {        margin: 0px;    }&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de     réaliser rapidement des opérations mathématiques,     logiques, des manipulations de chaînes de caractères     ou des recherches. Il est composé de deux grandes parties :&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;    Lorem ipsum dolor sit amet consectetur adipisicing elit.     Labore nobis ea voluptatum doloribus debitis quis perferendis     quia id iste. Quasi?&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#pratique-sélecteur-universel",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -1039,7 +1039,7 @@
     },
 "s-c3-a9lecteurs-html#pratique--sélecteurs-de-classe": {
       "title": "Pratique : Sélecteurs de classe  (Sélecteurs)",
-      "content"	 : "Pratique : Sélecteurs de classe12345678910111213141516&amp;lt;style&amp;gt;.titre {    color:red;}&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser     rapidement des opérations mathématiques, logiques, des manipulations     de chaînes de caractères ou des recherches.&amp;lt;/p&amp;gt;&amp;lt;h2&amp;gt;Unité centrale &amp;lt;/h2&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?&amp;lt;/p&amp;gt;&amp;lt;h2  class=&quot;titre&quot;&amp;gt;Périphériques d&#39;entrée ou de sortie&amp;lt;/h2&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?&amp;lt;/p&amp;gt;",
+      "content"	 : "Pratique : Sélecteurs de classeL’objectif de travail pratique :  Découvrir le sélecteur de classe12345678910111213141516&amp;lt;style&amp;gt;.titre {    color:red;}&amp;lt;/style&amp;gt;&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser     rapidement des opérations mathématiques, logiques, des manipulations     de chaînes de caractères ou des recherches.&amp;lt;/p&amp;gt;&amp;lt;h2&amp;gt;Unité centrale &amp;lt;/h2&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?&amp;lt;/p&amp;gt;&amp;lt;h2  class=&quot;titre&quot;&amp;gt;Périphériques d&#39;entrée ou de sortie&amp;lt;/h2&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?&amp;lt;/p&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#pratique--sélecteurs-de-classe",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -1053,14 +1053,14 @@
     },
 "s-c3-a9lecteurs-html#pratique--plusieurs-classe": {
       "title": "Pratique : plusieurs classe  (Sélecteurs)",
-      "content"	 : "Pratique : plusieurs classeCode source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;.paragraphe {     background-color: pink;     padding: 10px;}.important {    border: 2px solid black;    font-weight:bold}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1 class=&quot;important&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p class=&quot;paragraphe&quot;&amp;gt;        Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;        ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser         rapidement des opérations mathématiques, logiques, des manipulations         de chaînes de caractères ou des recherches.    &amp;lt;/p&amp;gt;    &amp;lt;h2 class=&quot;important&quot;&amp;gt;Unité centrale &amp;lt;/h2&amp;gt;    &amp;lt;p class=&quot;paragraphe important&quot;&amp;gt;        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?    &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "content"	 : "Pratique : plusieurs classeL’objectif de travail pratique :  Découvrir le sélecteur avec plusieurs classeCode source123456789101112131415161718192021222324252627282930&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;.paragraphe {     background-color: pink;     padding: 10px;}.important {    border: 2px solid black;    font-weight:bold}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;h1 class=&quot;important&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;    &amp;lt;p class=&quot;paragraphe&quot;&amp;gt;        Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;        ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser         rapidement des opérations mathématiques, logiques, des manipulations         de chaînes de caractères ou des recherches.    &amp;lt;/p&amp;gt;    &amp;lt;h2 class=&quot;important&quot;&amp;gt;Unité centrale &amp;lt;/h2&amp;gt;    &amp;lt;p class=&quot;paragraphe important&quot;&amp;gt;        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nemo?    &amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
       "url": "/html5-css3/s%C3%A9lecteurs.html#pratique--plusieurs-classe",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "s-c3-a9lecteurs-html#sélecteurs-did": {
       "title": "Sélecteurs d’ID  (Sélecteurs)",
-      "content"	 : "Sélecteurs d’IDUn sélecteur d’ID commence par un # plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document.12345#definition {    background-color: pink;    padding: 10px;    font-size: 24px;}1234567&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un appareil électronique capable de réaliser     rapidement des opérations mathématiques, logiques, des manipulations     de chaînes de caractères ou des recherches.&amp;lt;/p&amp;gt;",
+      "content"	 : "Sélecteurs d’IDUn sélecteur d’ID commence par un # plutôt que par un point, mais est essentiellement utilisé de la même manière qu’un sélecteur de classe. Une ID ne peut cependant être utilisée qu’une seule fois par document.12345&amp;lt;h1 class=&quot;titre&quot;&amp;gt;Qu&#39;est-ce que l&#39;ordinateur&amp;lt;/h1&amp;gt;&amp;lt;p id=&quot;definition&quot;&amp;gt;    Un &amp;lt;a href=&quot;https://fr.wikipedia.org/wiki/Ordinateur&quot; target=&quot;_blank&quot;&amp;gt;    ordinateur&amp;lt;/a&amp;gt; est un ..&amp;lt;/p&amp;gt;12345#definition {    background-color: pink;    padding: 10px;    font-size: 24px;}",
       "url": "/html5-css3/s%C3%A9lecteurs.html#sélecteurs-did",
       "author": "",
       "categories": "bien-démarrer-css3"
@@ -1082,8 +1082,15 @@
 ,
 "tp-exemple-page-html5-avec-css3-html": {
       "title": "TP-Exemple d'une page avec CSS",
-      "content"	 : "TP - Exemple d’une page avec CSSDans cette session de formation, nous apprendrons comment associer une feuille de style CSS à un document HTML et nous découvrirons quelques règles simples de mise en forme d’un texte.",
+      "content"	 : "TP - Apparence d’un article avec CSSDans cette session de formation, nous allons réaliser ensemble un travail pratique qui résume ce que nous avons vue dans cette partie de formation intitulé **Bien démarrer avec CSS.Nous allons créer notre premier page web professionnel avec HTML et CSS.",
       "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    },
+"tp-exemple-page-html5-avec-css3-html#objectifs": {
+      "title": "Objectifs  (TP-Exemple d'une page avec CSS)",
+      "content"	 : "Objectifs  Découvert de quelques balise HTMl sémantique  Découvert de structure d’une page en HTML  Découvert comment structure un article dans une page HTML  Apprendre la notion de normalisation des règle CSS par défaut  Appliquer ce que nous avons appris dans cette partie de bien démarrer avec CSS",
+      "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html#objectifs",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
@@ -1111,7 +1118,7 @@
 ,
 "r-c3-a9sum-c3-a9-bien-d-c3-a9marrer-avec-css3-html": {
       "title": "Résumé - Bien démarrer avec CSS3",
-      "content"	 : "Résumé",
+      "content"	 : "Résumé - Bien démarrer avec CSS3Nous avons découvert dans cette partie de formation, la syntaxe de CSS et les notions de base que vous avez besoin pour commencer l’apprentissage par projet.Nous avons appris le modèle de boîte et ces propriété  border  padding  margin  width et hieghtNous avons découvert comme fonctionne le sélecteur et comment cibler les élément HTML par Id et class.Nous avons vue les unités de longueur, notamment %, rm, rem.",
       "url": "/html5-css3/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-css3.html",
       "author": "",
       "categories": "bien-démarrer-css3"
