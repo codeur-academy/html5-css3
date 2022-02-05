@@ -1,5 +1,0 @@
-
-
-# Sélecteur
-
-# Unité de mesure
