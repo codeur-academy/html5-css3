@@ -1,0 +1,3 @@
+# Résumé
+
+C'est tout pour l'instant ! Cet article doit vous avoir donné une bonne idée de la façon de commencer à baliser le texte en HTML et présenté les éléments les plus importants dans ce domaine. Il existe énormément d'autres éléments sémantiques à connaître dans ce domaine ; nous en verrons beaucoup plus dans notre article « More Semantic Elements », plus loin dans ce cours. Dans le prochain article, nous examinerons en détail comment créer des hyperliens, qui est peut-être l'élément le plus important sur le Web.
