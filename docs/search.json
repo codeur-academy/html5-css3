@@ -1,25 +1,25 @@
 {
 "index-html": {
-      "title": "Introduction",
+      "title": "1.introduction",
       "content"	 : "Initiation à HTML5 et CSS3Bienvenue dans cette formation d’initiation à la création des sites web avec HTML5 et CSS3.La formation a pour but de fournir aux développeurs web débutants tout ce qu’ils ont besoin pour commencer à développer des sites web simples.Si vous débutez complètement, le développement web peut être un réel défi. Notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome.Vous devriez vous sentir chez vous, que vous soyez  un étudiant apprenant le développement web,  un enseignant recherchant des supports de cours,  un amateur ou quelqu’un qui souhaite simplement comprendre la manière dont fonctionnent le Web et ses technologies.",
       "url": "/html5-css3/index.html",
       "author": "",
       "categories": "introduction"
     },
 "index-html#ce-que-vous-apprendrez": {
-      "title": "Ce que vous apprendrez  (Introduction)",
+      "title": "Ce que vous apprendrez  (1.introduction)",
       "content"	 : "Ce que vous apprendrez  Apprendre HTML5 à partir de zéro  Apprendre CSS3 à partir de zéro  Réalisation des projets du monde réel  Création des pages responsive",
       "url": "/html5-css3/index.html#ce-que-vous-apprendrez",
       "author": "",
       "categories": "introduction"
     }
 ,
-"initiation-couleur-html": {
-      "title": "couleur",
-      "content"	 : "Couleur",
-      "url": "/html5-css3/initiation-couleur.html",
+"pr-c3-a9sentation-formateur-html": {
+      "title": "Présentation du formateur",
+      "content"	 : "Présentation du formateur ",
+      "url": "/html5-css3/pr%C3%A9sentation-formateur.html",
       "author": "",
-      "categories": "bien-démarrer-css3"
+      "categories": "introduction"
     }
 ,
 "introduction-dev-web-introduction-html": {
@@ -431,6 +431,78 @@
       "categories": "installation-outils"
     }
 ,
+"cr-c3-a9ation-page-web-avec-html-css-travail-c3-a0-faire-html": {
+      "title": "Travail à faire",
+      "content"	 : "Projet 0 : Création d’une page webProjet de démarrage et d’initiation à HTML5 et CSS3",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-travail-%C3%A0-faire.html",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-travail-c3-a0-faire-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Travail à faire)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-travail-%C3%A0-faire.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-travail-c3-a0-faire-html#description-du-projet": {
+      "title": "Description du projet  (Travail à faire)",
+      "content"	 : "Description du projetAvant de commencer la réalisation de nos projets, je vous conseil, si vous êtes totalement débutant, de commencer votre apprentissage pour une auto-formation rapide du langage HTML et CSS. Just pour découvrir la syntaxe générale et de réaliser votre première page web. Je nomme cette étape d’initialisation : Bien démarrer avec HTML 5 et CSS3.Le projet consiste à réaliser un article sur le sujet : Ordinateur.L’objectif est d’abord découvrir la syntaxe des langages HTML5 et CSS3, ensuit apprendre les notions de base qui vous amène à comprendre comment réaliser les projets suivants de notre formation.",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-travail-%C3%A0-faire.html#description-du-projet",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-travail-c3-a0-faire-html#travail-à-faire": {
+      "title": "Travail à faire  (Travail à faire)",
+      "content"	 : "Travail à faireNous vous demandons de réaliser la page suivant :",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-travail-%C3%A0-faire.html#travail-à-faire",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-travail-c3-a0-faire-html#objectifs-pédagogiques": {
+      "title": "Objectifs pédagogiques  (Travail à faire)",
+      "content"	 : "Objectifs pédagogiquesLa réalisation de ce projet vous permettez de :  Savoir la notion de Web et Internet  Découvrir la syntaxe de HTML5  Découvrir la syntaxe de CSS3  Réaliser votre première page web avec HTML5 et CSS3",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-travail-%C3%A0-faire.html#objectifs-pédagogiques",
+      "author": "",
+      "categories": "projet0"
+    }
+,
+"cr-c3-a9ation-page-web-avec-html-css-orientation-html": {
+      "title": "Conseils et orientation",
+      "content"	 : "Projet 0 : Conseils et orientationPour vous aidez à réaliser votre projet, nous vous proposons une orientation et quelques conseils à suivre.",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-orientation.html",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-orientation-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Conseils et orientation)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-orientation.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-orientation-html#division-du-projet-en-prototypes": {
+      "title": "Division du projet en prototypes  (Conseils et orientation)",
+      "content"	 : "Division du projet en prototypesPour simplifier la réalisation du projet, nous vous proposons de le diviser en plusieurs partie simple à réaliser. Par exemple, nous pouvons diviser le projet en deux partie :  Partie 1 : Page d’article seulement en HTML  Partie 2 : Page d’article avec HTML et CSSJe nomme chaque partie : Prototype. Il sert à nous montrer comment réaliser une partie de notre projet.",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-orientation.html#division-du-projet-en-prototypes",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-orientation-html#prototype-1--article-en-html": {
+      "title": "Prototype 1 : Article en HTML  (Conseils et orientation)",
+      "content"	 : "Prototype 1 : Article en HTMLPour réaliser le prototype 1, je vous propose la référence suivante :  Bien démarrer avec HTML",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-orientation.html#prototype-1--article-en-html",
+      "author": "",
+      "categories": "projet0"
+    },
+"cr-c3-a9ation-page-web-avec-html-css-orientation-html#prototype-2--article-en-html-et-css": {
+      "title": "Prototype 2 : Article en HTMl et CSS  (Conseils et orientation)",
+      "content"	 : "Prototype 2 : Article en HTMl et CSSPour réaliser ce travail, nous vous proposons la référence suivante :  Bien démarrer avec CSS",
+      "url": "/html5-css3/cr%C3%A9ation-page-web-avec-html-css-orientation.html#prototype-2--article-en-html-et-css",
+      "author": "",
+      "categories": "projet0"
+    }
+,
 "bien-d-c3-a9marrer-avec-html-html": {
       "title": "Bien démarrer avec HTML",
       "content"	 : "Bien démarrer avec HTMLNous allons voir dans cette partie de formation le minimum sur le langage HTML pour lancer l’apprentissage et assurer que vous pouviez me suivre dans les parties suivantes de notre formation.",
@@ -688,35 +760,35 @@
     }
 ,
 "tp-quelques-c3-a9l-c3-a9ments-html-html": {
-      "title": "TP - Quelques éléments  HTML",
-      "content"	 : "TP - Quelques éléments  HTML",
+      "title": "Projet 0 - réalisation de la partie HTML",
+      "content"	 : "Projet 0 : réalisation de la partie HTML",
       "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html",
       "author": "",
       "categories": "bien-démarrer-html"
     },
 "tp-quelques-c3-a9l-c3-a9ments-html-html#extrait-de-la-formation-vidéo": {
-      "title": "Extrait de la formation vidéo  (TP - Quelques éléments  HTML)",
+      "title": "Extrait de la formation vidéo  (Projet 0 - réalisation de la partie HTML)",
       "content"	 : "Extrait de la formation vidéo",
       "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#extrait-de-la-formation-vidéo",
       "author": "",
       "categories": "bien-démarrer-html"
     },
-"tp-quelques-c3-a9l-c3-a9ments-html-html#tp---quelques-éléments--html-1": {
-      "title": "TP - Quelques éléments  HTML  (TP - Quelques éléments  HTML)",
+"tp-quelques-c3-a9l-c3-a9ments-html-html#tp---quelques-éléments--html": {
+      "title": "TP - Quelques éléments  HTML  (Projet 0 - réalisation de la partie HTML)",
       "content"	 : "TP - Quelques éléments  HTMLDans ce travail pratique nous allons découvrir quelques  éléments HTML que nous utiliserons dans les exemples et travaux pratiques des parties suivants de notre formation.Aussi, nous allons développer notre premier page web seulement en HTML.",
-      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#tp---quelques-éléments--html-1",
+      "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#tp---quelques-éléments--html",
       "author": "",
       "categories": "bien-démarrer-html"
     },
 "tp-quelques-c3-a9l-c3-a9ments-html-html#élements-html": {
-      "title": "Élements HTML  (TP - Quelques éléments  HTML)",
+      "title": "Élements HTML  (Projet 0 - réalisation de la partie HTML)",
       "content"	 : "Élements HTMLNous allons découvrir les éléments suivants :  Titres  Image  Liste ordonnée  Liste non ordonée.",
       "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#élements-html",
       "author": "",
       "categories": "bien-démarrer-html"
     },
 "tp-quelques-c3-a9l-c3-a9ments-html-html#pratique": {
-      "title": "Pratique  (TP - Quelques éléments  HTML)",
+      "title": "Pratique  (Projet 0 - réalisation de la partie HTML)",
       "content"	 : "Pratique",
       "url": "/html5-css3/tp-quelques-%C3%A9l%C3%A9ments-html.html#pratique",
       "author": "",
@@ -1089,21 +1161,21 @@
     }
 ,
 "tp-exemple-page-html5-avec-css3-html": {
-      "title": "TP-Exemple d'une page avec CSS",
+      "title": "Projet 0 - réalisation de la partie CSS",
       "content"	 : "TP - Apparence d’un article avec CSSDans cette session de formation, nous allons réaliser ensemble un travail pratique qui résume ce que nous avons vue dans cette partie de formation intitulé **Bien démarrer avec CSS.Nous allons créer notre premier page web professionnel avec HTML et CSS.",
       "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "tp-exemple-page-html5-avec-css3-html#objectifs": {
-      "title": "Objectifs  (TP-Exemple d'une page avec CSS)",
+      "title": "Objectifs  (Projet 0 - réalisation de la partie CSS)",
       "content"	 : "Objectifs  Découvert de quelques balise HTMl sémantique  Découvert de structure d’une page en HTML  Découvert comment structure un article dans une page HTML  Apprendre la notion de normalisation des règles CSS par défaut  Appliquer ce que nous avons appris dans cette partie de bien démarrer avec CSS",
       "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html#objectifs",
       "author": "",
       "categories": "bien-démarrer-css3"
     },
 "tp-exemple-page-html5-avec-css3-html#résultat-finale": {
-      "title": "Résultat finale  (TP-Exemple d'une page avec CSS)",
+      "title": "Résultat finale  (Projet 0 - réalisation de la partie CSS)",
       "content"	 : "Résultat finale",
       "url": "/html5-css3/tp-exemple-page-html5-avec-css3.html#résultat-finale",
       "author": "",
@@ -1118,33 +1190,247 @@
       "categories": "bien-démarrer-css3"
     }
 ,
-"projet1-mod-c3-a9lisation-html": {
-      "title": "Modélisation - page hommage",
-      "content"	 : "Modélisation",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html",
+"page-hommage-html": {
+      "title": "Travail à faire",
+      "content"	 : "Projet 1 : création d’une page d’hommageAprès le projet d’initiation et de démarrage avec les langages HTML et CSS, c’est le temps de commencer notre premier projet professionnel dans notre formation d’apprentissage de développement front-end.",
+      "url": "/html5-css3/page-hommage.html",
       "author": "",
       "categories": "projet1"
     },
-"projet1-mod-c3-a9lisation-html#modélisation-1": {
-      "title": "Modélisation  (Modélisation - page hommage)",
-      "content"	 : "ModélisationLa modélisation est une étape dont laquelle nous schématisons le résultat de notre projet. un tel schéma s’appelle modèle d’où le nom de l’étape modélisation.Comment faire la modélisationVous pouvez réaliser la modélisation en trois phases ou étapes  Détermination des besoins du client  Analyse des besoins ou trouver les besoins réels du client.  Conception ou réalisation du modèle",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#modélisation-1",
+"page-hommage-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Travail à faire)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/page-hommage.html#extrait-de-la-formation-vidéo",
       "author": "",
       "categories": "projet1"
     },
-"projet1-mod-c3-a9lisation-html#phase-danalyse": {
-      "title": "Phase d’Analyse  (Modélisation - page hommage)",
-      "content"	 : "Phase d’AnalyseDans la phase d’annalyse, nous déterminons les besoins réels car le client peut se tromper pendant la détermination de ces besoin puisque il n’est pas forcément un spécialiste sur les pages web.Aussi, nous déterminons les différents situations d’utilisation de notre système; la page d’hommage.",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#phase-danalyse",
+"page-hommage-html#description-du-projet": {
+      "title": "Description du projet  (Travail à faire)",
+      "content"	 : "Description du projetLe projet consiste à créer la page d’hommage sur Linus Torvalds.L’idée du projet est de réaliser une page web simple mais professionnel en utilisant le langage HTML5 et CSS3. Le terme professionnel désigne que nous devrons utiliser les mêmes techniques utilisées par un développeur web dans une agence de création des sites web.Lien de l’image sur figma",
+      "url": "/html5-css3/page-hommage.html#description-du-projet",
       "author": "",
       "categories": "projet1"
     },
-"projet1-mod-c3-a9lisation-html#phase-conception": {
-      "title": "Phase Conception  (Modélisation - page hommage)",
-      "content"	 : "Phase ConceptionDans la phase conception, nous déterminons la forme du résultat finale, avec détail technique si on le souhaitons.Il existe plusieurs façons pour présenter notre conception :  Nous pouvons décrirons techniquement comment réaliser la page.  Présentation la page en format : Wireframe  Présenter la page en format : Maquette",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#phase-conception",
+"page-hommage-html#travail-à-faire": {
+      "title": "Travail à faire  (Travail à faire)",
+      "content"	 : "Travail à faireNous vous demandons de créer votre projet en utilisant le langage HTML5 et CSS3.Tous d’abord, avant de commencer le codage, nous vous demandons choisir un style de font populaire sur Google Font. Puis, choisissez les couleurs à utiliser dans votre page web en extraire les couleurs utilisés sur le logo du linux ce-dessous. Nous vous proposons d’utiliser le site web : color.adobe.com qui vous permettez d’extraire les couleurs à parire d’une image.Dans un deuxième temps, vous écrivez le code HTML de la page en utilisant des balises sémantique pour structurer le contenue de la page.Enfin, vous écrivez le code CSS pour reproduire la maquette en utilisant la disposition avec la propriété float. Aussi, nous vous demandons d’utiliser la bibliothèque Normalize pour unifier les règles par défaut des navigateurs web avant de commencer la création de vos règles CSS.  Utilisation de Google Fonts  extraction des couleurs à partir du logo de linux  utilisation des balises sémantiques  disposition avec float  utilisation de la bibliothèque NormalizeLogo de linuxLiens utiles  color.adobe.com  fonts.google.com  necolas.github.io/normalize.css",
+      "url": "/html5-css3/page-hommage.html#travail-à-faire",
       "author": "",
       "categories": "projet1"
+    },
+"page-hommage-html#contenue-de-la-page": {
+      "title": "Contenue de la page  (Travail à faire)",
+      "content"	 : "Contenue de la pagePour créer votre projet, vous pouvez utiliser ce contenue.123456789101112131415161718192021222324252627282930313233343536373839# Linus TorvaldsProgrammeur, développeurLinus Benedict Torvalds, né le 28 décembre 1969 à Helsinki en Finlande, est un informaticien américano-finlandais.Il est notamment connu pour avoir créé en 1991 (à 21 ans) le noyau Linux, dont il continue de diriger le développement. Il a également créé le logiciel de gestion de versions décentralisée Git et le logiciel d&#39;enregistrement et de planification des plongées Subsurface.## Distinctions- EFF Pioneer Award (1998)- Docteur honoris causa de l&#39;université de Stockholm (1999)- Médaille Lovelace (2000)- Docteur honoris causa de l&#39;université d&#39;Helsinki (2000)- European of the Year (en) (2001)- Computer History Museum fellow (2008)- Temple de la renommée d&#39;Internet (2012)- Prix Millennium Technology (2012)- Computer Pioneer Award (2014)- IEEE Masaru Ibuka Consumer Electronics Award (2018)  # Travail  - Fondation Linux (depuis le 22 janvier 2007),   - Open Source Development Labs (juin 2003 - 22 janvier 2007)  - Transmeta (février 1997 - juin 2003),   - université d&#39;Helsinki (1992-1996)  ## Formation - Formation: Université d&#39;Helsinki (maîtrise) (1988-1996)## Œuvres principales- Noyau Linux- Git- SubsurfaceLa photoLien de téléchargement sur github",
+      "url": "/html5-css3/page-hommage.html#contenue-de-la-page",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-html#objectifs-pédagogiques": {
+      "title": "Objectifs pédagogiques  (Travail à faire)",
+      "content"	 : "Objectifs pédagogiquesLa réalisation de ce projet vous permet de développer les connaissances suivantes :  Découvrir les balises sémantique de structuration  Découvrir la bibliothèque normalize  Apprendre à utiliser la disposition en utilisant la propriété Float  Découvrir l’utilisation de Google Fonts  Découvrir comment créer une palette de couleurs  Découvrir comment structurer les fichiers d’un site web.",
+      "url": "/html5-css3/page-hommage.html#objectifs-pédagogiques",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"cr-c3-a9ation-page-hommage-html": {
+      "title": "Présentation",
+      "content"	 : "Présentation",
+      "url": "/html5-css3/cr%C3%A9ation-page-hommage.html",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"page-hommage-analyse-technique-html": {
+      "title": "Analyse technique",
+      "content"	 : "Analyse techniqueAprès la présentation du projet, c’est le temps maintenant de vous proposer une méthode de réalisation pratique qui va vous aider à réaliser votre projet sans blocage.L’idée de notre méthode est très simple, c’est diviser le projet en plusieur parties afin de s’auto-former pour apprendre à réaliser chaque partie indépendamment de l’autre. Je nomme chaque partie : un prototype.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Analyse technique)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#différence-entre-un-prototype-et-une-partie-de-projet": {
+      "title": "Différence entre un prototype et une partie de projet.  (Analyse technique)",
+      "content"	 : "Différence entre un prototype et une partie de projet.Pour réaliser votre projet, vous avez besoin d’utiliser plusieurs techniques de programmation.Une technique de programmation peut être :  L’utilisation d’un langage de programmation comme HTML et CSS  Le choix et l’utilisation des couleurs avec CSS  La structuration sémantique de contenue avec le langage HTMLUn prototype est une réalisation pratique qui vous montre comment combiner plusieurs techniques de programmation pour vous aider à réaliser une partie de projet.Ce n’est pas une partie de projet. Si vous regrouper les prototypes vous n’obtiendrez pas le projet. Vous construisez les prototypes pour apprendre comment réaliser chaque partie de votre projet.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#différence-entre-un-prototype-et-une-partie-de-projet",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#comment-trouver-les-prototypes": {
+      "title": "Comment trouver les prototypes  (Analyse technique)",
+      "content"	 : "Comment trouver les prototypesNous vous proposons de diviser le projet selon les techniques nécessaire à sa réalisation.L’idée principale est d’abord, trouver toutes les techniques que vous avez besoin pour réaliser votre projet. Cette étape est appelé : analyse technique du projet.Puis, vous triez les techniques en ordre selon les prérequis de chaque techniques. Puis les regroupes en sous-sembles selon par exemple la nature de travail ou la difficulté  d’apprentissage.Pour chaque sous-ensemble, vous essayez d’apprendre technique par technique. Pour chaque technique, vous réalisez un exemple simple d’utilisation pour valider votre apprentissage.Quand vous apprenez tous les techniques d’un sous-ensemble, vous essayer de regrouper ces techniques dans un prototype ou exemple pratique cohérent qui va vous aider à la réalisation d’une partie du projet.Pendant la phase de réalisation des prototype, vous devez ce concentrer sur l’apprentissage des techniques et non sur la réalisation du projet. Il faut favoriser l’organisation des techniques selon un ordre d’apprentissage qui respecte les prérequis de chaque technique de programmation plutôt des les organiser afin de réaliser rapidement votre projet.Le problème que vous pouvez rencontrer au début de votre formation est que vous n’avez pas assez de connaissance pour réaliser l’analyse technique et la conception des prototypes capable de vous amenez à réaliser votre projet. C’est pour cette raison que nous avons réalisé cette formation d’encadrement et d’accompagnement à la réalisation de 15 projets réels. C’est pour vous proposer l’analyse technique et la conceptions des prototypes simple et réalisable selon votre niveau avec la proposition des exemples de réalisation.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#comment-trouver-les-prototypes",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#analyse-technique-de-votre-projet": {
+      "title": "Analyse technique de votre projet  (Analyse technique)",
+      "content"	 : "Analyse technique de votre projetPour réaliser notre projet vous avez besoin de savoir les technique de programmation suivantes :  La syntaxe de base du langage HTML : structure d’un document HTML valide;  l’utilisation des éléments HTML : paragraphe, liste et image;  la syntaxe de base du langage CSS;  le modèle de Boîtes CSS;  l’utilisation de la bibliothèque normalize pour normaliser les valeurs par défaut des règles CSS entre les différent navigateurs web;  la réalisation de la disposition en utilisant la propriété Float  Comment trouver les couleurs à utiliser pour une page web  L’utilisation des balise HTML sémantiqueà partir cette analyse, nous pouvons regrouper les techniques en trois sous-ensemble selon l’ordre de son utilisation dans notre projet. Pour chaque sous-ensemble, nous vous proposons un prototype à réaliser.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#analyse-technique-de-votre-projet",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#prototype-1--création-dune-page-html-sémantique": {
+      "title": "Prototype 1 : Création d’une page HTML sémantique  (Analyse technique)",
+      "content"	 : "Prototype 1 : Création d’une page HTML sémantique  La syntaxe de base du langage HTML : structure d’un document HTML valide;  l’utilisation des éléments HTML : paragraphe, liste et image;  L’utilisation des balise HTML sémantiquePrototype 1 : Réalisation d’une page web qui ressemble à notre projet et qui intègre les technique de l’ensemble 1.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#prototype-1--création-dune-page-html-sémantique",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#prototype-2--création-dune-page-web-avec-css": {
+      "title": "Prototype 2 : Création d’une page web avec CSS  (Analyse technique)",
+      "content"	 : "Prototype 2 : Création d’une page web avec CSS  la syntaxe de base du langage CSS;  l’utilisation de la bibliothèque normalize pour normaliser les valeurs par défaut des règles CSS entre les différent navigateurs web;  l’utilisation du Google Fonts  Comment trouver les couleurs à utiliser pour une page webPrototype 2 : Réalisation d’une page web avec HTMl et CSS en utilisant seulement les trois éléments : paragraphe, liste et image.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#prototype-2--création-dune-page-web-avec-css",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-analyse-technique-html#prototype-3--disposition-dune-page-web-avec-float": {
+      "title": "Prototype 3 : Disposition d’une page web avec Float  (Analyse technique)",
+      "content"	 : "Prototype 3 : Disposition d’une page web avec Float  le modèle de Boîtes CSS;  la réalisation de la disposition en utilisant la propriété FloatPrototype 3 : Réalisation d’une page web qui présente une disposition similiare de notre projet.",
+      "url": "/html5-css3/page-hommage-analyse-technique.html#prototype-3--disposition-dune-page-web-avec-float",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"page-hommage-html-html": {
+      "title": "Prototype 1 - HTML",
+      "content"	 : "Prototype 1 : HTMLDans le prototype 1, nous allons réaliser une page web en utilisant les techniques suivantes :  La syntaxe de base du langage HTML : structure d’un document HTML valide;  l’utilisation des éléments HTML : paragraphe, liste et image;  L’utilisation des balise HTML sémantiqueVous pouvez réaliser ce travail en deux étapes :  Réalisation d’un exemple pratique pour apprendre chaque technique en se basant sur l’auto-formation.  Regrouper ce que nous allons apprendre dans un seul exemple.",
+      "url": "/html5-css3/page-hommage-html.html",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-html-html#technique-1--syntaxe-de-base-du-langage-html": {
+      "title": "Technique 1 : syntaxe de base du langage HTML  (Prototype 1 - HTML)",
+      "content"	 : "Technique 1 : syntaxe de base du langage HTMLl’objectif est d’abord, d’apprendre la syntaxe de base du langage HTML et la structure d’un document HTML valide. Ensuite, vous essayer de réaliser un exemple pratique qui regroupe ce que vous avez appris.Auto-formation  Élément, balise et attribut  Document HTML valideExemple pratique",
+      "url": "/html5-css3/page-hommage-html.html#technique-1--syntaxe-de-base-du-langage-html",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-html-html#technique-2--paragraphe-liste-et-image": {
+      "title": "Technique 2 : paragraphe, liste et image  (Prototype 1 - HTML)",
+      "content"	 : "Technique 2 : paragraphe, liste et imageAuto-formationExemple pratique",
+      "url": "/html5-css3/page-hommage-html.html#technique-2--paragraphe-liste-et-image",
+      "author": "",
+      "categories": "projet1"
+    },
+"page-hommage-html-html#technique-3--html-sémantique": {
+      "title": "Technique 3 : HTML sémantique  (Prototype 1 - HTML)",
+      "content"	 : "Technique 3 : HTML sémantiqueAuto-formationExemple pratique",
+      "url": "/html5-css3/page-hommage-html.html#technique-3--html-sémantique",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"page-hommage-css-html": {
+      "title": "Prototype 2 - CSS",
+      "content"	 : "Prototype 3 : CSS",
+      "url": "/html5-css3/page-hommage-css.html",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"page-hommage-s-c3-a9mantique-normalize-html": {
+      "title": "P3 - Sémantique et Normalize",
+      "content"	 : "Prototype 3 : HTML sémantique et normalize CSS",
+      "url": "/html5-css3/page-hommage-s%C3%A9mantique-normalize.html",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"page-hommage-r-c3-a9alisation-html": {
+      "title": "Réalisation",
+      "content"	 : "Réalisation",
+      "url": "/html5-css3/page-hommage-r%C3%A9alisation.html",
+      "author": "",
+      "categories": "projet1"
+    }
+,
+"initiation-couleur-html": {
+      "title": "couleur",
+      "content"	 : "Couleur",
+      "url": "/html5-css3/initiation-couleur.html",
+      "author": "",
+      "categories": "bien-démarrer-css3"
+    }
+,
+"projet2-introduction-html": {
+      "title": "Projet 2  page contact",
+      "content"	 : "Projet 2 : page contactL’objectif de ce projet est la réalisation de la page contact de la société Tanger Web.La page est composé de :  Menu de navigation  formulaire de contact  lien vers d’autre moyens de contact et les réseaux sociaux.",
+      "url": "/html5-css3/projet2-introduction.html",
+      "author": "",
+      "categories": "projet3"
+    }
+,
+"projet2-mod-c3-a9lisation-html": {
+      "title": "Modélisation - page contact",
+      "content"	 : "ModélisationDans cette partie de formation, nous allons réaliser la conception de la page contact de la société Tanger Web.",
+      "url": "/html5-css3/projet2-mod%C3%A9lisation.html",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-mod-c3-a9lisation-html#besoin": {
+      "title": "Besoin  (Modélisation - page contact)",
+      "content"	 : "BesoinRéalisation de la page contact de la société Tanger Web.",
+      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#besoin",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-mod-c3-a9lisation-html#analyse": {
+      "title": "Analyse  (Modélisation - page contact)",
+      "content"	 : "AnalyseL’utilisateur peut utiliser le formulaire pour envoyer un émail à la société. Il peut consulter des liens vers d’autre moyen de contact comme  Numéro de téléphone ou WhatsApp  Les réseaux sociaux          Facebook      Twitter      Linkedin      ",
+      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#analyse",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-mod-c3-a9lisation-html#conception": {
+      "title": "Conception  (Modélisation - page contact)",
+      "content"	 : "ConceptionPour réaliser la conception de notre page web, nous allons utiliser la plate-forme figma.com pour réaliser la maquette de notre page web.",
+      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#conception",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-mod-c3-a9lisation-html#conception---choix-des-couleurs": {
+      "title": "Conception - choix des couleurs  (Modélisation - page contact)",
+      "content"	 : "Conception - choix des couleursNous allons utiliser la couleurs principale : #7952b3Pour obtenir les couleurs compatible avec notre couleur de principale, vous pouvez utiliser l’outil en ligne Adobe Colorhttps://color.adobe.com/fr/create/color-wheel",
+      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#conception---choix-des-couleurs",
+      "author": "",
+      "categories": "projet3"
+    }
+,
+"projet2-prototype-html": {
+      "title": "Projet1 - Prototype",
+      "content"	 : "PrototypeJe vous propose, avant de commencer la réalisation de notre page, de réalisation quelques exercice d’apprentissage des éléments HTML et CSS que nous avons besoin d’apprendre avant de commencer.",
+      "url": "/html5-css3/projet2-prototype.html",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-prototype-html#cest-quoi-lanalyse-technique": {
+      "title": "C’est quoi l’analyse technique  (Projet1 - Prototype)",
+      "content"	 : "C’est quoi l’analyse technique",
+      "url": "/html5-css3/projet2-prototype.html#cest-quoi-lanalyse-technique",
+      "author": "",
+      "categories": "projet3"
+    },
+"projet2-prototype-html#besoin-technique": {
+      "title": "Besoin technique  (Projet1 - Prototype)",
+      "content"	 : "Besoin techniquePour réaliser notre page nous avons besoin de savoir  HTML - sémantique  CSS - Float  Utilisation de google Doc",
+      "url": "/html5-css3/projet2-prototype.html#besoin-technique",
+      "author": "",
+      "categories": "projet3"
+    }
+,
+"projet1-realisation-html": {
+      "title": "Projet1 - Réalisation",
+      "content"	 : "Réalisation",
+      "url": "/html5-css3/projet1-realisation.html",
+      "author": "",
+      "categories": "projet3"
     }
 ,
 "html-s-c3-a9mantique-html": {
@@ -1290,238 +1576,6 @@
       "url": "/html5-css3/html-s%C3%A9mantique-structure.html#main",
       "author": "",
       "categories": "html-sémantique"
-    }
-,
-"projet1-page-hommage-html": {
-      "title": "Réalisation de la page hommage",
-      "content"	 : "Projet 1 : Réalisation d’une pag d’hommageDans cette partie de formation nous allons réaliser notre premier projet avec HTML5 et CSS3.Nous allons réaliser une page d’hommage pour Linux Torbalds : le créateur du noyaux linux.",
-      "url": "/html5-css3/projet1-page-hommage.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-mod-c3-a9lisation-html": {
-      "title": "Modélisation - page hommage",
-      "content"	 : "ModélisationDans cette session de formation, nous allons réaliser la modélisation de la page d’hommage de linux torbalds : le créateur du noyaux linux.",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#besoins": {
-      "title": "Besoins  (Modélisation - page hommage)",
-      "content"	 : "BesoinsDans notre projet, le client veux créer une page web d’hommage de linux torbalds.",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#besoins",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#analyse": {
-      "title": "Analyse  (Modélisation - page hommage)",
-      "content"	 : "AnalyseNotre exemple est assez simple, le cas d’utilisation de notre page est de faire l’hommage du linux torbalds.Nous remarquons aussi, dans notre projet : le Besoin ressemble à Analyse. c’est juste parce que notre projet est simple et le client sais exactement ce qu’il veux, et ce n’est pas toujours vrais.",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#analyse",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#conception": {
-      "title": "Conception  (Modélisation - page hommage)",
-      "content"	 : "ConceptionInspirationContenueRéalisation de la maquette",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#conception",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-realisation-html": {
-      "title": "Projet1 - Processus de développement",
-      "content"	 : "Processus de développement",
-      "url": "/html5-css3/projet1-realisation.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-prototype-html": {
-      "title": "Projet1 - Prototype",
-      "content"	 : "PrototypeJe vous propose, avant de commencer la réalisation de notre page, de réalisation quelques exercice d’apprentissage des éléments HTML et CSS que nous avons besoin d’apprendre avant de commencer.",
-      "url": "/html5-css3/projet1-prototype.html",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-prototype-html#cest-quoi-lanalyse-technique": {
-      "title": "C’est quoi l’analyse technique  (Projet1 - Prototype)",
-      "content"	 : "C’est quoi l’analyse technique",
-      "url": "/html5-css3/projet1-prototype.html#cest-quoi-lanalyse-technique",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-prototype-html#besoin-technique": {
-      "title": "Besoin technique  (Projet1 - Prototype)",
-      "content"	 : "Besoin techniquePour réaliser notre page nous avons besoin de savoir  HTML - sémantique  CSS - Float  Utilisation de google Doc",
-      "url": "/html5-css3/projet1-prototype.html#besoin-technique",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-mod-c3-a9lisation-html": {
-      "title": "Modélisation - page hommage",
-      "content"	 : "Modélisation",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#modélisation-1": {
-      "title": "Modélisation  (Modélisation - page hommage)",
-      "content"	 : "ModélisationLa modélisation est une étape dont laquelle nous schématisons le résultat de notre projet. un tel schéma s’appelle modèle d’où le nom de l’étape modélisation.Comment faire la modélisationVous pouvez réaliser la modélisation en trois phases ou étapes  Détermination des besoins du client  Analyse des besoins ou trouver les besoins réels du client.  Conception ou réalisation du modèle",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#modélisation-1",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#phase-danalyse": {
-      "title": "Phase d’Analyse  (Modélisation - page hommage)",
-      "content"	 : "Phase d’AnalyseDans la phase d’annalyse, nous déterminons les besoins réels car le client peut se tromper pendant la détermination de ces besoin puisque il n’est pas forcément un spécialiste sur les pages web.Aussi, nous déterminons les différents situations d’utilisation de notre système; la page d’hommage.",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#phase-danalyse",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-mod-c3-a9lisation-html#phase-conception": {
-      "title": "Phase Conception  (Modélisation - page hommage)",
-      "content"	 : "Phase ConceptionDans la phase conception, nous déterminons la forme du résultat finale, avec détail technique si on le souhaitons.Il existe plusieurs façons pour présenter notre conception :  Nous pouvons décrirons techniquement comment réaliser la page.  Présentation la page en format : Wireframe  Présenter la page en format : Maquette",
-      "url": "/html5-css3/projet1-mod%C3%A9lisation.html#phase-conception",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-prototype-html": {
-      "title": "Projet1 - Prototype",
-      "content"	 : "PrototypeJe vous propose, avant de commencer la réalisation de notre page, de réalisation quelques exercice d’apprentissage des éléments HTML et CSS que nous avons besoin d’apprendre avant de commencer.",
-      "url": "/html5-css3/projet1-prototype.html",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-prototype-html#cest-quoi-lanalyse-technique": {
-      "title": "C’est quoi l’analyse technique  (Projet1 - Prototype)",
-      "content"	 : "C’est quoi l’analyse technique",
-      "url": "/html5-css3/projet1-prototype.html#cest-quoi-lanalyse-technique",
-      "author": "",
-      "categories": "projet1"
-    },
-"projet1-prototype-html#besoin-technique": {
-      "title": "Besoin technique  (Projet1 - Prototype)",
-      "content"	 : "Besoin techniquePour réaliser notre page nous avons besoin de savoir  HTML - sémantique  CSS - Float  Utilisation de google Doc",
-      "url": "/html5-css3/projet1-prototype.html#besoin-technique",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"css-float-html": {
-      "title": "Disposition en float | CSS",
-      "content"	 : "Disposition en float",
-      "url": "/html5-css3/css-float.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-realisation-html": {
-      "title": "Projet1 - Réalisation",
-      "content"	 : "Réalisation",
-      "url": "/html5-css3/projet1-realisation.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"css-float-html": {
-      "title": "Disposition en float | CSS",
-      "content"	 : "Disposition en float",
-      "url": "/html5-css3/css-float.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-realisation-html": {
-      "title": "Projet1 - Processus de développement",
-      "content"	 : "Processus de développement",
-      "url": "/html5-css3/projet1-realisation.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet1-realisation-html": {
-      "title": "Projet1 - Réalisation",
-      "content"	 : "Réalisation",
-      "url": "/html5-css3/projet1-realisation.html",
-      "author": "",
-      "categories": "projet1"
-    }
-,
-"projet2-introduction-html": {
-      "title": "Projet 2  page contact",
-      "content"	 : "Projet 2 : page contactL’objectif de ce projet est la réalisation de la page contact de la société Tanger Web.La page est composé de :  Menu de navigation  formulaire de contact  lien vers d’autre moyens de contact et les réseaux sociaux.",
-      "url": "/html5-css3/projet2-introduction.html",
-      "author": "",
-      "categories": "projet2"
-    }
-,
-"projet2-mod-c3-a9lisation-html": {
-      "title": "Modélisation - page contact",
-      "content"	 : "ModélisationDans cette partie de formation, nous allons réaliser la conception de la page contact de la société Tanger Web.",
-      "url": "/html5-css3/projet2-mod%C3%A9lisation.html",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-mod-c3-a9lisation-html#besoin": {
-      "title": "Besoin  (Modélisation - page contact)",
-      "content"	 : "BesoinRéalisation de la page contact de la société Tanger Web.",
-      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#besoin",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-mod-c3-a9lisation-html#analyse": {
-      "title": "Analyse  (Modélisation - page contact)",
-      "content"	 : "AnalyseL’utilisateur peut utiliser le formulaire pour envoyer un émail à la société. Il peut consulter des liens vers d’autre moyen de contact comme  Numéro de téléphone ou WhatsApp  Les réseaux sociaux          Facebook      Twitter      Linkedin      ",
-      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#analyse",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-mod-c3-a9lisation-html#conception": {
-      "title": "Conception  (Modélisation - page contact)",
-      "content"	 : "ConceptionPour réaliser la conception de notre page web, nous allons utiliser la plate-forme figma.com pour réaliser la maquette de notre page web.",
-      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#conception",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-mod-c3-a9lisation-html#conception---choix-des-couleurs": {
-      "title": "Conception - choix des couleurs  (Modélisation - page contact)",
-      "content"	 : "Conception - choix des couleursNous allons utiliser la couleurs principale : #7952b3Pour obtenir les couleurs compatible avec notre couleur de principale, vous pouvez utiliser l’outil en ligne Adobe Colorhttps://color.adobe.com/fr/create/color-wheel",
-      "url": "/html5-css3/projet2-mod%C3%A9lisation.html#conception---choix-des-couleurs",
-      "author": "",
-      "categories": "projet2"
-    }
-,
-"projet2-prototype-html": {
-      "title": "Projet1 - Prototype",
-      "content"	 : "PrototypeJe vous propose, avant de commencer la réalisation de notre page, de réalisation quelques exercice d’apprentissage des éléments HTML et CSS que nous avons besoin d’apprendre avant de commencer.",
-      "url": "/html5-css3/projet2-prototype.html",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-prototype-html#cest-quoi-lanalyse-technique": {
-      "title": "C’est quoi l’analyse technique  (Projet1 - Prototype)",
-      "content"	 : "C’est quoi l’analyse technique",
-      "url": "/html5-css3/projet2-prototype.html#cest-quoi-lanalyse-technique",
-      "author": "",
-      "categories": "projet2"
-    },
-"projet2-prototype-html#besoin-technique": {
-      "title": "Besoin technique  (Projet1 - Prototype)",
-      "content"	 : "Besoin techniquePour réaliser notre page nous avons besoin de savoir  HTML - sémantique  CSS - Float  Utilisation de google Doc",
-      "url": "/html5-css3/projet2-prototype.html#besoin-technique",
-      "author": "",
-      "categories": "projet2"
-    }
-,
-"projet1-realisation-html": {
-      "title": "Projet1 - Réalisation",
-      "content"	 : "Réalisation",
-      "url": "/html5-css3/projet1-realisation.html",
-      "author": "",
-      "categories": "projet1"
     }
 
 
