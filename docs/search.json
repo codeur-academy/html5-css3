@@ -22,6 +22,14 @@
       "categories": "introduction"
     }
 ,
+"plan-formation-html": {
+      "title": "Plan du formation",
+      "content"	 : "Plan du formationLa formation est divisée en deux sections :  Notions préliminaires  Réalisation des projetsDans la première section, nous découvrirons certaines notions préliminaires que vous devez savoir avant de commencer à apprendre le développement Web avec HTML5 et CSS3. Nous allons voir dans la première partie,  le concept du Web et d’Internet. Cela va vous donne une compréhension claire du concept d’une page web et sa fonctionnement. La deuxième partie décrit comment installer l’environnement de développement nécessaire pour démarrer les travaux pratiques.La deuxième section a pour objectif la mise en oeuvre de nos projets Web. Nous commencerons par le projet 0, dans lequel nous apprendrons les notions de base de HTML5 et CSS3. À la fin de chaque projet, nous résumons ce que nous avons appris et présentons le projet suivant. Si une tâche d’auto-apprentissage est incluse, chaque projet peut être divisé en plusieurs parties de formation qui se terminent par la réalisation d’une partie du projet.",
+      "url": "/html5-css3/plan-formation.html",
+      "author": "",
+      "categories": "introduction"
+    }
+,
 "introduction-dev-web-introduction-html": {
       "title": "Notions préliminaires - Web et Internet",
       "content"	 : "Notions préliminaires : Web et Internet",
