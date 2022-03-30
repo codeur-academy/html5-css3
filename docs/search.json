@@ -31,21 +31,21 @@
     }
 ,
 "introduction-dev-web-introduction-html": {
-      "title": "Notions préliminaires - Web et Internet",
+      "title": "Notion du Web et et Internet - Introduction",
       "content"	 : "Notions préliminaires : Web et Internet",
       "url": "/html5-css3/introduction-dev-web/introduction.html",
       "author": "",
       "categories": "introduction-dev-web"
     },
 "introduction-dev-web-introduction-html#section--notion-préliminaire": {
-      "title": "Section : Notion préliminaire  (Notions préliminaires - Web et Internet)",
+      "title": "Section : Notion préliminaire  (Notion du Web et et Internet - Introduction)",
       "content"	 : "Section : Notion préliminaireNous commençons notre formation par la section des notions préliminaire dont laquelle nous allons voir la notion du Web, d’Internet et la différence entre eux.",
       "url": "/html5-css3/introduction-dev-web/introduction.html#section--notion-préliminaire",
       "author": "",
       "categories": "introduction-dev-web"
     },
 "introduction-dev-web-introduction-html#partie--web-et-internet": {
-      "title": "Partie : Web et Internet  (Notions préliminaires - Web et Internet)",
+      "title": "Partie : Web et Internet  (Notion du Web et et Internet - Introduction)",
       "content"	 : "Partie : Web et InternetNous allons découvrir dans cette partie de formation :  Ce que c’est une page web et la notion d’internet  Les trois langages web ( HTML, CSS et JavaScript) qui vous permettent de construire une page web.Ces éléments théoriques ne sont pas strictement nécessaires pour commencer à faire du développement web dans un premier temps. Cependant, ils seront plus utiles pour mieux comprendre comment le Web fonctionne en arrière-plan.",
       "url": "/html5-css3/introduction-dev-web/introduction.html#partie--web-et-internet",
       "author": "",
